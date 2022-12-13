@@ -1,108 +1,285 @@
-==> Installing environment /noaa-prototyping/nvhpc
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/ca-certificates-mozilla-2022-10-11-mig2oeend46acdrubr7eltfsbluck6bw
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/berkeley-db-18.1.40-eu2o6jcr56u3wlqkmoaprmtpbxqb3chh
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/libiconv-1.16-4gm4r3unr3kguxuisevj2fgrfajolnam
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/pkgconf-1.8.0-eufn4i3zplhou43qndc4gelmodduzpo2
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/zlib-1.2.13-k6jhdesxobpjao3hau5hxyf6wn3xs7sw
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/libmd-1.0.4-wuojbwmpzgdoh43qaulm6c4gctgfnz5a
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/lz4-1.9.4-x4aseer7twccrqfafnabgm43x3akf52s
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/lzo-2.10-n6xk2bpn6zhtiqx5quvjvfitj6kqjyvo
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/mbedtls-2.28.0-fpmrsb5ygqx3rjfrbdcza4rkpf2mjhwc
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/xz-5.2.5-5u5h3pw4y2pwd3tykpwwfldojwd5pwhh
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/zstd-1.5.2-did42de74jcv6aq64djtyk6mz64eclem
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/libuv-1.44.1-gzyyfyeoy7zcxir4iaueqaugb7c7smsa
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/rhash-1.4.2-w632axkyehxl7xrli3gxvoenyrfov3mm
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/libsigsegv-2.13-thlphjbe5porrqzkpv3546dscosc4nbm
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/util-macros-1.19.3-uchyxllnkzsi67bqmvhd2svihx5tmfo5
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/libffi-3.4.2-5qtg5wcigrkucg4yofxs3oxp44724wpd
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/diffutils-3.7-vndicfx6rzzjwn5uzi3xmz43vfbbekjy
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/ncurses-6.3-pikli5bfdw5p74uymr6vbihoni6hvtnr
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/util-linux-uuid-2.38.1-ylzbrfhtdmi7os55lwi4ipm5osu74wnn
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/pigz-2.7-ocqfy2o47gvuw2l5ga2n3l4fajoid3ku
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/libbsd-0.11.3-5dpgjziytp4ln57nad23xk5llv2idhuv
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/libxml2-2.10.1-hsf47lqk6lwvjdftxugjgftbgbabvisl
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/bzip2-1.0.8-ofhuh5eiiglz7qluzkf7hokfefnqlkwl
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/m4-1.4.19-2csxaawbz7eketdf5m56swmtonez5f7g
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/libedit-3.1-20210216-yu6lnl7o4odypvocog34rvc3atcojyrr
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/readline-8.1.2-he6lop2eqxuajz36hoajd3gf35beaqtd
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/expat-2.4.8-fzce762dzoj6z5ygs72hjpipl4bygfyl
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/tar-1.30-vtwqjnbenicvnywee2h47ruo3iqrque3
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/libtool-2.4.7-w3cne4bwcq2dhuuqextzr62nhaczdsz3
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/sqlite-3.39.4-iwp2mlqc6ydszbdreb64wehocxhdexre
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/gdbm-1.19-oqwdou4xm7djregpjp7eslffelnr3ctc
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/libarchive-3.5.2-wjqceeitasrv3vxsafjn5lvjydwk5qkx
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/gettext-0.21.1-xffjm3uhnx7n2sve7oas57uxuuevebc4
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/libpciaccess-0.16-t26pwz6jtl4xxsxkseieysfb2zqdvv2q
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/perl-5.34.1-q7evhnkkonhwvzhqimwfwn46sa2fgd3i
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/hwloc-2.8.0-owo7cauykjrkvbaz2xea3prqpnzlns3p
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/bison-3.8.2-dayceb6fl56zwph6hn2i65rzdy3chevq
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/openblas-0.3.21-4x4qq4kvtur7vhcsqemd45tqjwsa6ux5
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/autoconf-2.69-xrch2nzteqpfgmcmnj5vxboz6uug4ks6
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/openssl-1.1.1q-mg4pngcjb3avavs263bnsftxrjd2jurh
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/automake-1.16.5-fuwxy2hjzvoucm3mpmdrbgsw5ksa6u35
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/krb5-1.19.3-ljfngegma35fppkrxouswmv7boccfjgi
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/libevent-2.1.12-uxhvbenwno2poml22rzbz6tommnq6zbi
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/curl-7.85.0-5o4j3v2asfbe6ituyywzycriyyeg6rge
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/python-3.9.15-nvrvb4jsngzkse5ul372waucxh3refgt
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/numactl-2.0.14-mpiafpwl7xxxyfpp7zqfvvv3a4y5l4c4
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/openssh-9.0p1-jq7hmtjegmhmabsaridc5lbws4drae5a
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/pmix-4.1.2-vel2ouy7ofhhwzjjf3xam2x5f2h7wr4g
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/cmake-3.24.2-n4sbrbglajtlgolfk2renqqecb6lxcau
-==> Installing ninja-1.11.1-tu3xsjklo7a4kcvqsrxulzhofxq2vffv
-==> No binary for ninja-1.11.1-tu3xsjklo7a4kcvqsrxulzhofxq2vffv found: installing from source
-==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/31/31747ae633213f1eda3842686f83c2aa1412e0f5691d1c14dbbcc67fe7400cea.tar.gz
-==> No patches needed for ninja
-==> ninja: Executing phase: 'configure'
-==> Error: ProcessError: Command exited with status 1:
-    '/spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/python-3.9.15-nvrvb4jsngzkse5ul372waucxh3refgt/bin/python3.9' 'configure.py' '--bootstrap'
-See build log for details:
-  /tmp/root/spack-stage/spack-stage-ninja-1.11.1-tu3xsjklo7a4kcvqsrxulzhofxq2vffv/spack-build-out.txt
+==> Installing environment /
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/pkgconf-1.8.0-sucikwly5i2rmjhldy4d3tyowtagez5g
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/ca-certificates-mozilla-2022-10-11-fn2so2ayxixzq2mjvguo3kqnh7npuilb
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/berkeley-db-18.1.40-cmg6vgl72bcb4txwaysuwikw7j7hbcv4
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/libiconv-1.16-q7hfn57bjhs3zw53jpqruuz4hptjmt2h
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/zlib-1.2.13-3eurdp2zhmkoab4vxmujw5rybqekfyzp
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/libsigsegv-2.13-3etrspegccv4inru5flnjjx47dattojo
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/util-macros-1.19.3-x5yxndhgo6f6x2a5cygloch3fm225zuq
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/xz-5.2.7-g2fdtei2ij3bnv2nlg7n56dopn6ms4sf
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/libxcrypt-4.4.33-zywksgfofjyp5wuaq6rwbamkjmsxshaa
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/zstd-1.5.2-dksiqmulomqi6f5bueos6ih6fdr63ety
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/libmd-1.0.4-jfemu5otaqbbztkniwprkw3lytwsdgjf
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/libffi-3.4.2-sgzskrfovhh3macgd4yvpobmp3swdfnm
+==> Installing re2c-2.2-xnznjbxdxwwt6on2cgou2dfpwbq5onzx
+==> re2c exists in binary cache but with different hash
+==> No binary for re2c-2.2-xnznjbxdxwwt6on2cgou2dfpwbq5onzx found: installing from source
+==> Warning: download_tarball() was unable to download re2c@2.2%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 from any configured mirrors
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/0f/0fc45e4130a8a555d68e230d1795de0216dfe99096b61b28e67c86dfd7d86bda.tar.xz
+==> No patches needed for re2c
+==> re2c: Executing phase: 'configure'
+==> re2c: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j32'
 
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/py-pip-22.2.2-eu7b5xrujfcehboc7akrxk4q73vpxe4k
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/openmpi-4.1.4-y7bbie7wneg7tpn5cwogr2fi3b4eeedp
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/py-setuptools-59.4.0-qqmtykk5ybeasq32g5is6thtkk2hto4u
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/py-wheel-0.37.1-yqmttfpfuktva6yt6j3do4lt7udwi4uk
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/hdf5-1.12.2-2fs35th646qffkplc3ordn2crsenuas4
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/py-pytz-2022.2.1-zhx5b7xhcpvq6szhcryi5kresakncapp
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/py-gast-0.5.3-biek7qwbnktn5lhkqeha55fag3qpfvm6
-==> Installing py-cython-0.29.32-iqbnqhld4tkacpik7s5mlqdr54swswvi
-==> No binary for py-cython-0.29.32-iqbnqhld4tkacpik7s5mlqdr54swswvi found: installing from source
-==> Warning: Skipping build of geos-3.9.1-moll6h3ys3omzrjnhpl7ufxrfuhknovu since ninja-1.11.1-tu3xsjklo7a4kcvqsrxulzhofxq2vffv failed
-==> Warning: Skipping build of py-shapely-1.8.0-acktkaqpvumxtt4w7wele7xwkgaam3xt since geos-3.9.1-moll6h3ys3omzrjnhpl7ufxrfuhknovu failed
-==> Warning: Skipping build of py-pybind11-2.8.1-3gjrvvxbowibbv3eeephoipk37sedzfb since ninja-1.11.1-tu3xsjklo7a4kcvqsrxulzhofxq2vffv failed
-==> Warning: Skipping build of py-scipy-1.8.0-w3paxhzj5ec6xtji74hgunub5xafpq7g since py-pybind11-2.8.1-3gjrvvxbowibbv3eeephoipk37sedzfb failed
+23 errors found in build log:
+     210      CXX      src/cfg/re2go-rename.o
+     211      CXX      src/cfg/re2go-varalloc.o
+     212      CXX      src/dfa/re2go-closure.o
+     213      CXX      src/dfa/re2go-dead_rules.o
+     214      CXX      src/dfa/re2go-determinization.o
+     215      CXX      src/dfa/re2go-fallback_tags.o
+  >> 216    "./src/dfa/closure_posix.h", line 83: error: no instance of function template "re2c::init_gor1" matches the argument list
+     217                argument types are: (re2c::pdetctx_t)
+     218          init_gor1(ctx);
+     219          ^
+     220              detected during instantiation of "void re2c::closure_posix_gor1(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 38
+     221    
+  >> 222    "./src/dfa/closure_posix.h", line 96: error: no instance of function template "re2c::scan" matches the argument list
+     223                argument types are: (re2c::pdetctx_t, re2c::nfa_state_t *, bool)
+     224                      if (!scan(ctx, q, false)) {
+     225                           ^
+     226              detected during instantiation of "void re2c::closure_posix_gor1(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 38
+     227    
+     228      CXX      src/dfa/re2go-fillpoints.o
+  >> 229    "src/dfa/determinization.cc", line 85: error: no instance of function template "re2c::clear_caches" matches the argument list
+     230                argument types are: (re2c::pdetctx_t)
+     231              clear_caches(ctx);
+     232              ^
+     233              detected during instantiation of "void re2c::determinization(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 50
+     234    
+  >> 235    "./src/dfa/closure_posix.h", line 112: error: no instance of function template "re2c::scan" matches the argument list
+     236                argument types are: (re2c::pdetctx_t, re2c::nfa_state_t *, bool)
+     237                      scan(ctx, q, true);
+     238                      ^
+     239              detected during instantiation of "void re2c::closure_posix_gor1(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 38
+     240    
+  >> 241    "./src/dfa/closure_posix.h", line 241: error: no instance of function template "re2c::relax_gtop" matches the argument list
+     242                argument types are: (re2c::pdetctx_t, const re2c::clos_t)
+     243              relax_gtop(ctx, *c);
+     244              ^
+     245              detected during instantiation of "void re2c::closure_posix_gtop(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 39
+     246    
+  >> 247    "./src/dfa/closure_posix.h", line 255: error: no instance of function template "re2c::relax_gtop" matches the argument list
+     248                argument types are: (re2c::pdetctx_t, conf_t)
+     249                      relax_gtop(ctx, conf_t(x, q->alt.out1));
+     250                      ^
+     251              detected during instantiation of "void re2c::closure_posix_gtop(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 39
+     252    
+  >> 253    "./src/dfa/closure_posix.h", line 256: error: no instance of function template "re2c::relax_gtop" matches the argument list
+     254                argument types are: (re2c::pdetctx_t, conf_t)
+     255                      relax_gtop(ctx, conf_t(x, q->alt.out2));
+     256                      ^
+     257              detected during instantiation of "void re2c::closure_posix_gtop(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 39
+     258    
+  >> 259    "./src/dfa/closure_posix.h", line 259: error: no instance of function template "re2c::relax_gtop" matches the argument list
+     260                argument types are: (re2c::pdetctx_t, conf_t)
+     261                      relax_gtop(ctx, conf_t(x, q->tag.out, ctx.history.link(ctx, x)));
+     262                      ^
+     263              detected during instantiation of "void re2c::closure_posix_gtop(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 39
+     264    
+  >> 265    "src/dfa/closure.cc", line 99: error: function "re2c::lower_lookahead_to_transition" cannot be called with the given argument list
+     266                argument types are: (std::vector<re2c::clos_t, std::allocator<re2c::clos_t>>)
+     267              lower_lookahead_to_transition(ctx.state);
+     268              ^
+     269              detected during instantiation of "void re2c::tagged_epsilon_closure(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 88
+     270    
+  >> 271    "src/dfa/closure.cc", line 103: error: no instance of function template "re2c::generate_versions" matches the argument list
+     272                argument types are: (re2c::pdetctx_t)
+     273              generate_versions(ctx);
+     274              ^
+     275              detected during instantiation of "void re2c::tagged_epsilon_closure(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 88
+     276    
+  >> 277    "src/dfa/closure.cc", line 106: error: no instance of function template "re2c::generate_stadfa_actions" matches the argument list
+     278                argument types are: (re2c::pdetctx_t)
+     279              generate_stadfa_actions(ctx);
+     280              ^
+     281              detected during instantiation of "void re2c::tagged_epsilon_closure(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 88
+     282    
+  >> 283    "src/dfa/closure.cc", line 99: error: function "re2c::lower_lookahead_to_transition" cannot be called with the given argument list
+     284                argument types are: (std::vector<re2c::clos_t, std::allocator<re2c::clos_t>>)
+     285              lower_lookahead_to_transition(ctx.state);
+     286              ^
+     287              detected during instantiation of "void re2c::tagged_epsilon_closure(ctx_t &) [with ctx_t=re2c::ldetctx_t]" at line 89
+     288    
+  >> 289    "src/dfa/closure.cc", line 103: error: no instance of function template "re2c::generate_versions" matches the argument list
+     290                argument types are: (re2c::ldetctx_t)
+     291              generate_versions(ctx);
+     292              ^
+     293              detected during instantiation of "void re2c::tagged_epsilon_closure(ctx_t &) [with ctx_t=re2c::ldetctx_t]" at line 89
+     294    
+  >> 295    "src/dfa/closure.cc", line 106: error: no instance of function template "re2c::generate_stadfa_actions" matches the argument list
+     296                argument types are: (re2c::ldetctx_t)
+     297              generate_stadfa_actions(ctx);
+     298              ^
+     299              detected during instantiation of "void re2c::tagged_epsilon_closure(ctx_t &) [with ctx_t=re2c::ldetctx_t]" at line 89
+     300    
+  >> 301    "./src/dfa/posix_precedence.h", line 126: error: no instance of function template "re2c::compute_prectable_complex" matches the argument list
+     302                argument types are: (re2c::pdetctx_t)
+     303          case POSIX_PRECTABLE_COMPLEX: compute_prectable_complex(ctx); break;
+     304                                        ^
+     305              detected during instantiation of "void re2c::compute_prectable(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 115 of "src/dfa/closure.cc"
+     306    
+  >> 307    "./src/dfa/posix_precedence.h", line 127: error: no instance of function template "re2c::compute_prectable_naive" matches the argument list
+     308                argument types are: (re2c::pdetctx_t)
+     309          case POSIX_PRECTABLE_NAIVE:   compute_prectable_naive(ctx);   break;
+     310                                        ^
+     311              detected during instantiation of "void re2c::compute_prectable(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 115 of "src/dfa/closure.cc"
+     312    
+     313    "src/dfa/closure.cc", line 179: warning: function "re2c::lower_lookahead_to_transition" was declared but never referenced [declared_but_not_referenced]
+     314      void lower_lookahead_to_transition(closure_t &closure)
+     315           ^
+     316    
+     317    Remark: individual warnings can be suppressed with "--diag_suppress <warning-name>"
+     318    
+     319    15 errors detected in the compilation of "src/dfa/closure.cc".
+  >> 320    make[2]: *** [Makefile:3819: src/dfa/re2go-closure.o] Error 2
+     321    make[2]: *** Waiting for unfinished jobs....
+  >> 322    "src/dfa/determinization.cc", line 94: error: no instance of function template "re2c::warn_nondeterministic_tags" matches the argument list
+     323                argument types are: (re2c::pdetctx_t)
+     324          warn_nondeterministic_tags(ctx);
+     325          ^
+     326              detected during instantiation of "void re2c::determinization(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 50
+     327    
+  >> 328    "src/dfa/determinization.cc", line 85: error: no instance of function template "re2c::clear_caches" matches the argument list
+     329                argument types are: (re2c::ldetctx_t)
+     330              clear_caches(ctx);
+     331              ^
+     332              detected during instantiation of "void re2c::determinization(ctx_t &) [with ctx_t=re2c::ldetctx_t]" at line 54
+     333    
+  >> 334    "src/dfa/determinization.cc", line 94: error: no instance of function template "re2c::warn_nondeterministic_tags" matches the argument list
+     335                argument types are: (re2c::ldetctx_t)
+     336          warn_nondeterministic_tags(ctx);
+     337          ^
+     338              detected during instantiation of "void re2c::determinization(ctx_t &) [with ctx_t=re2c::ldetctx_t]" at line 54
+     339    
+     340    4 errors detected in the compilation of "src/dfa/determinization.cc".
+  >> 341    make[2]: *** [Makefile:3847: src/dfa/re2go-determinization.o] Error 2
+     342    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-re2c-2.2-xnznjbxdxwwt6on2cgou2dfpwbq5onzx/spack-src'
+  >> 343    make[1]: *** [Makefile:4581: all-recursive] Error 1
+     344    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-re2c-2.2-xnznjbxdxwwt6on2cgou2dfpwbq5onzx/spack-src'
+  >> 345    make: *** [Makefile:1751: all] Error 2
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-re2c-2.2-xnznjbxdxwwt6on2cgou2dfpwbq5onzx/spack-build-out.txt
+
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/ncurses-6.3-vpcvkaux34kn2lohxvkazxn4v3znezmp
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/util-linux-uuid-2.38.1-3cv33m4gyq44uukyz7jwlptkj2fgu4bd
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/diffutils-3.7-vaeyduyor3tnmhsftpp47e6r6o2ko5sb
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/pigz-2.7-wltysiqlsehhkuuqtqsd3cfsclwpvhes
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/libxml2-2.10.3-s6pnymp7b3msisbhe4ff5j2ewy753n5c
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/libbsd-0.11.3-6ex5j6p4gr4bl3bhrcddf2arhusdasuh
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/readline-8.2-hdcq3sfnfi2zbbad6miehz4mebza2opt
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/libedit-3.1-20210216-m6d5nmknqymz2jzpaodkzkci2p6k2s5q
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/m4-1.4.19-sylqsk2xbpkawpmwjqyqw7vi4mwhwd53
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/bzip2-1.0.8-okoe73lz34lyzebijmtbty5btyrybmed
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/expat-2.5.0-slyjaoz7dam7icehhgqlh62jyvv44sm5
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/sqlite-3.40.0-muyoiolzuerspfspy7zl2245ewu52ilt
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/gdbm-1.23-mzr7wy5qmdfly6thhaaqpxq7s6rhuaqf
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/libtool-2.4.7-lk7iieq2cqv2gncv3gjuccpcwcgzrzra
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/tar-1.30-vqzbeuwbkimr42kvprigxphtr7rgqxww
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/perl-5.36.0-ygvh7b2nsfnliutjygfrjlveliglnc73
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/libpciaccess-0.16-pm4rcuqtqh2rl45ih7pibf3hlgvbxvsw
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/gettext-0.21.1-6wkkjdeemsstebh7aikvag6rkdanqjik
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/openssl-1.1.1s-urs6pu7ne2zzc6clmjnngssk32s2olzb
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/autoconf-2.69-vfxclvk2ypvxjkzw3evr3nylnyknfuti
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/openblas-0.3.21-3oapbupikuisb2vqchalqmyic3qg4eig
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/bison-3.8.2-3rqczrfyglpb632uql5i2cbguzxra7zr
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/hwloc-2.8.0-miotk5gwi5bcuvpq3kijqp2zftrbjsom
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/cmake-3.25.1-vghw527fwqerrspvi7gahv4uk6kir3em
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/python-3.10.8-ngptfwb7kxxp6gdobz5rsw7dqywjxkv3
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/libevent-2.1.12-svbtj6wfjmpknm4o4rf3yy2mjhlodwyz
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/automake-1.16.5-m5ulpgfl6lmfx7qqvd5bgxm2ljzoatx3
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/krb5-1.20.1-xhg7qxj23jz67ysbatbpyl4pjfoavbmm
+==> Installing crtm-2.3.0-volvgvg2vnxgmwi3ggt6zi4536wz2p25
+==> crtm exists in binary cache but with different hash
+==> No binary for crtm-2.3.0-volvgvg2vnxgmwi3ggt6zi4536wz2p25 found: installing from source
+==> Warning: Skipping build of ninja-1.11.1-e46i3e5v7fumejum7hzozlqz5ncuitve since re2c-2.2-xnznjbxdxwwt6on2cgou2dfpwbq5onzx failed
+==> Warning: Skipping build of py-pybind11-2.8.1-mimacwres62u4vyqa2pptdoi2pr2zkrb since ninja-1.11.1-e46i3e5v7fumejum7hzozlqz5ncuitve failed
+==> Warning: Skipping build of py-scipy-1.8.0-p5ph5akd5lpjprkkgfe7mkdc27gdnnsh since py-pybind11-2.8.1-mimacwres62u4vyqa2pptdoi2pr2zkrb failed
+==> Warning: Skipping build of geos-3.11.1-5w5xrrkljrvo75qqzq4zl34rm26idgec since ninja-1.11.1-e46i3e5v7fumejum7hzozlqz5ncuitve failed
+==> Warning: Skipping build of py-shapely-1.8.0-fzzutzqvxck3anvgdtbhlsvmvhpxzrjt since geos-3.11.1-5w5xrrkljrvo75qqzq4zl34rm26idgec failed
+==> Warning: download_tarball() was unable to download crtm@2.3.0%nvhpc@22.11~ipo build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%nvhpc@22.11+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%nvhpc@22.11~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^cmake@3.25.1%gcc@11.1.0~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64 ^diffutils@3.7%nvhpc@22.11 build_system=autotools patches=6e42dc2 arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%nvhpc@22.11 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%nvhpc@22.11~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%nvhpc@22.11~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%nvhpc@22.11+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^readline@8.2%gcc@11.1.0 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%nvhpc@22.11+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 from any configured mirrors
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/3e/3e2c87ae5498c33dd98f9ede5c39e33ee7f298c7317b12adeb552e3a572700ce.tar.gz
+==> No patches needed for crtm
+==> crtm: Executing phase: 'cmake'
+==> crtm: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j32'
+
+3 errors found in build log:
+     238    [ 27%] Building Fortran object libsrc/CMakeFiles/crtm.dir/ODAS_Define.f90.o
+     239    [ 28%] Building Fortran object libsrc/CMakeFiles/crtm.dir/ODPS_Define.f90.o
+     240    cd /tmp/root/spack-stage/spack-stage-crtm-2.3.0-volvgvg2vnxgmwi3ggt6zi4536wz2p25/spack-build-volvgvg/libsrc && /spack/lib/spack/env/nvhpc/nvfortran   -O2 -gop
+            t -module include -c /tmp/root/spack-stage/spack-stage-crtm-2.3.0-volvgvg2vnxgmwi3ggt6zi4536wz2p25/spack-src/libsrc/ODAS_Define.f90 -o CMakeFiles/crtm.dir/ODA
+            S_Define.f90.o
+     241    cd /tmp/root/spack-stage/spack-stage-crtm-2.3.0-volvgvg2vnxgmwi3ggt6zi4536wz2p25/spack-build-volvgvg/libsrc && /spack/lib/spack/env/nvhpc/nvfortran   -O2 -gop
+            t -module include -c /tmp/root/spack-stage/spack-stage-crtm-2.3.0-volvgvg2vnxgmwi3ggt6zi4536wz2p25/spack-src/libsrc/ODPS_Define.f90 -o CMakeFiles/crtm.dir/ODP
+            S_Define.f90.o
+     242    NVFORTRAN-F-0004-Unable to open MODULE file iso_fortran_env.mod (/tmp/root/spack-stage/spack-stage-crtm-2.3.0-volvgvg2vnxgmwi3ggt6zi4536wz2p25/spack-src/libsr
+            c/CRTM_ChannelInfo_Define.f90: 19)
+     243    NVFORTRAN/x86-64 Linux 22.11-0: compilation aborted
+  >> 244    make[2]: *** [libsrc/CMakeFiles/crtm.dir/build.make:364: libsrc/CMakeFiles/crtm.dir/CRTM_ChannelInfo_Define.f90.o] Error 2
+     245    make[2]: *** Waiting for unfinished jobs....
+     246    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-crtm-2.3.0-volvgvg2vnxgmwi3ggt6zi4536wz2p25/spack-build-volvgvg'
+  >> 247    make[1]: *** [CMakeFiles/Makefile2:101: libsrc/CMakeFiles/crtm.dir/all] Error 2
+     248    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-crtm-2.3.0-volvgvg2vnxgmwi3ggt6zi4536wz2p25/spack-build-volvgvg'
+  >> 249    make: *** [Makefile:139: all] Error 2
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-crtm-2.3.0-volvgvg2vnxgmwi3ggt6zi4536wz2p25/spack-build-out.txt
+
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-pip-22.2.2-65vsqoppf6cobzhdllmjauryp56qodac
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/pmix-4.1.2-qxpx5hqybqxy7dnxb2omb22rdqhmyhfg
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/numactl-2.0.14-boppvrg5fftgivzerrdw77dxxnpfjw2v
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/openssh-9.1p1-hxx3b4qu7aws3lmz2i3oyhv4wrzpoae5
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-setuptools-63.0.0-hobexd5daxor3prklad2ithtsnxsehoj
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-setuptools-59.4.0-yxma2fadjo427d2cnwwsu2234xkooqi4
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-wheel-0.37.1-4hvl7zod7goq2rdtjaqh42k7gukiqoen
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/openmpi-4.1.4-5f3qnq2ddkpqshlrz7joheqnizi5rjxt
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-pytz-2022.2.1-mpjjpgna3nrojgicsv24qyf4zrmezijf
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-ply-3.11-2g7i5yh4cxz2tao44h4bgvzhhqkjyzi4
+==> Installing py-cython-0.29.32-6qcqcff4d2xak5tkdv6sp6zepifoslh2
+==> py-cython exists in binary cache but with different hash
+==> No binary for py-cython-0.29.32-6qcqcff4d2xak5tkdv6sp6zepifoslh2 found: installing from source
+==> Warning: download_tarball() was unable to download py-cython@0.29.32%nvhpc@22.11 build_system=python_pip arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%nvhpc@22.11+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%nvhpc@22.11~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^diffutils@3.7%nvhpc@22.11 build_system=autotools patches=6e42dc2 arch=linux-ubuntu20.04-x86_64 ^expat@2.5.0%nvhpc@22.11+libbsd build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gettext@0.21.1%nvhpc@22.11+bzip2+curses+git~libunistring+libxml2+tar+xz build_system=autotools patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64 ^libbsd@0.11.3%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libffi@3.4.2%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%nvhpc@22.11 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libmd@1.0.4%nvhpc@22.11 build_system=autotools patches=991953c arch=linux-ubuntu20.04-x86_64 ^libxcrypt@4.4.33%gcc@11.1.0~obsolete_api build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxml2@2.10.3%nvhpc@22.11~python build_system=autotools arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%nvhpc@22.11~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%nvhpc@22.11~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%nvhpc@22.11+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pigz@2.7%nvhpc@22.11 build_system=makefile arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^py-pip@22.2.2%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^py-setuptools@59.4.0%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^py-wheel@0.37.1%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^python@3.10.8%gcc@11.1.0+bz2+crypt+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tkinter+uuid+zlib build_system=generic patches=0d98e93,7d40923,f2fd060 arch=linux-ubuntu20.04-x86_64 ^readline@8.2%gcc@11.1.0 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^sqlite@3.40.0%nvhpc@22.11+column_metadata+dynamic_extensions+fts~functions+rtree build_system=autotools arch=linux-ubuntu20.04-x86_64 ^tar@1.30%nvhpc@22.11 build_system=autotools patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64 ^util-linux-uuid@2.38.1%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^xz@5.2.7%gcc@11.1.0~pic build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%nvhpc@22.11+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 from any configured mirrors
 ==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/87/8733cf4758b79304f2a4e39ebfac5e92341bce47bcceb26c1254398b2f8c1af7.tar.gz
 ==> No patches needed for py-cython
 ==> py-cython: Executing phase: 'install'
 ==> Error: ProcessError: Command exited with status 1:
-    '/spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/python-3.9.15-nvrvb4jsngzkse5ul372waucxh3refgt/bin/python3.9' '-m' 'pip' '-vvv' '--no-input' '--no-cache-dir' '--disable-pip-version-check' 'install' '--no-deps' '--ignore-installed' '--no-build-isolation' '--no-warn-script-location' '--no-index' '--prefix=/spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/py-cython-0.29.32-iqbnqhld4tkacpik7s5mlqdr54swswvi' '.'
+    '/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/gcc-11.1.0/python-3.10.8-ngptfwb7kxxp6gdobz5rsw7dqywjxkv3/bin/python3.10' '-m' 'pip' '-vvv' '--no-input' '--no-cache-dir' '--disable-pip-version-check' 'install' '--no-deps' '--ignore-installed' '--no-build-isolation' '--no-warn-script-location' '--no-index' '--prefix=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-cython-0.29.32-6qcqcff4d2xak5tkdv6sp6zepifoslh2' '.'
 
 2 errors found in build log:
      456    Installing collected packages: Cython
-     457      Created temporary directory: /tmp/pip-record-xk3ii7m4
+     457      Created temporary directory: /tmp/pip-record-2zdp9x2b
      458      Running setup.py install for Cython: started
      459      Running command Running setup.py install for Cython
      460      Unable to find pgen, not compiling formal grammar.
      461      running install
-  >> 462    /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/py-setuptools-59.4.0-qqmtykk5ybeasq32g5is6thtkk2hto4u/lib/python3.9/site-packages/setuptools/command/inst
-            all.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  >> 462    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spac
+            k_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-setuptools-59.4.0-y
+            xma2fadjo427d2cnwwsu2234xkooqi4/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. U
+            se build and pip and other standards-based tools.
      463        warnings.warn(
      464      running build
      465      running build_py
      466      creating build
-     467      creating build/lib.linux-x86_64-3.9
-     468      copying cython.py -> build/lib.linux-x86_64-3.9
+     467      creating build/lib.linux-x86_64-3.10
+     468      copying cython.py -> build/lib.linux-x86_64-3.10
 
      ...
 
      840          setup_py_code = "from setuptools import setup; setup()"
      841    
      842      exec(compile(setup_py_code, filename, "exec"))
-     843      '"'"''"'"''"'"' % ('"'"'/tmp/root/spack-stage/spack-stage-py-cython-0.29.32-iqbnqhld4tkacpik7s5mlqdr54swswvi/spack-src/setup.py'"'"',), "<pip-setuptools-cal
-            ler>", "exec"))' install --record /tmp/pip-record-xk3ii7m4/install-record.txt --single-version-externally-managed --prefix /spack/opt/spack/linux-ubuntu20.04-
-            x86_64/nvhpc-22.9/py-cython-0.29.32-iqbnqhld4tkacpik7s5mlqdr54swswvi --compile --install-headers /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/py-cytho
-            n-0.29.32-iqbnqhld4tkacpik7s5mlqdr54swswvi/include/python3.9/Cython
-     844      cwd: /tmp/root/spack-stage/spack-stage-py-cython-0.29.32-iqbnqhld4tkacpik7s5mlqdr54swswvi/spack-src/
+     843      '"'"''"'"''"'"' % ('"'"'/tmp/root/spack-stage/spack-stage-py-cython-0.29.32-6qcqcff4d2xak5tkdv6sp6zepifoslh2/spack-src/setup.py'"'"',), "<pip-setuptools-cal
+            ler>", "exec"))' install --record /tmp/pip-record-2zdp9x2b/install-record.txt --single-version-externally-managed --prefix /spack/opt/spack/__spack_path_place
+            holder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_p
+            laceholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-cython-0.29.32-6qcqcff4d2xak5tkdv6sp6zepifoslh2 --comp
+            ile --install-headers /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pat
+            h_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/
+            py-cython-0.29.32-6qcqcff4d2xak5tkdv6sp6zepifoslh2/include/python3.10/Cython
+     844      cwd: /tmp/root/spack-stage/spack-stage-py-cython-0.29.32-6qcqcff4d2xak5tkdv6sp6zepifoslh2/spack-src/
      845      Running setup.py install for Cython: finished with status 'error'
   >> 846    error: legacy-install-failure
      847    
@@ -113,160 +290,238 @@ See build log for details:
      852    hint: See above for output from the failure.
 
 See build log for details:
-  /tmp/root/spack-stage/spack-stage-py-cython-0.29.32-iqbnqhld4tkacpik7s5mlqdr54swswvi/spack-build-out.txt
+  /tmp/root/spack-stage/spack-stage-py-cython-0.29.32-6qcqcff4d2xak5tkdv6sp6zepifoslh2/spack-build-out.txt
 
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/py-six-1.16.0-zoprlpqq7u32upkrlfdk5m5qr5ci5wsg
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/py-ply-3.11-bnuiqal2wqerljodkmh4cugci7wdu5n3
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/py-toml-0.10.2-rgmljoqcskyzbdxltnfnkgcgb7lg3ntk
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/netcdf-c-4.8.1-snnjqpm5xdiu42kjyxxyomtcgcgi64bt
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/py-beniget-0.4.1-p5sdamafjzg6g5cyc6ou5n3ujt6jart2
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/py-setuptools-scm-6.0.1-fogeksk4ribktjjzwf3yjcqp4grlp2y4
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/netcdf-fortran-4.5.4-26kf6vrihni3wozwo3pkmctdaawa55qa
-[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/py-python-dateutil-2.8.2-432qoxplqt7glpyy3mbfhcwl2ueos4hz
-==> Installing fms-2022.03-ziyl56pmjbg7zveuobb3hetxguz3v2na
-==> No binary for fms-2022.03-ziyl56pmjbg7zveuobb3hetxguz3v2na found: installing from source
-==> Warning: Skipping build of py-numpy-1.22.4-bwnog5fiacwpwalw3z7hajdmm62adr3a since py-cython-0.29.32-iqbnqhld4tkacpik7s5mlqdr54swswvi failed
-==> Warning: Skipping build of py-bottleneck-1.3.2-oloqleadxaltektcorvaudc2gciu433t since py-numpy-1.22.4-bwnog5fiacwpwalw3z7hajdmm62adr3a failed
-==> Warning: Skipping build of py-pandas-1.4.0-ngui7kkanuwvqvkhobaqha72jpibsmrx since py-bottleneck-1.3.2-oloqleadxaltektcorvaudc2gciu433t failed
-==> Warning: Skipping build of py-numexpr-2.7.3-cfho4wstewdp3ha7heltlbny4wob4yjs since py-numpy-1.22.4-bwnog5fiacwpwalw3z7hajdmm62adr3a failed
-==> Warning: Skipping build of py-numpy-1.22.3-r6oeca3v2rsojqzx2bj2tjtuhvjw7gxn since py-cython-0.29.32-iqbnqhld4tkacpik7s5mlqdr54swswvi failed
-==> Warning: Skipping build of py-numpy-1.23.4-urbjod6i54kxkqa4uyiqbodhojqvv7vz since py-cython-0.29.32-iqbnqhld4tkacpik7s5mlqdr54swswvi failed
-==> Warning: Skipping build of py-pythran-0.11.0-g4kiufkgrd5denx2wk657ighwyjkvbez since py-numpy-1.23.4-urbjod6i54kxkqa4uyiqbodhojqvv7vz failed
-==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/42/42d2ac53d3c889a8177a6d7a132583364c0f6e5d5cbde0d980443b6797ad4838.tar.gz
-==> No patches needed for fms
-==> fms: Executing phase: 'cmake'
-==> fms: Executing phase: 'build'
-==> Error: ProcessError: Command exited with status 2:
-    'make' '-j16'
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-gast-0.5.3-zdt5i3tbtgldmqccpcyodyk7bur6xee6
+==> Installing py-cython-0.29.32-ttwqnabjprsigu7j5dh64nkevdneswq2
+==> py-cython exists in binary cache but with different hash
+==> No binary for py-cython-0.29.32-ttwqnabjprsigu7j5dh64nkevdneswq2 found: installing from source
+==> Warning: Skipping build of py-numpy-1.23.5-2xwkgw3w7jt73xkvjd6hknfilg4cxscn since py-cython-0.29.32-6qcqcff4d2xak5tkdv6sp6zepifoslh2 failed
+==> Warning: Skipping build of py-pythran-0.10.0-yy6vyactygkpmy32whdjcb3qljioysf5 since py-numpy-1.23.5-2xwkgw3w7jt73xkvjd6hknfilg4cxscn failed
+==> Warning: download_tarball() was unable to download py-cython@0.29.32%nvhpc@22.11 build_system=python_pip arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%nvhpc@22.11+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%nvhpc@22.11~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^diffutils@3.7%nvhpc@22.11 build_system=autotools patches=6e42dc2 arch=linux-ubuntu20.04-x86_64 ^expat@2.5.0%nvhpc@22.11+libbsd build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gettext@0.21.1%nvhpc@22.11+bzip2+curses+git~libunistring+libxml2+tar+xz build_system=autotools patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64 ^libbsd@0.11.3%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libffi@3.4.2%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%nvhpc@22.11 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libmd@1.0.4%nvhpc@22.11 build_system=autotools patches=991953c arch=linux-ubuntu20.04-x86_64 ^libxcrypt@4.4.33%gcc@11.1.0~obsolete_api build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxml2@2.10.3%nvhpc@22.11~python build_system=autotools arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%nvhpc@22.11~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%nvhpc@22.11~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%nvhpc@22.11+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pigz@2.7%nvhpc@22.11 build_system=makefile arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^py-pip@22.2.2%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^py-setuptools@63.0.0%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^py-wheel@0.37.1%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^python@3.10.8%gcc@11.1.0+bz2+crypt+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tkinter+uuid+zlib build_system=generic patches=0d98e93,7d40923,f2fd060 arch=linux-ubuntu20.04-x86_64 ^readline@8.2%gcc@11.1.0 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^sqlite@3.40.0%nvhpc@22.11+column_metadata+dynamic_extensions+fts~functions+rtree build_system=autotools arch=linux-ubuntu20.04-x86_64 ^tar@1.30%nvhpc@22.11 build_system=autotools patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64 ^util-linux-uuid@2.38.1%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^xz@5.2.7%gcc@11.1.0~pic build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%nvhpc@22.11+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 from any configured mirrors
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/87/8733cf4758b79304f2a4e39ebfac5e92341bce47bcceb26c1254398b2f8c1af7.tar.gz
+==> No patches needed for py-cython
+==> py-cython: Executing phase: 'install'
+==> Error: ProcessError: Command exited with status 1:
+    '/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/gcc-11.1.0/python-3.10.8-ngptfwb7kxxp6gdobz5rsw7dqywjxkv3/bin/python3.10' '-m' 'pip' '-vvv' '--no-input' '--no-cache-dir' '--disable-pip-version-check' 'install' '--no-deps' '--ignore-installed' '--no-build-isolation' '--no-warn-script-location' '--no-index' '--prefix=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-cython-0.29.32-ttwqnabjprsigu7j5dh64nkevdneswq2' '.'
 
-5 errors found in build log:
-     431    /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/cmake-3.24.2-n4sbrbglajtlgolfk2renqqecb6lxcau/bin/cmake -E cmake_copy_f90_mod include_r4/fms_io_utils_mod
-            .mod CMakeFiles/fms_r4_f.dir/fms_io_utils_mod.mod.stamp NVHPC
-     432    /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/cmake-3.24.2-n4sbrbglajtlgolfk2renqqecb6lxcau/bin/cmake -E touch CMakeFiles/fms_r4_f.dir/fms2_io/fms_io_u
-            tils.F90.o.provides.build
-     433    [ 46%] Building Fortran object CMakeFiles/fms_r4_f.dir/fms2_io/netcdf_io.F90.o
-     434    /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/openmpi-4.1.4-y7bbie7wneg7tpn5cwogr2fi3b4eeedp/bin/mpif90 -DENABLE_QUAD_PRECISION -DGFDL_CONSTANTS -DGFS_
-            PHYS -DHAVE_GETTID -DINTERNAL_FILE_NML -DOVERLOAD_R4 -DOVERLOAD_R8 -Duse_libMPI -Duse_netCDF -I/tmp/root/spack-stage/spack-stage-fms-2022.03-ziyl56pmjbg7zveuo
-            bb3hetxguz3v2na/spack-src/include -I/tmp/root/spack-stage/spack-stage-fms-2022.03-ziyl56pmjbg7zveuobb3hetxguz3v2na/spack-src/fms -I/tmp/root/spack-stage/spack
-            -stage-fms-2022.03-ziyl56pmjbg7zveuobb3hetxguz3v2na/spack-src/fms2_io/include -I/tmp/root/spack-stage/spack-stage-fms-2022.03-ziyl56pmjbg7zveuobb3hetxguz3v2na
-            /spack-src/mpp/include -I/tmp/root/spack-stage/spack-stage-fms-2022.03-ziyl56pmjbg7zveuobb3hetxguz3v2na/spack-src/constants4 -I/tmp/root/spack-stage/spack-sta
-            ge-fms-2022.03-ziyl56pmjbg7zveuobb3hetxguz3v2na/spack-src/constants -isystem /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/netcdf-fortran-4.5.4-26kf6vr
-            ihni3wozwo3pkmctdaawa55qa/include -O2 -gopt -module include_r4 -mp -c /tmp/root/spack-stage/spack-stage-fms-2022.03-ziyl56pmjbg7zveuobb3hetxguz3v2na/spack-src
-            /fms2_io/netcdf_io.F90 -o CMakeFiles/fms_r4_f.dir/fms2_io/netcdf_io.F90.o
-     435    NVFORTRAN-S-0155-Same name common blocks with different sizes in same file not supported  (/tmp/root/spack-stage/spack-stage-fms-2022.03-ziyl56pmjbg7zveuobb3h
-            etxguz3v2na/spack-src/fms2_io/netcdf_io.F90)
-     436      0 inform,   0 warnings,   1 severes, 0 fatal for write_restart_bc
-  >> 437    make[2]: *** [CMakeFiles/fms_r8_f.dir/build.make:624: CMakeFiles/fms_r8_f.dir/fms2_io/netcdf_io.F90.o] Error 2
-     438    make[2]: *** Waiting for unfinished jobs....
-     439    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-fms-2022.03-ziyl56pmjbg7zveuobb3hetxguz3v2na/spack-build-ziyl56p'
-  >> 440    make[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/fms_r8_f.dir/all] Error 2
-     441    make[1]: *** Waiting for unfinished jobs....
-     442    NVFORTRAN-S-0155-Same name common blocks with different sizes in same file not supported  (/tmp/root/spack-stage/spack-stage-fms-2022.03-ziyl56pmjbg7zveuobb3h
-            etxguz3v2na/spack-src/fms2_io/netcdf_io.F90)
-     443      0 inform,   0 warnings,   1 severes, 0 fatal for write_restart_bc
-  >> 444    make[2]: *** [CMakeFiles/fms_r4_f.dir/build.make:624: CMakeFiles/fms_r4_f.dir/fms2_io/netcdf_io.F90.o] Error 2
-     445    make[2]: *** Waiting for unfinished jobs....
-     446    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-fms-2022.03-ziyl56pmjbg7zveuobb3hetxguz3v2na/spack-build-ziyl56p'
-  >> 447    make[1]: *** [CMakeFiles/Makefile2:122: CMakeFiles/fms_r4_f.dir/all] Error 2
-     448    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-fms-2022.03-ziyl56pmjbg7zveuobb3hetxguz3v2na/spack-build-ziyl56p'
-  >> 449    make: *** [Makefile:139: all] Error 2
+2 errors found in build log:
+     456    Installing collected packages: Cython
+     457      Created temporary directory: /tmp/pip-record-ap7c1uq_
+     458      Running setup.py install for Cython: started
+     459      Running command Running setup.py install for Cython
+     460      Unable to find pgen, not compiling formal grammar.
+     461      running install
+  >> 462    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spac
+            k_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-setuptools-63.0.0-h
+            obexd5daxor3prklad2ithtsnxsehoj/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. U
+            se build and pip and other standards-based tools.
+     463        warnings.warn(
+     464      running build
+     465      running build_py
+     466      creating build
+     467      creating build/lib.linux-x86_64-cpython-310
+     468      copying cython.py -> build/lib.linux-x86_64-cpython-310
+
+     ...
+
+     840          setup_py_code = "from setuptools import setup; setup()"
+     841    
+     842      exec(compile(setup_py_code, filename, "exec"))
+     843      '"'"''"'"''"'"' % ('"'"'/tmp/root/spack-stage/spack-stage-py-cython-0.29.32-ttwqnabjprsigu7j5dh64nkevdneswq2/spack-src/setup.py'"'"',), "<pip-setuptools-cal
+            ler>", "exec"))' install --record /tmp/pip-record-ap7c1uq_/install-record.txt --single-version-externally-managed --prefix /spack/opt/spack/__spack_path_place
+            holder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_p
+            laceholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-cython-0.29.32-ttwqnabjprsigu7j5dh64nkevdneswq2 --comp
+            ile --install-headers /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pat
+            h_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/
+            py-cython-0.29.32-ttwqnabjprsigu7j5dh64nkevdneswq2/include/python3.10/Cython
+     844      cwd: /tmp/root/spack-stage/spack-stage-py-cython-0.29.32-ttwqnabjprsigu7j5dh64nkevdneswq2/spack-src/
+     845      Running setup.py install for Cython: finished with status 'error'
+  >> 846    error: legacy-install-failure
+     847    
+     848    × Encountered error while trying to install package.
+     849    ╰─> Cython
+     850    
+     851    note: This is an issue with the package mentioned above, not pip.
+     852    hint: See above for output from the failure.
 
 See build log for details:
-  /tmp/root/spack-stage/spack-stage-fms-2022.03-ziyl56pmjbg7zveuobb3hetxguz3v2na/spack-build-out.txt
+  /tmp/root/spack-stage/spack-stage-py-cython-0.29.32-ttwqnabjprsigu7j5dh64nkevdneswq2/spack-build-out.txt
 
-==> Installing fms-2022.01-kz6vilmrze727sq6kldzmnsofpw77pm7
-==> No binary for fms-2022.01-kz6vilmrze727sq6kldzmnsofpw77pm7 found: installing from source
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-six-1.16.0-cwjauuwmvihd2r2bq34otcvur3znbvag
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-toml-0.10.2-da5fa5cmedujt4lsrmgbeggt6dwlrwua
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/hdf5-1.12.2-gvtu7rxrzsv2mnmvammhgp6ktbjfyrpm
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-beniget-0.4.1-avn4uo5efovwr46ndst3al75typmc6cv
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-setuptools-scm-6.0.1-yckp6utkuqlhswnwkoj2jphaxhrocjrc
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/netcdf-c-4.9.0-ip2zaoyaf54gb3x5cep44rve3bofepd6
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-python-dateutil-2.8.2-3mu2kprc6hgyvsqi6dxnicsrtwbdyyqh
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/netcdf-fortran-4.6.0-duutnxkxsodzkrhghhuy7ezyvzrnh244
+==> Installing fms-2022.01-6rtwkcbcnzqpqfs2l7czw74eq66mh3pa
+==> fms exists in binary cache but with different hash
+==> No binary for fms-2022.01-6rtwkcbcnzqpqfs2l7czw74eq66mh3pa found: installing from source
+==> Warning: Skipping build of py-numpy-1.22.3-odilisix6c5cnuqdvepcqvwekhcwcu5d since py-cython-0.29.32-ttwqnabjprsigu7j5dh64nkevdneswq2 failed
+==> Warning: Skipping build of py-pandas-1.4.0-mx575ite37aelxaeqchdq7nhpiunov7d since py-cython-0.29.32-ttwqnabjprsigu7j5dh64nkevdneswq2 failed
+==> Warning: Skipping build of py-numpy-1.23.5-i5c37a6wsdxtskkr57jnlvianzr6pdtk since py-cython-0.29.32-ttwqnabjprsigu7j5dh64nkevdneswq2 failed
+==> Warning: Skipping build of py-numpy-1.22.4-nncrxujob4zsjsr6zgcd5dji7ghjtppy since py-cython-0.29.32-ttwqnabjprsigu7j5dh64nkevdneswq2 failed
+==> Warning: Skipping build of py-bottleneck-1.3.2-2sdlzjp3ntfxuhofu5wbbo32nwqgrx7i since py-numpy-1.22.4-nncrxujob4zsjsr6zgcd5dji7ghjtppy failed
+==> Warning: Skipping build of py-numexpr-2.7.3-kshwjfjnqes7fguhilwhjlsxo4qm2ls3 since py-numpy-1.22.4-nncrxujob4zsjsr6zgcd5dji7ghjtppy failed
+==> Warning: download_tarball() was unable to download fms@2022.01%nvhpc@22.11+64bit+gfs_phys~ipo+openmp+quad_precision~yaml build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64 ^autoconf@2.69%nvhpc@22.11 build_system=autotools patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64 ^automake@1.16.5%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%nvhpc@22.11+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bison@3.8.2%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%nvhpc@22.11~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^cmake@3.25.1%gcc@11.1.0~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64 ^diffutils@3.7%nvhpc@22.11 build_system=autotools patches=6e42dc2 arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gettext@0.21.1%nvhpc@22.11+bzip2+curses+git~libunistring+libxml2+tar+xz build_system=autotools patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64 ^hdf5@1.12.2%nvhpc@22.11~cxx~fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64 ^hwloc@2.8.0%nvhpc@22.11~cairo~cuda~gl~libudev+libxml2~netloc~nvml~oneapi-level-zero~opencl+pci~rocm build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^krb5@1.20.1%nvhpc@22.11+shared build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libedit@3.1-20210216%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libevent@2.1.12%nvhpc@22.11+openssl build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%nvhpc@22.11 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libpciaccess@0.16%nvhpc@22.11 build_system=autotools patches=6e08dc4 arch=linux-ubuntu20.04-x86_64 ^libsigsegv@2.13%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libtool@2.4.7%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxcrypt@4.4.33%gcc@11.1.0~obsolete_api build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxml2@2.10.3%nvhpc@22.11~python build_system=autotools arch=linux-ubuntu20.04-x86_64 ^m4@1.4.19%nvhpc@22.11+sigsegv build_system=autotools patches=6985830,72bb1ad,9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%nvhpc@22.11~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^netcdf-c@4.9.0%nvhpc@22.11~dap~fsync~hdf4~jna+mpi+optimize~parallel-netcdf+pic+shared+zstd build_system=autotools arch=linux-ubuntu20.04-x86_64 ^netcdf-fortran@4.6.0%nvhpc@22.11~doc+pic+shared build_system=autotools arch=linux-ubuntu20.04-x86_64 ^numactl@2.0.14%nvhpc@22.11 build_system=autotools patches=4e1d78c,62fc8a8,ff37630 arch=linux-ubuntu20.04-x86_64 ^openmpi@4.1.4%nvhpc@22.11~atomics~cuda~cxx~cxx_exceptions~gpfs~internal-hwloc~java~legacylaunchers~lustre~memchecker+romio+rsh~singularity+static+vt+wrapper-rpath build_system=autotools fabrics=none schedulers=none arch=linux-ubuntu20.04-x86_64 ^openssh@9.1p1%nvhpc@22.11+gssapi build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%nvhpc@22.11~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%nvhpc@22.11+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pigz@2.7%nvhpc@22.11 build_system=makefile arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^pmix@4.1.2%nvhpc@22.11~docs+pmi_backwards_compatibility~python~restful build_system=autotools arch=linux-ubuntu20.04-x86_64 ^readline@8.2%gcc@11.1.0 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^tar@1.30%nvhpc@22.11 build_system=autotools patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64 ^util-macros@1.19.3%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^xz@5.2.7%gcc@11.1.0~pic build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%nvhpc@22.11+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 ^zstd@1.5.2%nvhpc@22.11~programs build_system=makefile libs=shared,static arch=linux-ubuntu20.04-x86_64 from any configured mirrors
 ==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/a1/a1cba1f536923f5953c28729a28e5431e127b45d6bc2c15d230939f0c02daa9b.tar.gz
 ==> No patches needed for fms
 ==> fms: Executing phase: 'cmake'
 ==> fms: Executing phase: 'build'
 ==> Error: ProcessError: Command exited with status 2:
-    'make' '-j16'
+    'make' '-j32'
 
 5 errors found in build log:
-     403    /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/cmake-3.24.2-n4sbrbglajtlgolfk2renqqecb6lxcau/bin/cmake -E cmake_copy_f90_mod include_r8/fms_io_utils_mod
-            .mod CMakeFiles/fms_r8_f.dir/fms_io_utils_mod.mod.stamp NVHPC
-     404    /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/cmake-3.24.2-n4sbrbglajtlgolfk2renqqecb6lxcau/bin/cmake -E touch CMakeFiles/fms_r8_f.dir/fms2_io/fms_io_u
-            tils.F90.o.provides.build
-     405    [ 44%] Building Fortran object CMakeFiles/fms_r8_f.dir/fms2_io/netcdf_io.F90.o
-     406    /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/openmpi-4.1.4-y7bbie7wneg7tpn5cwogr2fi3b4eeedp/bin/mpif90 -DENABLE_QUAD_PRECISION -DGFS_PHYS -DHAVE_GETTI
-            D -DINTERNAL_FILE_NML -Duse_libMPI -Duse_netCDF -I/tmp/root/spack-stage/spack-stage-fms-2022.01-kz6vilmrze727sq6kldzmnsofpw77pm7/spack-src/include -I/tmp/root
-            /spack-stage/spack-stage-fms-2022.01-kz6vilmrze727sq6kldzmnsofpw77pm7/spack-src/fms -I/tmp/root/spack-stage/spack-stage-fms-2022.01-kz6vilmrze727sq6kldzmnsofp
-            w77pm7/spack-src/fms2_io/include -I/tmp/root/spack-stage/spack-stage-fms-2022.01-kz6vilmrze727sq6kldzmnsofpw77pm7/spack-src/mpp/include -isystem /spack/opt/sp
-            ack/linux-ubuntu20.04-x86_64/nvhpc-22.9/netcdf-fortran-4.5.4-26kf6vrihni3wozwo3pkmctdaawa55qa/include -O2 -gopt -module include_r8 -mp -c /tmp/root/spack-stag
-            e/spack-stage-fms-2022.01-kz6vilmrze727sq6kldzmnsofpw77pm7/spack-src/fms2_io/netcdf_io.F90 -o CMakeFiles/fms_r8_f.dir/fms2_io/netcdf_io.F90.o
-     407    NVFORTRAN-S-0155-Same name common blocks with different sizes in same file not supported  (/tmp/root/spack-stage/spack-stage-fms-2022.01-kz6vilmrze727sq6kldzm
-            nsofpw77pm7/spack-src/fms2_io/netcdf_io.F90)
-     408      0 inform,   0 warnings,   1 severes, 0 fatal for write_restart_bc
-  >> 409    make[2]: *** [CMakeFiles/fms_r4_f.dir/build.make:598: CMakeFiles/fms_r4_f.dir/fms2_io/netcdf_io.F90.o] Error 2
-     410    make[2]: *** Waiting for unfinished jobs....
-     411    NVFORTRAN-S-0155-Same name common blocks with different sizes in same file not supported  (/tmp/root/spack-stage/spack-stage-fms-2022.01-kz6vilmrze727sq6kldzm
-            nsofpw77pm7/spack-src/fms2_io/netcdf_io.F90)
-     412      0 inform,   0 warnings,   1 severes, 0 fatal for write_restart_bc
-  >> 413    make[2]: *** [CMakeFiles/fms_r8_f.dir/build.make:598: CMakeFiles/fms_r8_f.dir/fms2_io/netcdf_io.F90.o] Error 2
-     414    make[2]: *** Waiting for unfinished jobs....
-     415    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-fms-2022.01-kz6vilmrze727sq6kldzmnsofpw77pm7/spack-build-kz6vilm'
-  >> 416    make[1]: *** [CMakeFiles/Makefile2:122: CMakeFiles/fms_r4_f.dir/all] Error 2
-     417    make[1]: *** Waiting for unfinished jobs....
-     418    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-fms-2022.01-kz6vilmrze727sq6kldzmnsofpw77pm7/spack-build-kz6vilm'
-  >> 419    make[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/fms_r8_f.dir/all] Error 2
-     420    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-fms-2022.01-kz6vilmrze727sq6kldzmnsofpw77pm7/spack-build-kz6vilm'
-  >> 421    make: *** [Makefile:139: all] Error 2
+     401    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spac
+            k_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/gcc-11.1.0/cmake-3.25.1-vghw527fwq
+            errspvi7gahv4uk6kir3em/bin/cmake -E cmake_copy_f90_mod include_r4/fms_io_utils_mod.mod CMakeFiles/fms_r4_f.dir/fms_io_utils_mod.mod.stamp NVHPC
+     402    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spac
+            k_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/gcc-11.1.0/cmake-3.25.1-vghw527fwq
+            errspvi7gahv4uk6kir3em/bin/cmake -E touch CMakeFiles/fms_r4_f.dir/fms2_io/fms_io_utils.F90.o.provides.build
+     403    [ 44%] Building Fortran object CMakeFiles/fms_r4_f.dir/fms2_io/netcdf_io.F90.o
+     404    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spac
+            k_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/openmpi-4.1.4-5f3qnq2d
+            dkpqshlrz7joheqnizi5rjxt/bin/mpif90 -DENABLE_QUAD_PRECISION -DGFS_PHYS -DHAVE_GETTID -DINTERNAL_FILE_NML -DOVERLOAD_R4 -DOVERLOAD_R8 -Duse_libMPI -Duse_netCDF
+             -I/tmp/root/spack-stage/spack-stage-fms-2022.01-6rtwkcbcnzqpqfs2l7czw74eq66mh3pa/spack-src/include -I/tmp/root/spack-stage/spack-stage-fms-2022.01-6rtwkcbcnz
+            qpqfs2l7czw74eq66mh3pa/spack-src/fms -I/tmp/root/spack-stage/spack-stage-fms-2022.01-6rtwkcbcnzqpqfs2l7czw74eq66mh3pa/spack-src/fms2_io/include -I/tmp/root/sp
+            ack-stage/spack-stage-fms-2022.01-6rtwkcbcnzqpqfs2l7czw74eq66mh3pa/spack-src/mpp/include -isystem /spack/opt/spack/__spack_path_placeholder__/__spack_path_pla
+            ceholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path
+            _placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/netcdf-fortran-4.6.0-duutnxkxsodzkrhghhuy7ezyvzrnh244/include -O2 -gopt -module in
+            clude_r4 -mp -c /tmp/root/spack-stage/spack-stage-fms-2022.01-6rtwkcbcnzqpqfs2l7czw74eq66mh3pa/spack-src/fms2_io/netcdf_io.F90 -o CMakeFiles/fms_r4_f.dir/fms2
+            _io/netcdf_io.F90.o
+     405    NVFORTRAN-S-0155-Same name common blocks with different sizes in same file not supported  (/tmp/root/spack-stage/spack-stage-fms-2022.01-6rtwkcbcnzqpqfs2l7czw
+            74eq66mh3pa/spack-src/fms2_io/netcdf_io.F90)
+     406      0 inform,   0 warnings,   1 severes, 0 fatal for write_restart_bc
+  >> 407    make[2]: *** [CMakeFiles/fms_r8_f.dir/build.make:598: CMakeFiles/fms_r8_f.dir/fms2_io/netcdf_io.F90.o] Error 2
+     408    make[2]: *** Waiting for unfinished jobs....
+     409    NVFORTRAN-S-0155-Same name common blocks with different sizes in same file not supported  (/tmp/root/spack-stage/spack-stage-fms-2022.01-6rtwkcbcnzqpqfs2l7czw
+            74eq66mh3pa/spack-src/fms2_io/netcdf_io.F90)
+     410      0 inform,   0 warnings,   1 severes, 0 fatal for write_restart_bc
+  >> 411    make[2]: *** [CMakeFiles/fms_r4_f.dir/build.make:598: CMakeFiles/fms_r4_f.dir/fms2_io/netcdf_io.F90.o] Error 2
+     412    make[2]: *** Waiting for unfinished jobs....
+     413    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-fms-2022.01-6rtwkcbcnzqpqfs2l7czw74eq66mh3pa/spack-build-6rtwkcb'
+  >> 414    make[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/fms_r8_f.dir/all] Error 2
+     415    make[1]: *** Waiting for unfinished jobs....
+     416    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-fms-2022.01-6rtwkcbcnzqpqfs2l7czw74eq66mh3pa/spack-build-6rtwkcb'
+  >> 417    make[1]: *** [CMakeFiles/Makefile2:122: CMakeFiles/fms_r4_f.dir/all] Error 2
+     418    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-fms-2022.01-6rtwkcbcnzqpqfs2l7czw74eq66mh3pa/spack-build-6rtwkcb'
+  >> 419    make: *** [Makefile:139: all] Error 2
 
 See build log for details:
-  /tmp/root/spack-stage/spack-stage-fms-2022.01-kz6vilmrze727sq6kldzmnsofpw77pm7/spack-build-out.txt
+  /tmp/root/spack-stage/spack-stage-fms-2022.01-6rtwkcbcnzqpqfs2l7czw74eq66mh3pa/spack-build-out.txt
 
-==> Installing fms-2022.04-h3xu3am6zwtqxgzozkr7hade4xxnsusz
-==> No binary for fms-2022.04-h3xu3am6zwtqxgzozkr7hade4xxnsusz found: installing from source
+==> Installing fms-2022.03-yae7qtdfzsvll3y4ayrud33s6dlbgee2
+==> fms exists in binary cache but with different hash
+==> No binary for fms-2022.03-yae7qtdfzsvll3y4ayrud33s6dlbgee2 found: installing from source
+==> Warning: download_tarball() was unable to download fms@2022.03%nvhpc@22.11+64bit~fpic+gfs_phys~ipo+openmp+quad_precision~yaml build_system=cmake build_type=RelWithDebInfo constants=GFDL arch=linux-ubuntu20.04-x86_64 ^autoconf@2.69%nvhpc@22.11 build_system=autotools patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64 ^automake@1.16.5%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%nvhpc@22.11+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bison@3.8.2%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%nvhpc@22.11~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^cmake@3.25.1%gcc@11.1.0~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64 ^diffutils@3.7%nvhpc@22.11 build_system=autotools patches=6e42dc2 arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gettext@0.21.1%nvhpc@22.11+bzip2+curses+git~libunistring+libxml2+tar+xz build_system=autotools patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64 ^hdf5@1.12.2%nvhpc@22.11~cxx~fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64 ^hwloc@2.8.0%nvhpc@22.11~cairo~cuda~gl~libudev+libxml2~netloc~nvml~oneapi-level-zero~opencl+pci~rocm build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^krb5@1.20.1%nvhpc@22.11+shared build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libedit@3.1-20210216%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libevent@2.1.12%nvhpc@22.11+openssl build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%nvhpc@22.11 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libpciaccess@0.16%nvhpc@22.11 build_system=autotools patches=6e08dc4 arch=linux-ubuntu20.04-x86_64 ^libsigsegv@2.13%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libtool@2.4.7%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxcrypt@4.4.33%gcc@11.1.0~obsolete_api build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxml2@2.10.3%nvhpc@22.11~python build_system=autotools arch=linux-ubuntu20.04-x86_64 ^m4@1.4.19%nvhpc@22.11+sigsegv build_system=autotools patches=6985830,72bb1ad,9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%nvhpc@22.11~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^netcdf-c@4.9.0%nvhpc@22.11~dap~fsync~hdf4~jna+mpi+optimize~parallel-netcdf+pic+shared+zstd build_system=autotools arch=linux-ubuntu20.04-x86_64 ^netcdf-fortran@4.6.0%nvhpc@22.11~doc+pic+shared build_system=autotools arch=linux-ubuntu20.04-x86_64 ^numactl@2.0.14%nvhpc@22.11 build_system=autotools patches=4e1d78c,62fc8a8,ff37630 arch=linux-ubuntu20.04-x86_64 ^openmpi@4.1.4%nvhpc@22.11~atomics~cuda~cxx~cxx_exceptions~gpfs~internal-hwloc~java~legacylaunchers~lustre~memchecker+romio+rsh~singularity+static+vt+wrapper-rpath build_system=autotools fabrics=none schedulers=none arch=linux-ubuntu20.04-x86_64 ^openssh@9.1p1%nvhpc@22.11+gssapi build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%nvhpc@22.11~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%nvhpc@22.11+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pigz@2.7%nvhpc@22.11 build_system=makefile arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^pmix@4.1.2%nvhpc@22.11~docs+pmi_backwards_compatibility~python~restful build_system=autotools arch=linux-ubuntu20.04-x86_64 ^readline@8.2%gcc@11.1.0 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^tar@1.30%nvhpc@22.11 build_system=autotools patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64 ^util-macros@1.19.3%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^xz@5.2.7%gcc@11.1.0~pic build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%nvhpc@22.11+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 ^zstd@1.5.2%nvhpc@22.11~programs build_system=makefile libs=shared,static arch=linux-ubuntu20.04-x86_64 from any configured mirrors
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/42/42d2ac53d3c889a8177a6d7a132583364c0f6e5d5cbde0d980443b6797ad4838.tar.gz
+==> No patches needed for fms
+==> fms: Executing phase: 'cmake'
+==> fms: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j32'
+
+5 errors found in build log:
+     431    [ 46%] Building Fortran object CMakeFiles/fms_r8_f.dir/fms2_io/netcdf_io.F90.o
+     432    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spac
+            k_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/openmpi-4.1.4-5f3qnq2d
+            dkpqshlrz7joheqnizi5rjxt/bin/mpif90 -DENABLE_QUAD_PRECISION -DGFDL_CONSTANTS -DGFS_PHYS -DHAVE_GETTID -DINTERNAL_FILE_NML -Duse_libMPI -Duse_netCDF -I/tmp/roo
+            t/spack-stage/spack-stage-fms-2022.03-yae7qtdfzsvll3y4ayrud33s6dlbgee2/spack-src/include -I/tmp/root/spack-stage/spack-stage-fms-2022.03-yae7qtdfzsvll3y4ayrud
+            33s6dlbgee2/spack-src/fms -I/tmp/root/spack-stage/spack-stage-fms-2022.03-yae7qtdfzsvll3y4ayrud33s6dlbgee2/spack-src/fms2_io/include -I/tmp/root/spack-stage/s
+            pack-stage-fms-2022.03-yae7qtdfzsvll3y4ayrud33s6dlbgee2/spack-src/mpp/include -I/tmp/root/spack-stage/spack-stage-fms-2022.03-yae7qtdfzsvll3y4ayrud33s6dlbgee2
+            /spack-src/constants4 -I/tmp/root/spack-stage/spack-stage-fms-2022.03-yae7qtdfzsvll3y4ayrud33s6dlbgee2/spack-src/constants -isystem /spack/opt/spack/__spack_p
+            ath_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spa
+            ck_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/netcdf-fortran-4.6.0-duutnxkxsodzkrhghhuy7ezyvzr
+            nh244/include -O2 -gopt -module include_r8 -mp -c /tmp/root/spack-stage/spack-stage-fms-2022.03-yae7qtdfzsvll3y4ayrud33s6dlbgee2/spack-src/fms2_io/netcdf_io.F
+            90 -o CMakeFiles/fms_r8_f.dir/fms2_io/netcdf_io.F90.o
+     433    NVFORTRAN-S-0155-Same name common blocks with different sizes in same file not supported  (/tmp/root/spack-stage/spack-stage-fms-2022.03-yae7qtdfzsvll3y4ayrud
+            33s6dlbgee2/spack-src/fms2_io/netcdf_io.F90)
+     434      0 inform,   0 warnings,   1 severes, 0 fatal for write_restart_bc
+     435    NVFORTRAN-S-0155-Same name common blocks with different sizes in same file not supported  (/tmp/root/spack-stage/spack-stage-fms-2022.03-yae7qtdfzsvll3y4ayrud
+            33s6dlbgee2/spack-src/fms2_io/netcdf_io.F90)
+     436      0 inform,   0 warnings,   1 severes, 0 fatal for write_restart_bc
+  >> 437    make[2]: *** [CMakeFiles/fms_r4_f.dir/build.make:624: CMakeFiles/fms_r4_f.dir/fms2_io/netcdf_io.F90.o] Error 2
+     438    make[2]: *** Waiting for unfinished jobs....
+  >> 439    make[2]: *** [CMakeFiles/fms_r8_f.dir/build.make:624: CMakeFiles/fms_r8_f.dir/fms2_io/netcdf_io.F90.o] Error 2
+     440    make[2]: *** Waiting for unfinished jobs....
+     441    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-fms-2022.03-yae7qtdfzsvll3y4ayrud33s6dlbgee2/spack-build-yae7qtd'
+  >> 442    make[1]: *** [CMakeFiles/Makefile2:122: CMakeFiles/fms_r4_f.dir/all] Error 2
+     443    make[1]: *** Waiting for unfinished jobs....
+     444    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-fms-2022.03-yae7qtdfzsvll3y4ayrud33s6dlbgee2/spack-build-yae7qtd'
+  >> 445    make[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/fms_r8_f.dir/all] Error 2
+     446    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-fms-2022.03-yae7qtdfzsvll3y4ayrud33s6dlbgee2/spack-build-yae7qtd'
+  >> 447    make: *** [Makefile:139: all] Error 2
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-fms-2022.03-yae7qtdfzsvll3y4ayrud33s6dlbgee2/spack-build-out.txt
+
+==> Installing fms-2022.04-ks4gltm42j5an72v6x3vott3w42wrqzk
+==> fms exists in binary cache but with different hash
+==> No binary for fms-2022.04-ks4gltm42j5an72v6x3vott3w42wrqzk found: installing from source
+==> Warning: download_tarball() was unable to download fms@2022.04%nvhpc@22.11+64bit~fpic+gfs_phys~ipo+openmp+quad_precision~yaml build_system=cmake build_type=RelWithDebInfo constants=GFDL arch=linux-ubuntu20.04-x86_64 ^autoconf@2.69%nvhpc@22.11 build_system=autotools patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64 ^automake@1.16.5%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%nvhpc@22.11+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bison@3.8.2%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%nvhpc@22.11~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^cmake@3.25.1%gcc@11.1.0~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64 ^diffutils@3.7%nvhpc@22.11 build_system=autotools patches=6e42dc2 arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gettext@0.21.1%nvhpc@22.11+bzip2+curses+git~libunistring+libxml2+tar+xz build_system=autotools patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64 ^hdf5@1.12.2%nvhpc@22.11~cxx~fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64 ^hwloc@2.8.0%nvhpc@22.11~cairo~cuda~gl~libudev+libxml2~netloc~nvml~oneapi-level-zero~opencl+pci~rocm build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^krb5@1.20.1%nvhpc@22.11+shared build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libedit@3.1-20210216%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libevent@2.1.12%nvhpc@22.11+openssl build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%nvhpc@22.11 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libpciaccess@0.16%nvhpc@22.11 build_system=autotools patches=6e08dc4 arch=linux-ubuntu20.04-x86_64 ^libsigsegv@2.13%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libtool@2.4.7%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxcrypt@4.4.33%gcc@11.1.0~obsolete_api build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxml2@2.10.3%nvhpc@22.11~python build_system=autotools arch=linux-ubuntu20.04-x86_64 ^m4@1.4.19%nvhpc@22.11+sigsegv build_system=autotools patches=6985830,72bb1ad,9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%nvhpc@22.11~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^netcdf-c@4.9.0%nvhpc@22.11~dap~fsync~hdf4~jna+mpi+optimize~parallel-netcdf+pic+shared+zstd build_system=autotools arch=linux-ubuntu20.04-x86_64 ^netcdf-fortran@4.6.0%nvhpc@22.11~doc+pic+shared build_system=autotools arch=linux-ubuntu20.04-x86_64 ^numactl@2.0.14%nvhpc@22.11 build_system=autotools patches=4e1d78c,62fc8a8,ff37630 arch=linux-ubuntu20.04-x86_64 ^openmpi@4.1.4%nvhpc@22.11~atomics~cuda~cxx~cxx_exceptions~gpfs~internal-hwloc~java~legacylaunchers~lustre~memchecker+romio+rsh~singularity+static+vt+wrapper-rpath build_system=autotools fabrics=none schedulers=none arch=linux-ubuntu20.04-x86_64 ^openssh@9.1p1%nvhpc@22.11+gssapi build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%nvhpc@22.11~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%nvhpc@22.11+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pigz@2.7%nvhpc@22.11 build_system=makefile arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^pmix@4.1.2%nvhpc@22.11~docs+pmi_backwards_compatibility~python~restful build_system=autotools arch=linux-ubuntu20.04-x86_64 ^readline@8.2%gcc@11.1.0 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^tar@1.30%nvhpc@22.11 build_system=autotools patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64 ^util-macros@1.19.3%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^xz@5.2.7%gcc@11.1.0~pic build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%nvhpc@22.11+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 ^zstd@1.5.2%nvhpc@22.11~programs build_system=makefile libs=shared,static arch=linux-ubuntu20.04-x86_64 from any configured mirrors
 ==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/f7/f741479128afc2b93ca8291a4c5bcdb024a8cbeda1a26bf77a236c0f629e1b03.tar.gz
 ==> No patches needed for fms
 ==> fms: Executing phase: 'cmake'
 ==> fms: Executing phase: 'build'
 ==> Error: ProcessError: Command exited with status 2:
-    'make' '-j16'
+    'make' '-j32'
 
 5 errors found in build log:
-     441    [ 42%] Building Fortran object CMakeFiles/fms_r8_f.dir/fms2_io/netcdf_io.F90.o
-     442    /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/openmpi-4.1.4-y7bbie7wneg7tpn5cwogr2fi3b4eeedp/bin/mpif90 -DENABLE_QUAD_PRECISION -DGFDL_CONSTANTS -DGFS_
-            PHYS -DHAVE_GETTID -DINTERNAL_FILE_NML -Duse_libMPI -Duse_netCDF -I/tmp/root/spack-stage/spack-stage-fms-2022.04-h3xu3am6zwtqxgzozkr7hade4xxnsusz/spack-src/in
-            clude -I/tmp/root/spack-stage/spack-stage-fms-2022.04-h3xu3am6zwtqxgzozkr7hade4xxnsusz/spack-src/fms -I/tmp/root/spack-stage/spack-stage-fms-2022.04-h3xu3am6z
-            wtqxgzozkr7hade4xxnsusz/spack-src/fms2_io/include -I/tmp/root/spack-stage/spack-stage-fms-2022.04-h3xu3am6zwtqxgzozkr7hade4xxnsusz/spack-src/mpp/include -I/tm
-            p/root/spack-stage/spack-stage-fms-2022.04-h3xu3am6zwtqxgzozkr7hade4xxnsusz/spack-src/constants4 -I/tmp/root/spack-stage/spack-stage-fms-2022.04-h3xu3am6zwtqx
-            gzozkr7hade4xxnsusz/spack-src/constants -isystem /spack/opt/spack/linux-ubuntu20.04-x86_64/nvhpc-22.9/netcdf-fortran-4.5.4-26kf6vrihni3wozwo3pkmctdaawa55qa/in
-            clude -O2 -gopt -module include_r8 -mp -c /tmp/root/spack-stage/spack-stage-fms-2022.04-h3xu3am6zwtqxgzozkr7hade4xxnsusz/spack-src/fms2_io/netcdf_io.F90 -o CM
-            akeFiles/fms_r8_f.dir/fms2_io/netcdf_io.F90.o
-     443    NVFORTRAN-S-0155-Same name common blocks with different sizes in same file not supported  (/tmp/root/spack-stage/spack-stage-fms-2022.04-h3xu3am6zwtqxgzozkr7h
-            ade4xxnsusz/spack-src/fms2_io/netcdf_io.F90)
-     444      0 inform,   0 warnings,   1 severes, 0 fatal for write_restart_bc
-     445    NVFORTRAN-S-0155-Same name common blocks with different sizes in same file not supported  (/tmp/root/spack-stage/spack-stage-fms-2022.04-h3xu3am6zwtqxgzozkr7h
-            ade4xxnsusz/spack-src/fms2_io/netcdf_io.F90)
+     437    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spac
+            k_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/gcc-11.1.0/cmake-3.25.1-vghw527fwq
+            errspvi7gahv4uk6kir3em/bin/cmake -E cmake_copy_f90_mod include_r8/fms_io_utils_mod.mod CMakeFiles/fms_r8_f.dir/fms_io_utils_mod.mod.stamp NVHPC
+     438    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spac
+            k_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/gcc-11.1.0/cmake-3.25.1-vghw527fwq
+            errspvi7gahv4uk6kir3em/bin/cmake -E touch CMakeFiles/fms_r8_f.dir/fms2_io/fms_io_utils.F90.o.provides.build
+     439    [ 42%] Building Fortran object CMakeFiles/fms_r8_f.dir/fms2_io/netcdf_io.F90.o
+     440    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spac
+            k_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/openmpi-4.1.4-5f3qnq2d
+            dkpqshlrz7joheqnizi5rjxt/bin/mpif90 -DENABLE_QUAD_PRECISION -DGFDL_CONSTANTS -DGFS_PHYS -DHAVE_GETTID -DINTERNAL_FILE_NML -Duse_libMPI -Duse_netCDF -I/tmp/roo
+            t/spack-stage/spack-stage-fms-2022.04-ks4gltm42j5an72v6x3vott3w42wrqzk/spack-src/include -I/tmp/root/spack-stage/spack-stage-fms-2022.04-ks4gltm42j5an72v6x3vo
+            tt3w42wrqzk/spack-src/fms -I/tmp/root/spack-stage/spack-stage-fms-2022.04-ks4gltm42j5an72v6x3vott3w42wrqzk/spack-src/fms2_io/include -I/tmp/root/spack-stage/s
+            pack-stage-fms-2022.04-ks4gltm42j5an72v6x3vott3w42wrqzk/spack-src/mpp/include -I/tmp/root/spack-stage/spack-stage-fms-2022.04-ks4gltm42j5an72v6x3vott3w42wrqzk
+            /spack-src/constants4 -I/tmp/root/spack-stage/spack-stage-fms-2022.04-ks4gltm42j5an72v6x3vott3w42wrqzk/spack-src/constants -isystem /spack/opt/spack/__spack_p
+            ath_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spa
+            ck_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/netcdf-fortran-4.6.0-duutnxkxsodzkrhghhuy7ezyvzr
+            nh244/include -O2 -gopt -module include_r8 -mp -c /tmp/root/spack-stage/spack-stage-fms-2022.04-ks4gltm42j5an72v6x3vott3w42wrqzk/spack-src/fms2_io/netcdf_io.F
+            90 -o CMakeFiles/fms_r8_f.dir/fms2_io/netcdf_io.F90.o
+     441    NVFORTRAN-S-0155-Same name common blocks with different sizes in same file not supported  (/tmp/root/spack-stage/spack-stage-fms-2022.04-ks4gltm42j5an72v6x3vo
+            tt3w42wrqzk/spack-src/fms2_io/netcdf_io.F90)
+     442      0 inform,   0 warnings,   1 severes, 0 fatal for write_restart_bc
+  >> 443    make[2]: *** [CMakeFiles/fms_r4_f.dir/build.make:637: CMakeFiles/fms_r4_f.dir/fms2_io/netcdf_io.F90.o] Error 2
+     444    make[2]: *** Waiting for unfinished jobs....
+     445    NVFORTRAN-S-0155-Same name common blocks with different sizes in same file not supported  (/tmp/root/spack-stage/spack-stage-fms-2022.04-ks4gltm42j5an72v6x3vo
+            tt3w42wrqzk/spack-src/fms2_io/netcdf_io.F90)
      446      0 inform,   0 warnings,   1 severes, 0 fatal for write_restart_bc
-  >> 447    make[2]: *** [CMakeFiles/fms_r4_f.dir/build.make:637: CMakeFiles/fms_r4_f.dir/fms2_io/netcdf_io.F90.o] Error 2
+  >> 447    make[2]: *** [CMakeFiles/fms_r8_f.dir/build.make:637: CMakeFiles/fms_r8_f.dir/fms2_io/netcdf_io.F90.o] Error 2
      448    make[2]: *** Waiting for unfinished jobs....
-  >> 449    make[2]: *** [CMakeFiles/fms_r8_f.dir/build.make:637: CMakeFiles/fms_r8_f.dir/fms2_io/netcdf_io.F90.o] Error 2
-     450    make[2]: *** Waiting for unfinished jobs....
-     451    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-fms-2022.04-h3xu3am6zwtqxgzozkr7hade4xxnsusz/spack-build-h3xu3am'
-  >> 452    make[1]: *** [CMakeFiles/Makefile2:122: CMakeFiles/fms_r4_f.dir/all] Error 2
-     453    make[1]: *** Waiting for unfinished jobs....
-     454    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-fms-2022.04-h3xu3am6zwtqxgzozkr7hade4xxnsusz/spack-build-h3xu3am'
-  >> 455    make[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/fms_r8_f.dir/all] Error 2
-     456    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-fms-2022.04-h3xu3am6zwtqxgzozkr7hade4xxnsusz/spack-build-h3xu3am'
-  >> 457    make: *** [Makefile:139: all] Error 2
+     449    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-fms-2022.04-ks4gltm42j5an72v6x3vott3w42wrqzk/spack-build-ks4gltm'
+  >> 450    make[1]: *** [CMakeFiles/Makefile2:122: CMakeFiles/fms_r4_f.dir/all] Error 2
+     451    make[1]: *** Waiting for unfinished jobs....
+     452    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-fms-2022.04-ks4gltm42j5an72v6x3vott3w42wrqzk/spack-build-ks4gltm'
+  >> 453    make[1]: *** [CMakeFiles/Makefile2:201: CMakeFiles/fms_r8_f.dir/all] Error 2
+     454    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-fms-2022.04-ks4gltm42j5an72v6x3vott3w42wrqzk/spack-build-ks4gltm'
+  >> 455    make: *** [Makefile:139: all] Error 2
 
 See build log for details:
-  /tmp/root/spack-stage/spack-stage-fms-2022.04-h3xu3am6zwtqxgzozkr7hade4xxnsusz/spack-build-out.txt
+  /tmp/root/spack-stage/spack-stage-fms-2022.04-ks4gltm42j5an72v6x3vott3w42wrqzk/spack-build-out.txt
 
-==> Error: fms-2022.03-ziyl56pmjbg7zveuobb3hetxguz3v2na: ProcessError: Command exited with status 2:
-    'make' '-j16'
-==> Error: fms-2022.01-kz6vilmrze727sq6kldzmnsofpw77pm7: ProcessError: Command exited with status 2:
-    'make' '-j16'
-==> Error: fms-2022.04-h3xu3am6zwtqxgzozkr7hade4xxnsusz: ProcessError: Command exited with status 2:
-    'make' '-j16'
-==> Error: fms-2022.01-kz6vilmrze727sq6kldzmnsofpw77pm7: Package was not installed
-==> Error: fms-2022.03-ziyl56pmjbg7zveuobb3hetxguz3v2na: Package was not installed
-==> Error: fms-2022.04-h3xu3am6zwtqxgzozkr7hade4xxnsusz: Package was not installed
-==> Error: py-numpy-1.22.3-r6oeca3v2rsojqzx2bj2tjtuhvjw7gxn: Package was not installed
-==> Error: py-pandas-1.4.0-ngui7kkanuwvqvkhobaqha72jpibsmrx: Package was not installed
-==> Error: py-scipy-1.8.0-w3paxhzj5ec6xtji74hgunub5xafpq7g: Package was not installed
-==> Error: py-shapely-1.8.0-acktkaqpvumxtt4w7wele7xwkgaam3xt: Package was not installed
+==> Error: crtm-2.3.0-volvgvg2vnxgmwi3ggt6zi4536wz2p25: ProcessError: Command exited with status 2:
+    'make' '-j32'
+==> Error: fms-2022.01-6rtwkcbcnzqpqfs2l7czw74eq66mh3pa: ProcessError: Command exited with status 2:
+    'make' '-j32'
+==> Error: fms-2022.03-yae7qtdfzsvll3y4ayrud33s6dlbgee2: ProcessError: Command exited with status 2:
+    'make' '-j32'
+==> Error: fms-2022.04-ks4gltm42j5an72v6x3vott3w42wrqzk: ProcessError: Command exited with status 2:
+    'make' '-j32'
+==> Error: crtm-2.3.0-volvgvg2vnxgmwi3ggt6zi4536wz2p25: Package was not installed
+==> Error: fms-2022.01-6rtwkcbcnzqpqfs2l7czw74eq66mh3pa: Package was not installed
+==> Error: fms-2022.03-yae7qtdfzsvll3y4ayrud33s6dlbgee2: Package was not installed
+==> Error: fms-2022.04-ks4gltm42j5an72v6x3vott3w42wrqzk: Package was not installed
+==> Error: py-numpy-1.22.3-odilisix6c5cnuqdvepcqvwekhcwcu5d: Package was not installed
+==> Error: py-pandas-1.4.0-mx575ite37aelxaeqchdq7nhpiunov7d: Package was not installed
+==> Error: py-scipy-1.8.0-p5ph5akd5lpjprkkgfe7mkdc27gdnnsh: Package was not installed
+==> Error: py-shapely-1.8.0-fzzutzqvxck3anvgdtbhlsvmvhpxzrjt: Package was not installed
 ==> Error: Installation request failed.  Refer to reported errors for failing package(s).

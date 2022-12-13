@@ -17,6 +17,12 @@ spack:
       require: '%gcc'
     readline:
       require: '%gcc'
+    xz:
+      require: '%gcc'
+    cmake:
+      require: '%gcc'
+    libxcrypt:
+      require: '%gcc'
   specs:
   - bacio@2.4.1
   - bison@3.8.2
