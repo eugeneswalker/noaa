@@ -7,6 +7,8 @@ spack:
     all:
       target: [x86_64]
       require: '%oneapi'
+    mpi:
+      require: intel-oneapi-mpi
     autoconf:
       require: '%gcc'
     m4:
