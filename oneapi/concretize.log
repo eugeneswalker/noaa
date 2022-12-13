@@ -1,5 +1,5 @@
 ==> Starting concretization pool with 16 processes
-==> Environment concretized in 31.99 seconds.
+==> Environment concretized in 32.63 seconds.
 ==> Concretized bacio@2.4.1
 [+]  crdu55q  bacio@2.4.1%oneapi@2022.2.1~ipo+pic build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
 [+]  syafag2      ^cmake@3.25.1%oneapi@2022.2.1~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64
@@ -684,5 +684,5 @@
 [+]  kpabegz              ^zlib@1.2.13%oneapi@2022.2.1+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64
 
 ==> Concretized zlib@1.2.12
- -   p7xhlkx  zlib@1.2.12%oneapi@2022.2.1+optimize+pic+shared build_system=makefile patches=0d38234 arch=linux-ubuntu20.04-x86_64
+[+]  p7xhlkx  zlib@1.2.12%oneapi@2022.2.1+optimize+pic+shared build_system=makefile patches=0d38234 arch=linux-ubuntu20.04-x86_64
 
