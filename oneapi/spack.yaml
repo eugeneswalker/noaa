@@ -91,7 +91,7 @@ spack:
   - sp@2.3.3
   - udunits@2.2.28
   - w3nco@2.4.1
-  - zlib@1.2.12                           # deprecated version
+  - zlib@1.2.12                             # deprecated version
 
   # NEED TO ADD VERSION
   # - bufr@11.7.0                           # add version
