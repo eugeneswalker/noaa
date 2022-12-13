@@ -55,15 +55,20 @@ spack:
   - nlohmann-json-schema-validator@2.1.0
   - nlohmann-json@3.10.5
   - parallel-netcdf@1.12.2
-  - parallelio@2.5.4
   - py-numpy@1.22.3
   - py-pandas@1.4.0
   - py-scipy@1.8.0
   - py-shapely@1.8.0
   - sp@2.3.3
   - udunits@2.2.28
-  - w3nco@2.4.1
   - zlib@1.2.12
+
+  # ERRORS
+  # - w3nco@2.4.1           # w3nco
+  # - parallelio@2.5.4      # parallelio
+  # ---
+  # parallelio: patching failed: 1 out of 2 hunks FAILED -- saving rejects to file CMakeLists.txt.rej
+  # w3nco: Please submit a full bug report, with preprocessed source if appropriate. Please include the complete backtrace with any bug report.
 
   # NEED TO ADD VERSION
   # - bufr@11.7.0                           # add version
