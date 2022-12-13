@@ -72,7 +72,6 @@ spack:
   - fms@2022.04
   - g2@3.4.5
   - g2tmpl@1.10.0
-  - hdf@4.2.15
   - hdf5@1.12.1
   - ip@3.3.3
   - jasper@2.0.32
@@ -93,11 +92,15 @@ spack:
 
   # ERRORS
   # - esmf@8.3.0b09 +pio                      # esmf
+  # - hdf@4.2.15                              # krb5
   # - py-pandas@1.4.0                         # py-setuptools-scm
   # - py-scipy@1.8.0                          # py-scipy
   # - w3nco@2.4.1                             # w3nco
   # --
   # esmf: patch failed: 1 out of 1 hunk FAILED -- saving rejects to file src/Infrastructure/Mesh/src/Legacy/ESMCI_MeshPNC.C.rej, ESMCI_WriteWeightsPar.C.rej
+  # krb5: getdate.y:192:13: error: 'yyYear' undeclared (first use in this function); did you mean 'yychar'?
+  # krb5: many more Werror=...
+  # krb5: y.tab.c:1103:16: warning: implicit declaration of function 'yylex' [-Wimplicit-function-declaration]
   # py-scipy: icx: error: unknown argument: '-mavx5124vnniw'
   # py-setuptools-scm: error: metadata-generation-failed
   # w3nco: error: call to undeclared function 'times'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
