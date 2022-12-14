@@ -65,6 +65,7 @@ spack:
   - crtm@2.3.0
   - ecbuild@3.6.5
   - eccodes@2.25.0
+  - ecflow@5.8.3
   - eigen@3.4.0
   - flex@2.6.4
   - fms@2022.01
@@ -106,15 +107,14 @@ spack:
   # w3nco: error: call to undeclared function 'times'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
 
   # NEED TO ADD VERSION
-  # - bufr@11.7.0                           # add version
-  # - crtm@v2.3-jedi.4                      # add version
-  # - ecflow@5                              # add version
-  # - eckit@1.19.0                          # add version
-  # - fms@2019.01.03                        # add version
-  # - fms@release-jcsda                     # add version
-  # - nco@5.0.6                             # add version
-  # - netcdf-cxx4@4.3.1                     # add version
-  # - odc@1.4.5                             # add version
+  # - bufr@11.7.0                           # add version: https://github.com/spack/spack/pull/34509
+  # - crtm@v2.3-jedi.4                      # add version: private?
+  # - eckit@1.19.0                          # add version: https://github.com/spack/spack/pull/34510
+  # - fms@2019.01.03                        # add version: https://github.com/spack/spack/pull/34511
+  # - fms@release-jcsda                     # add version: private?
+  # - nco@5.0.6                             # add version: https://github.com/spack/spack/pull/34512
+  # - netcdf-cxx@4.3.1                      # add version: deprecated? use new package?
+  # - odc@1.4.5                             # add version: https://github.com/spack/spack/pull/34513
 
   # NEED TO ADD PACKAGE
   # - ecmwf-atlas@0.29.0                    # add pkg
