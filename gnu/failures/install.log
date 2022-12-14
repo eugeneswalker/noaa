@@ -1,0 +1,144 @@
+==> Installing environment /
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/pkgconf-1.8.0-uorrjkfjncexfekwusnsnsskyyjsqlgv
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/ca-certificates-mozilla-2022-10-11-xoktjwuvulj2cfdpcft3ftrqjf5gn5td
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/berkeley-db-18.1.40-alkzfee27s5hve5y7sl2jawaaukm5qsp
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/libiconv-1.16-aitrpcu75g33g3t4tswjglevsx4bkdfl
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/zlib-1.2.13-55gmmg73p52fryit7lxj4udit65twevr
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/findutils-4.9.0-bqre6so2iylzsu4nrs2pahoe6rkzxv4t
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/libsigsegv-2.13-lypoofrjyh6djicumh5qn7dqjvef4kci
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/util-macros-1.19.3-i5p6x5blaukjrwhr266a6pbe6jzqnjve
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/xz-5.2.7-g2fdtei2ij3bnv2nlg7n56dopn6ms4sf
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/libfabric-1.16.1-oldmwim5uuusu6dg5kpisn7ugxxd4um6
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/libmd-1.0.4-cb26zcikb7mguuhfja5djgrtdiesvchy
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/zstd-1.5.2-nwwllvpdtplmxku5bvacn5l4gph4qsqz
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/libffi-3.4.2-sgzskrfovhh3macgd4yvpobmp3swdfnm
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/libxcrypt-4.4.33-zywksgfofjyp5wuaq6rwbamkjmsxshaa
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/ncurses-6.3-lwdu2k74qfmlxvfgtumdikel4xalp7dp
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/util-linux-uuid-2.38.1-i5b6dq6ccs6jzuqzwdrziqwteufrszdl
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/diffutils-3.8-zxww5n4s5qlaxxp6d4564yfyire5pjya
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/pigz-2.7-6fhsko7f4twtmcioqks4ofebwnyzddbk
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/libxml2-2.10.3-ax3fshew4esgn2o2yfyxclynfemqcsdx
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/libbsd-0.11.5-a7ql2ixk5pe2wmfjxe2rxrprkleibbyh
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/readline-8.2-lui3zboydo6a5hbgmsqnh4qxyytrfxj7
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/m4-1.4.19-4fqeohoolegei36arcau2obmftjryphh
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/bzip2-1.0.8-4adeak7ydjskdadfzszm45uvysvwavs3
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/expat-2.5.0-ccnbwguweapindkh2yzrvcboi4tp26qq
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/sqlite-3.40.0-txdtb5c5cmut63v3smcfa4rajajybdap
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/gdbm-1.23-qkfi67z3zznyp3sqgu47kfjx3i5wy4pc
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/libtool-2.4.7-rtc67eanzympbwuyczvadmddi2tt2chj
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/tar-1.34-xr2eht3amazu63kxgr76n3txa4cf6whn
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/perl-5.36.0-i2aqprx36jrlz7s7ds356a2fcteycfk3
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/libpciaccess-0.16-smv6swyz5jctq7c73mfy64s6oiogsb2c
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/gettext-0.21.1-wc6y5o6gxqzhkumhrvspldetsb3gijyj
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/autoconf-2.69-gjpg6ki3xe46lhu7tvosw5hjg6niulis
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/openssl-1.1.1s-ncj7uby5f4ajvxo5yyyuqbc4mo4sp4pu
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/hwloc-2.8.0-glf3lur57xraq3sz4goko4armk4pfwdn
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/automake-1.16.5-h7jjpxgvdqipatkl56gmffz5p5ng2zt4
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/cmake-3.25.1-sngfrlzbk66jbtw3rnftkaaifbvdedbl
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/python-3.10.8-z5e6zvu7fsjrhus2zdwp7x7kne6li56q
+==> Installing w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4
+==> w3nco exists in binary cache but with different hash
+==> No binary for w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4 found: installing from source
+==> Warning: download_tarball() was unable to download w3nco@2.4.1%gcc@11.1.0~ipo build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%gcc@11.1.0+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%gcc@11.1.0~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%gcc@11.1.0 build_system=generic arch=linux-ubuntu20.04-x86_64 ^cmake@3.25.1%gcc@11.1.0~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64 ^diffutils@3.8%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%gcc@11.1.0 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%gcc@11.1.0~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%gcc@11.1.0~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%gcc@11.1.0+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^readline@8.2%gcc@11.1.0 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%gcc@11.1.0+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 from any configured mirrors
+==> Fetching https://mirror.spack.io/_source-cache/archive/48/48b06e0ea21d3d0fd5d5c4e7eb50b081402567c1bff6c4abf4fd4f3669070139.tar.gz
+==> No patches needed for w3nco
+==> w3nco: Executing phase: 'cmake'
+==> w3nco: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j16'
+
+5 errors found in build log:
+     482    See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+     483    [ 55%] Building Fortran object src/CMakeFiles/w3nco_d_f.dir/w3ai15.f.o
+     484    [ 55%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/w3ai00.f.o
+     485    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-build-6uheli5/src && /spack/lib/spack/env/gcc/gfortran -DLINUX  -ggdb -fno-ra
+            nge-check -fbacktrace -funroll-loops  -w -fallow-argument-mismatch -fallow-invalid-boz -O2 -g -DNDEBUG -Jinclude_d -fdefault-real-8 -c /tmp/root/spack-stage/spack-st
+            age-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-src/src/w3ai15.f -o CMakeFiles/w3nco_d_f.dir/w3ai15.f.o
+     486    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-build-6uheli5/src && /spack/lib/spack/env/gcc/gfortran -DLINUX  -ggdb -fno-ra
+            nge-check -fbacktrace -funroll-loops  -w -fallow-argument-mismatch -fallow-invalid-boz -O2 -g -DNDEBUG -Jinclude_8 -fdefault-integer-8 -fdefault-real-8 -c /tmp/root/
+            spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-src/src/w3ai00.f -o CMakeFiles/w3nco_8_f.dir/w3ai00.f.o
+     487    [ 55%] Building Fortran object src/CMakeFiles/w3nco_d_f.dir/w3ai18.f.o
+  >> 488    make[2]: *** [src/CMakeFiles/w3nco_d_f.dir/build.make:793: src/CMakeFiles/w3nco_d_f.dir/w3ai00.f.o] Error 1
+     489    make[2]: *** Waiting for unfinished jobs....
+     490    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-build-6uheli5/src && /spack/lib/spack/env/gcc/gfortran -DLINUX  -ggdb -fno-ra
+            nge-check -fbacktrace -funroll-loops  -w -fallow-argument-mismatch -fallow-invalid-boz -O2 -g -DNDEBUG -Jinclude_d -fdefault-real-8 -c /tmp/root/spack-stage/spack-st
+            age-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-src/src/w3ai18.f -o CMakeFiles/w3nco_d_f.dir/w3ai18.f.o
+     491    [ 56%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/w3ai01.f.o
+     492    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-build-6uheli5/src && /spack/lib/spack/env/gcc/gfortran -DLINUX  -ggdb -fno-ra
+            nge-check -fbacktrace -funroll-loops  -w -fallow-argument-mismatch -fallow-invalid-boz -O2 -g -DNDEBUG -Jinclude_8 -fdefault-integer-8 -fdefault-real-8 -c /tmp/root/
+            spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-src/src/w3ai01.f -o CMakeFiles/w3nco_8_f.dir/w3ai01.f.o
+     493    [ 56%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/w3ai08.f.o
+     494    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-build-6uheli5/src && /spack/lib/spack/env/gcc/gfortran -DLINUX  -ggdb -fno-ra
+            nge-check -fbacktrace -funroll-loops  -w -fallow-argument-mismatch -fallow-invalid-boz -O2 -g -DNDEBUG -Jinclude_8 -fdefault-integer-8 -fdefault-real-8 -c /tmp/root/
+            spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-src/src/w3ai08.f -o CMakeFiles/w3nco_8_f.dir/w3ai08.f.o
+
+     ...
+
+     532    	???:0
+     533    Please submit a full bug report,
+     534    with preprocessed source if appropriate.
+     535    Please include the complete backtrace with any bug report.
+     536    See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+     537    [ 57%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/w3ai19.f.o
+  >> 538    make[2]: *** [src/CMakeFiles/w3nco_4_f.dir/build.make:793: src/CMakeFiles/w3nco_4_f.dir/w3ai00.f.o] Error 1
+     539    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-build-6uheli5/src && /spack/lib/spack/env/gcc/gfortran -DLINUX  -ggdb -fno-ra
+            nge-check -fbacktrace -funroll-loops  -w -fallow-argument-mismatch -fallow-invalid-boz -O2 -g -DNDEBUG -Jinclude_8 -fdefault-integer-8 -fdefault-real-8 -c /tmp/root/
+            spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-src/src/w3ai19.f -o CMakeFiles/w3nco_8_f.dir/w3ai19.f.o
+     540    make[2]: *** Waiting for unfinished jobs....
+     541    [ 57%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/w3ai24.f.o
+     542    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-build-6uheli5/src && /spack/lib/spack/env/gcc/gfortran -DLINUX  -ggdb -fno-ra
+            nge-check -fbacktrace -funroll-loops  -w -fallow-argument-mismatch -fallow-invalid-boz -O2 -g -DNDEBUG -Jinclude_8 -fdefault-integer-8 -fdefault-real-8 -c /tmp/root/
+            spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-src/src/w3ai24.f -o CMakeFiles/w3nco_8_f.dir/w3ai24.f.o
+     543    [ 57%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/w3ai38.f.o
+     544    [ 58%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/w3ai39.f.o
+
+     ...
+
+     632    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-build-6uheli5/src && /spack/lib/spack/env/gcc/gfortran -DLINUX  -ggdb -fno-ra
+            nge-check -fbacktrace -funroll-loops  -w -fallow-argument-mismatch -fallow-invalid-boz -O2 -g -DNDEBUG -Jinclude_8 -fdefault-integer-8 -fdefault-real-8 -c /tmp/root/
+            spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-src/src/w3ymdh4.f -o CMakeFiles/w3nco_8_f.dir/w3ymdh4.f.o
+     633    [ 71%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/xmovex.f.o
+     634    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-build-6uheli5/src && /spack/lib/spack/env/gcc/gfortran -DLINUX  -ggdb -fno-ra
+            nge-check -fbacktrace -funroll-loops  -w -fallow-argument-mismatch -fallow-invalid-boz -O2 -g -DNDEBUG -Jinclude_8 -fdefault-integer-8 -fdefault-real-8 -c /tmp/root/
+            spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-src/src/xmovex.f -o CMakeFiles/w3nco_8_f.dir/xmovex.f.o
+     635    [ 71%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/xstore.f.o
+     636    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-build-6uheli5/src && /spack/lib/spack/env/gcc/gfortran -DLINUX  -ggdb -fno-ra
+            nge-check -fbacktrace -funroll-loops  -w -fallow-argument-mismatch -fallow-invalid-boz -O2 -g -DNDEBUG -Jinclude_8 -fdefault-integer-8 -fdefault-real-8 -c /tmp/root/
+            spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-src/src/xstore.f -o CMakeFiles/w3nco_8_f.dir/xstore.f.o
+     637    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-build-6uheli5'
+  >> 638    make[1]: *** [CMakeFiles/Makefile2:275: src/CMakeFiles/w3nco_d_f.dir/all] Error 2
+     639    make[1]: *** Waiting for unfinished jobs....
+     640    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-build-6uheli5'
+     641    [ 71%] Built target w3nco_8_f
+     642    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-build-6uheli5'
+  >> 643    make[1]: *** [CMakeFiles/Makefile2:117: src/CMakeFiles/w3nco_4_f.dir/all] Error 2
+     644    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-build-6uheli5'
+  >> 645    make: *** [Makefile:139: all] Error 2
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4/spack-build-out.txt
+
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/yaksa-0.2-kehaeyua26qoge75vecrudh2psqxtuwo
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/mpich-4.0.2-tbtzxevbmu7ia4k2bzl7a37zrotdfi56
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/hdf5-1.12.2-guf7rvc6ixoacgcqipom6gmgdqm3j2ia
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/netcdf-c-4.9.0-udu3qgpwwc4oknorw455jz3ipmvrztvt
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/netcdf-fortran-4.6.0-uyzpibnlgiadzopf36hm5ia4lejiouif
+==> Installing parallelio-2_5_4-doamfzuoon4hcynzsjiyi2qlzklzibxp
+==> parallelio exists in binary cache but with different hash
+==> No binary for parallelio-2_5_4-doamfzuoon4hcynzsjiyi2qlzklzibxp found: installing from source
+==> Warning: download_tarball() was unable to download parallelio@2_5_4%gcc@11.1.0+fortran~ipo~logging+mpi~pnetcdf~timing build_system=cmake build_type=RelWithDebInfo patches=55d424e arch=linux-ubuntu20.04-x86_64 ^autoconf@2.69%gcc@11.1.0 build_system=autotools patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64 ^automake@1.16.5%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%gcc@11.1.0+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%gcc@11.1.0~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%gcc@11.1.0 build_system=generic arch=linux-ubuntu20.04-x86_64 ^cmake@3.25.1%gcc@11.1.0~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64 ^diffutils@3.8%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^expat@2.5.0%gcc@11.1.0+libbsd build_system=autotools arch=linux-ubuntu20.04-x86_64 ^findutils@4.9.0%gcc@11.1.0 build_system=autotools patches=440b954 arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gettext@0.21.1%gcc@11.1.0+bzip2+curses+git~libunistring+libxml2+tar+xz build_system=autotools arch=linux-ubuntu20.04-x86_64 ^hdf5@1.12.2%gcc@11.1.0~cxx~fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64 ^hwloc@2.8.0%gcc@11.1.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~oneapi-level-zero~opencl+pci~rocm build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libbsd@0.11.5%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libfabric@1.16.1%gcc@11.1.0~debug~kdreg build_system=autotools fabrics=sockets,tcp,udp arch=linux-ubuntu20.04-x86_64 ^libffi@3.4.2%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%gcc@11.1.0 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libmd@1.0.4%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libpciaccess@0.16%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libsigsegv@2.13%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libtool@2.4.7%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxcrypt@4.4.33%gcc@11.1.0~obsolete_api build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxml2@2.10.3%gcc@11.1.0~python build_system=autotools arch=linux-ubuntu20.04-x86_64 ^m4@1.4.19%gcc@11.1.0+sigsegv build_system=autotools patches=9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64 ^mpich@4.0.2%gcc@11.1.0~argobots~cuda+fortran+hwloc+hydra+libxml2+pci~rocm+romio~slurm~two_level_namespace~vci~verbs~wrapperrpath build_system=autotools datatype-engine=auto device=ch4 netmod=ofi patches=d4c0e99 pmi=pmi arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%gcc@11.1.0~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^netcdf-c@4.9.0%gcc@11.1.0~dap~fsync~hdf4~jna+mpi+optimize~parallel-netcdf+pic+shared+zstd build_system=autotools arch=linux-ubuntu20.04-x86_64 ^netcdf-fortran@4.6.0%gcc@11.1.0~doc+pic+shared build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%gcc@11.1.0~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%gcc@11.1.0+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pigz@2.7%gcc@11.1.0 build_system=makefile arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^python@3.10.8%gcc@11.1.0+bz2+crypt+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tkinter+uuid+zlib build_system=generic patches=0d98e93,7d40923,f2fd060 arch=linux-ubuntu20.04-x86_64 ^readline@8.2%gcc@11.1.0 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^sqlite@3.40.0%gcc@11.1.0+column_metadata+dynamic_extensions+fts~functions+rtree build_system=autotools arch=linux-ubuntu20.04-x86_64 ^tar@1.34%gcc@11.1.0 build_system=autotools zip=pigz arch=linux-ubuntu20.04-x86_64 ^util-linux-uuid@2.38.1%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^util-macros@1.19.3%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^xz@5.2.7%gcc@11.1.0~pic build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^yaksa@0.2%gcc@11.1.0~cuda~rocm build_system=autotools arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%gcc@11.1.0+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 ^zstd@1.5.2%gcc@11.1.0+programs build_system=makefile compression=none libs=shared,static arch=linux-ubuntu20.04-x86_64 from any configured mirrors
+1 out of 2 hunks FAILED -- saving rejects to file CMakeLists.txt.rej
+==> Fetching https://mirror.spack.io/_source-cache/archive/e5/e51dc71683da808a714deddc1a80c2650ce847110383e42f1710f3ba567e7a65.tar.gz
+==> Moving resource stage
+	source: /tmp/root/spack-stage/resource-genf90-doamfzuoon4hcynzsjiyi2qlzklzibxp/spack-src/
+	destination: /tmp/root/spack-stage/spack-stage-parallelio-2_5_4-doamfzuoon4hcynzsjiyi2qlzklzibxp/spack-src/genf90
+==> Patch /spack/var/spack/repos/builtin/packages/parallelio/gfortran.patch failed.
+==> Error: ProcessError: Command exited with status 1:
+    '/usr/bin/patch' '-s' '-p' '1' '-i' '/spack/var/spack/repos/builtin/packages/parallelio/gfortran.patch' '-d' '.'
+==> Error: w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4: ProcessError: Command exited with status 2:
+    'make' '-j16'
+==> Error: parallelio-2_5_4-doamfzuoon4hcynzsjiyi2qlzklzibxp: ProcessError: Command exited with status 1:
+    '/usr/bin/patch' '-s' '-p' '1' '-i' '/spack/var/spack/repos/builtin/packages/parallelio/gfortran.patch' '-d' '.'
+==> Error: parallelio-2_5_4-doamfzuoon4hcynzsjiyi2qlzklzibxp: Package was not installed
+==> Error: w3nco-2.4.1-6uheli5v666zvypczsvu2khhj7sbzmh4: Package was not installed
+==> Error: Installation request failed.  Refer to reported errors for failing package(s).
