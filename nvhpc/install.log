@@ -8,158 +8,6 @@
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/libxcrypt-4.4.33-zywksgfofjyp5wuaq6rwbamkjmsxshaa
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/ca-certificates-mozilla-2022-10-11-fn2so2ayxixzq2mjvguo3kqnh7npuilb
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/berkeley-db-18.1.40-cmg6vgl72bcb4txwaysuwikw7j7hbcv4
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/libsigsegv-2.13-3etrspegccv4inru5flnjjx47dattojo
-==> Installing re2c-2.2-xnznjbxdxwwt6on2cgou2dfpwbq5onzx
-==> re2c exists in binary cache but with different hash
-==> No binary for re2c-2.2-xnznjbxdxwwt6on2cgou2dfpwbq5onzx found: installing from source
-==> Warning: download_tarball() was unable to download re2c@2.2%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 from any configured mirrors
-==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/0f/0fc45e4130a8a555d68e230d1795de0216dfe99096b61b28e67c86dfd7d86bda.tar.xz
-==> No patches needed for re2c
-==> re2c: Executing phase: 'configure'
-==> re2c: Executing phase: 'build'
-==> Error: ProcessError: Command exited with status 2:
-    'make' '-j32'
-
-23 errors found in build log:
-     211      CXX      src/cfg/re2go-varalloc.o
-     212      CXX      src/dfa/re2go-closure.o
-     213      CXX      src/dfa/re2go-dead_rules.o
-     214      CXX      src/dfa/re2go-determinization.o
-     215      CXX      src/dfa/re2go-fallback_tags.o
-     216      CXX      src/dfa/re2go-fillpoints.o
-  >> 217    "./src/dfa/closure_posix.h", line 83: error: no instance of function template "re2c::init_gor1" matches the argument list
-     218                argument types are: (re2c::pdetctx_t)
-     219          init_gor1(ctx);
-     220          ^
-     221              detected during instantiation of "void re2c::closure_posix_gor1(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 38
-     222    
-  >> 223    "./src/dfa/closure_posix.h", line 96: error: no instance of function template "re2c::scan" matches the argument list
-     224                argument types are: (re2c::pdetctx_t, re2c::nfa_state_t *, bool)
-     225                      if (!scan(ctx, q, false)) {
-     226                           ^
-     227              detected during instantiation of "void re2c::closure_posix_gor1(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 38
-     228    
-  >> 229    "./src/dfa/closure_posix.h", line 112: error: no instance of function template "re2c::scan" matches the argument list
-     230                argument types are: (re2c::pdetctx_t, re2c::nfa_state_t *, bool)
-     231                      scan(ctx, q, true);
-     232                      ^
-     233              detected during instantiation of "void re2c::closure_posix_gor1(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 38
-     234    
-  >> 235    "./src/dfa/closure_posix.h", line 241: error: no instance of function template "re2c::relax_gtop" matches the argument list
-     236                argument types are: (re2c::pdetctx_t, const re2c::clos_t)
-     237              relax_gtop(ctx, *c);
-     238              ^
-     239              detected during instantiation of "void re2c::closure_posix_gtop(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 39
-     240    
-  >> 241    "./src/dfa/closure_posix.h", line 255: error: no instance of function template "re2c::relax_gtop" matches the argument list
-     242                argument types are: (re2c::pdetctx_t, conf_t)
-     243                      relax_gtop(ctx, conf_t(x, q->alt.out1));
-     244                      ^
-     245              detected during instantiation of "void re2c::closure_posix_gtop(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 39
-     246    
-  >> 247    "./src/dfa/closure_posix.h", line 256: error: no instance of function template "re2c::relax_gtop" matches the argument list
-     248                argument types are: (re2c::pdetctx_t, conf_t)
-     249                      relax_gtop(ctx, conf_t(x, q->alt.out2));
-     250                      ^
-     251              detected during instantiation of "void re2c::closure_posix_gtop(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 39
-     252    
-  >> 253    "./src/dfa/closure_posix.h", line 259: error: no instance of function template "re2c::relax_gtop" matches the argument list
-     254                argument types are: (re2c::pdetctx_t, conf_t)
-     255                      relax_gtop(ctx, conf_t(x, q->tag.out, ctx.history.link(ctx, x)));
-     256                      ^
-     257              detected during instantiation of "void re2c::closure_posix_gtop(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 39
-     258    
-  >> 259    "src/dfa/closure.cc", line 99: error: function "re2c::lower_lookahead_to_transition" cannot be called with the given argument list
-     260                argument types are: (std::vector<re2c::clos_t, std::allocator<re2c::clos_t>>)
-     261              lower_lookahead_to_transition(ctx.state);
-     262              ^
-     263              detected during instantiation of "void re2c::tagged_epsilon_closure(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 88
-     264    
-  >> 265    "src/dfa/closure.cc", line 103: error: no instance of function template "re2c::generate_versions" matches the argument list
-     266                argument types are: (re2c::pdetctx_t)
-     267              generate_versions(ctx);
-     268              ^
-     269              detected during instantiation of "void re2c::tagged_epsilon_closure(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 88
-     270    
-  >> 271    "src/dfa/closure.cc", line 106: error: no instance of function template "re2c::generate_stadfa_actions" matches the argument list
-     272                argument types are: (re2c::pdetctx_t)
-     273              generate_stadfa_actions(ctx);
-     274              ^
-     275              detected during instantiation of "void re2c::tagged_epsilon_closure(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 88
-     276    
-  >> 277    "src/dfa/closure.cc", line 99: error: function "re2c::lower_lookahead_to_transition" cannot be called with the given argument list
-     278                argument types are: (std::vector<re2c::clos_t, std::allocator<re2c::clos_t>>)
-     279              lower_lookahead_to_transition(ctx.state);
-     280              ^
-     281              detected during instantiation of "void re2c::tagged_epsilon_closure(ctx_t &) [with ctx_t=re2c::ldetctx_t]" at line 89
-     282    
-  >> 283    "src/dfa/closure.cc", line 103: error: no instance of function template "re2c::generate_versions" matches the argument list
-     284                argument types are: (re2c::ldetctx_t)
-     285              generate_versions(ctx);
-     286              ^
-     287              detected during instantiation of "void re2c::tagged_epsilon_closure(ctx_t &) [with ctx_t=re2c::ldetctx_t]" at line 89
-     288    
-  >> 289    "src/dfa/closure.cc", line 106: error: no instance of function template "re2c::generate_stadfa_actions" matches the argument list
-     290                argument types are: (re2c::ldetctx_t)
-     291              generate_stadfa_actions(ctx);
-     292              ^
-     293              detected during instantiation of "void re2c::tagged_epsilon_closure(ctx_t &) [with ctx_t=re2c::ldetctx_t]" at line 89
-     294    
-  >> 295    "./src/dfa/posix_precedence.h", line 126: error: no instance of function template "re2c::compute_prectable_complex" matches the argument list
-     296                argument types are: (re2c::pdetctx_t)
-     297          case POSIX_PRECTABLE_COMPLEX: compute_prectable_complex(ctx); break;
-     298                                        ^
-     299              detected during instantiation of "void re2c::compute_prectable(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 115 of "src/dfa/closure.cc"
-     300    
-  >> 301    "./src/dfa/posix_precedence.h", line 127: error: no instance of function template "re2c::compute_prectable_naive" matches the argument list
-     302                argument types are: (re2c::pdetctx_t)
-     303          case POSIX_PRECTABLE_NAIVE:   compute_prectable_naive(ctx);   break;
-     304                                        ^
-     305              detected during instantiation of "void re2c::compute_prectable(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 115 of "src/dfa/closure.cc"
-     306    
-     307    "src/dfa/closure.cc", line 179: warning: function "re2c::lower_lookahead_to_transition" was declared but never referenced [declared_but_not_referenced]
-     308      void lower_lookahead_to_transition(closure_t &closure)
-     309           ^
-     310    
-     311    Remark: individual warnings can be suppressed with "--diag_suppress <warning-name>"
-     312    
-     313    15 errors detected in the compilation of "src/dfa/closure.cc".
-  >> 314    make[2]: *** [Makefile:3819: src/dfa/re2go-closure.o] Error 2
-     315    make[2]: *** Waiting for unfinished jobs....
-  >> 316    "src/dfa/determinization.cc", line 85: error: no instance of function template "re2c::clear_caches" matches the argument list
-     317                argument types are: (re2c::pdetctx_t)
-     318              clear_caches(ctx);
-     319              ^
-     320              detected during instantiation of "void re2c::determinization(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 50
-     321    
-  >> 322    "src/dfa/determinization.cc", line 94: error: no instance of function template "re2c::warn_nondeterministic_tags" matches the argument list
-     323                argument types are: (re2c::pdetctx_t)
-     324          warn_nondeterministic_tags(ctx);
-     325          ^
-     326              detected during instantiation of "void re2c::determinization(ctx_t &) [with ctx_t=re2c::pdetctx_t]" at line 50
-     327    
-  >> 328    "src/dfa/determinization.cc", line 85: error: no instance of function template "re2c::clear_caches" matches the argument list
-     329                argument types are: (re2c::ldetctx_t)
-     330              clear_caches(ctx);
-     331              ^
-     332              detected during instantiation of "void re2c::determinization(ctx_t &) [with ctx_t=re2c::ldetctx_t]" at line 54
-     333    
-  >> 334    "src/dfa/determinization.cc", line 94: error: no instance of function template "re2c::warn_nondeterministic_tags" matches the argument list
-     335                argument types are: (re2c::ldetctx_t)
-     336          warn_nondeterministic_tags(ctx);
-     337          ^
-     338              detected during instantiation of "void re2c::determinization(ctx_t &) [with ctx_t=re2c::ldetctx_t]" at line 54
-     339    
-     340    4 errors detected in the compilation of "src/dfa/determinization.cc".
-  >> 341    make[2]: *** [Makefile:3847: src/dfa/re2go-determinization.o] Error 2
-     342    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-re2c-2.2-xnznjbxdxwwt6on2cgou2dfpwbq5onzx/spack-src'
-  >> 343    make[1]: *** [Makefile:4581: all-recursive] Error 1
-     344    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-re2c-2.2-xnznjbxdxwwt6on2cgou2dfpwbq5onzx/spack-src'
-  >> 345    make: *** [Makefile:1751: all] Error 2
-
-See build log for details:
-  /tmp/root/spack-stage/spack-stage-re2c-2.2-xnznjbxdxwwt6on2cgou2dfpwbq5onzx/spack-build-out.txt
-
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/diffutils-3.7-vaeyduyor3tnmhsftpp47e6r6o2ko5sb
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/libbsd-0.11.3-6ex5j6p4gr4bl3bhrcddf2arhusdasuh
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/util-linux-uuid-2.38.1-3cv33m4gyq44uukyz7jwlptkj2fgu4bd
@@ -167,7 +15,6 @@ See build log for details:
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/libxml2-2.10.3-s6pnymp7b3msisbhe4ff5j2ewy753n5c
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/pigz-2.7-wltysiqlsehhkuuqtqsd3cfsclwpvhes
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/bzip2-1.0.8-okoe73lz34lyzebijmtbty5btyrybmed
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/m4-1.4.19-sylqsk2xbpkawpmwjqyqw7vi4mwhwd53
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/expat-2.5.0-slyjaoz7dam7icehhgqlh62jyvv44sm5
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/readline-8.2-hdcq3sfnfi2zbbad6miehz4mebza2opt
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/tar-1.30-vqzbeuwbkimr42kvprigxphtr7rgqxww
@@ -175,88 +22,125 @@ See build log for details:
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/gdbm-1.23-mzr7wy5qmdfly6thhaaqpxq7s6rhuaqf
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/gettext-0.21.1-6wkkjdeemsstebh7aikvag6rkdanqjik
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/perl-5.36.0-ygvh7b2nsfnliutjygfrjlveliglnc73
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/openblas-0.3.21-3oapbupikuisb2vqchalqmyic3qg4eig
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/openssl-1.1.1s-urs6pu7ne2zzc6clmjnngssk32s2olzb
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/cmake-3.25.1-vghw527fwqerrspvi7gahv4uk6kir3em
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/openblas-0.3.21-3oapbupikuisb2vqchalqmyic3qg4eig
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/python-3.10.8-ngptfwb7kxxp6gdobz5rsw7dqywjxkv3
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/gftl-1.8.1-q4styoimuc2fab76uwjdtpfdr3f6klrl
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/cmake-3.25.1-vghw527fwqerrspvi7gahv4uk6kir3em
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-pip-22.2.2-65vsqoppf6cobzhdllmjauryp56qodac
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/boost-1.80.0-3tgey2dfczfojmxrqrywqtubuggnwpt2
-==> Installing gftl-shared-1.5.0-fdec3c4x7aomxkjltjspwbl5zbfo2kft
-==> gftl-shared exists in binary cache but with different hash
-==> No binary for gftl-shared-1.5.0-fdec3c4x7aomxkjltjspwbl5zbfo2kft found: installing from source
-==> Warning: Skipping build of ninja-1.11.1-e46i3e5v7fumejum7hzozlqz5ncuitve since re2c-2.2-xnznjbxdxwwt6on2cgou2dfpwbq5onzx failed
-==> Warning: Skipping build of geos-3.11.1-5w5xrrkljrvo75qqzq4zl34rm26idgec since ninja-1.11.1-e46i3e5v7fumejum7hzozlqz5ncuitve failed
-==> Warning: Skipping build of py-shapely-1.8.0-ceqw4brgp4zqg5bvtw24igcjthsxuxaz since geos-3.11.1-5w5xrrkljrvo75qqzq4zl34rm26idgec failed
-==> Warning: download_tarball() was unable to download gftl-shared@1.5.0%nvhpc@22.11~ipo build_system=cmake build_type=Release arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%nvhpc@22.11+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%nvhpc@22.11~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^cmake@3.25.1%gcc@11.1.0~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64 ^diffutils@3.7%nvhpc@22.11 build_system=autotools patches=6e42dc2 arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gftl@1.8.1%nvhpc@22.11~ipo build_system=cmake build_type=Release arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%nvhpc@22.11 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libsigsegv@2.13%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^m4@1.4.19%nvhpc@22.11+sigsegv build_system=autotools patches=6985830,72bb1ad,9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%nvhpc@22.11~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%nvhpc@22.11~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%nvhpc@22.11+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^readline@8.2%gcc@11.1.0 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%nvhpc@22.11+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 from any configured mirrors
-==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/c1/c19b8197cc6956d4a51a16f98b38b63c7bc9f784f1fd38f8e3949be3ea792356.tar.gz
-==> No patches needed for gftl-shared
-==> gftl-shared: Executing phase: 'cmake'
-==> Error: ProcessError: Command exited with status 1:
-    '/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/gcc-11.1.0/cmake-3.25.1-vghw527fwqerrspvi7gahv4uk6kir3em/bin/cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/gftl-shared-1.5.0-fdec3c4x7aomxkjltjspwbl5zbfo2kft' '-DCMAKE_BUILD_TYPE:STRING=Release' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/gftl-shared-1.5.0-fdec3c4x7aomxkjltjspwbl5zbfo2kft/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/gftl-shared-1.5.0-fdec3c4x7aomxkjltjspwbl5zbfo2kft/lib64' '-DCMAKE_PREFIX_PATH:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/gftl-1.8.1-q4styoimuc2fab76uwjdtpfdr3f6klrl;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/m4-1.4.19-sylqsk2xbpkawpmwjqyqw7vi4mwhwd53;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/gcc-11.1.0/cmake-3.25.1-vghw527fwqerrspvi7gahv4uk6kir3em' '/tmp/root/spack-stage/spack-stage-gftl-shared-1.5.0-fdec3c4x7aomxkjltjspwbl5zbfo2kft/spack-src'
-
-4 errors found in build log:
-     3     -- The Fortran compiler identification is NVHPC 22.11.0
-     4     -- Detecting Fortran compiler ABI info
-     5     -- Detecting Fortran compiler ABI info - done
-     6     -- Check for working Fortran compiler: /spack/lib/spack/env/nvhpc/nvfortran - skipped
-     7     -- Performing Test _LOGICAL_DEFAULT_KIND: SUCCESS (value=4)
-     8     -- Performing Test _INT_DEFAULT_KIND: SUCCESS (value=4)
-  >> 9     CMake Error at cmake/fortran_try.cmake:13 (string):
-     10      string sub-command STRIP requires two arguments.
-     11    Call Stack (most recent call first):
-     12      cmake/check_intrinsic_kinds.cmake:16 (CHECK_Fortran_SOURCE_RUN)
-     13      CMakeLists.txt:36 (include)
-     14    
-     15    
-     16    -- Performing Test _ISO_INT8: SUCCESS (value=)
-  >> 17    CMake Error at cmake/fortran_try.cmake:13 (string):
-     18      string sub-command STRIP requires two arguments.
-     19    Call Stack (most recent call first):
-     20      cmake/check_intrinsic_kinds.cmake:16 (CHECK_Fortran_SOURCE_RUN)
-     21      CMakeLists.txt:36 (include)
-     22    
-     23    
-     24    -- Performing Test _ISO_INT16: SUCCESS (value=)
-  >> 25    CMake Error at cmake/fortran_try.cmake:13 (string):
-     26      string sub-command STRIP requires two arguments.
-     27    Call Stack (most recent call first):
-     28      cmake/check_intrinsic_kinds.cmake:16 (CHECK_Fortran_SOURCE_RUN)
-     29      CMakeLists.txt:36 (include)
-     30    
-     31    
-     32    -- Performing Test _ISO_INT32: SUCCESS (value=)
-  >> 33    CMake Error at cmake/fortran_try.cmake:13 (string):
-     34      string sub-command STRIP requires two arguments.
-     35    Call Stack (most recent call first):
-     36      cmake/check_intrinsic_kinds.cmake:16 (CHECK_Fortran_SOURCE_RUN)
-     37      CMakeLists.txt:36 (include)
-     38    
-     39    
-
-See build log for details:
-  /tmp/root/spack-stage/spack-stage-gftl-shared-1.5.0-fdec3c4x7aomxkjltjspwbl5zbfo2kft/spack-build-out.txt
-
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-setuptools-63.0.0-hobexd5daxor3prklad2ithtsnxsehoj
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-wheel-0.37.1-4hvl7zod7goq2rdtjaqh42k7gukiqoen
-==> Installing py-cython-0.29.32-2t6vjvg4nwnaru7rta2iumzdh6ohloom
-==> py-cython exists in binary cache but with different hash
-==> No binary for py-cython-0.29.32-2t6vjvg4nwnaru7rta2iumzdh6ohloom found: installing from source
-==> Warning: download_tarball() was unable to download py-cython@0.29.32%gcc@11.1.0 build_system=python_pip arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%nvhpc@22.11+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%nvhpc@22.11~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^diffutils@3.7%nvhpc@22.11 build_system=autotools patches=6e42dc2 arch=linux-ubuntu20.04-x86_64 ^expat@2.5.0%nvhpc@22.11+libbsd build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gettext@0.21.1%nvhpc@22.11+bzip2+curses+git~libunistring+libxml2+tar+xz build_system=autotools patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64 ^libbsd@0.11.3%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libffi@3.4.2%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%nvhpc@22.11 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libmd@1.0.4%nvhpc@22.11 build_system=autotools patches=991953c arch=linux-ubuntu20.04-x86_64 ^libxcrypt@4.4.33%gcc@11.1.0~obsolete_api build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxml2@2.10.3%nvhpc@22.11~python build_system=autotools arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%nvhpc@22.11~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%nvhpc@22.11~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%nvhpc@22.11+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pigz@2.7%nvhpc@22.11 build_system=makefile arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^py-pip@22.2.2%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^py-setuptools@63.0.0%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^py-wheel@0.37.1%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^python@3.10.8%gcc@11.1.0+bz2+crypt+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tkinter+uuid+zlib build_system=generic patches=0d98e93,7d40923,f2fd060 arch=linux-ubuntu20.04-x86_64 ^readline@8.2%gcc@11.1.0 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^sqlite@3.40.0%nvhpc@22.11+column_metadata+dynamic_extensions+fts~functions+rtree build_system=autotools arch=linux-ubuntu20.04-x86_64 ^tar@1.30%nvhpc@22.11 build_system=autotools patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64 ^util-linux-uuid@2.38.1%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^xz@5.2.7%gcc@11.1.0~pic build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%nvhpc@22.11+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 from any configured mirrors
-==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/87/8733cf4758b79304f2a4e39ebfac5e92341bce47bcceb26c1254398b2f8c1af7.tar.gz
-==> No patches needed for py-cython
-==> py-cython: Executing phase: 'install'
-==> py-cython: Successfully installed py-cython-0.29.32-2t6vjvg4nwnaru7rta2iumzdh6ohloom
-  Stage: 0.11s.  Install: 1m 2.27s.  Total: 1m 2.44s
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/py-cython-0.29.32-2t6vjvg4nwnaru7rta2iumzdh6ohloom
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-pytz-2022.2.1-mpjjpgna3nrojgicsv24qyf4zrmezijf
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-toml-0.10.2-da5fa5cmedujt4lsrmgbeggt6dwlrwua
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-six-1.16.0-cwjauuwmvihd2r2bq34otcvur3znbvag
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/py-cython-0.29.32-2t6vjvg4nwnaru7rta2iumzdh6ohloom
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-setuptools-scm-6.0.1-yckp6utkuqlhswnwkoj2jphaxhrocjrc
+==> Installing py-numpy-1.22.3-26ll4lp7dy24ewvgk6y6sphqtpjsu3db
+==> py-numpy exists in binary cache but with different hash
+==> No binary for py-numpy-1.22.3-26ll4lp7dy24ewvgk6y6sphqtpjsu3db found: installing from source
+==> Warning: download_tarball() was unable to download py-numpy@1.22.3%nvhpc@22.11+blas+lapack build_system=python_pip patches=873745d,e9508c3 arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%nvhpc@22.11+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%nvhpc@22.11~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^diffutils@3.7%nvhpc@22.11 build_system=autotools patches=6e42dc2 arch=linux-ubuntu20.04-x86_64 ^expat@2.5.0%nvhpc@22.11+libbsd build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gettext@0.21.1%nvhpc@22.11+bzip2+curses+git~libunistring+libxml2+tar+xz build_system=autotools patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64 ^libbsd@0.11.3%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libffi@3.4.2%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%nvhpc@22.11 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libmd@1.0.4%nvhpc@22.11 build_system=autotools patches=991953c arch=linux-ubuntu20.04-x86_64 ^libxcrypt@4.4.33%gcc@11.1.0~obsolete_api build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxml2@2.10.3%nvhpc@22.11~python build_system=autotools arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%nvhpc@22.11~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openblas@0.3.21%nvhpc@22.11~bignuma~consistent_fpcsr+fortran~ilp64+locking+pic+shared build_system=makefile patches=d3d9b15 symbol_suffix=none threads=none arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%nvhpc@22.11~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%nvhpc@22.11+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pigz@2.7%nvhpc@22.11 build_system=makefile arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^py-cython@0.29.32%gcc@11.1.0 build_system=python_pip arch=linux-ubuntu20.04-x86_64 ^py-pip@22.2.2%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^py-setuptools@63.0.0%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^py-wheel@0.37.1%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^python@3.10.8%gcc@11.1.0+bz2+crypt+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tkinter+uuid+zlib build_system=generic patches=0d98e93,7d40923,f2fd060 arch=linux-ubuntu20.04-x86_64 ^readline@8.2%gcc@11.1.0 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^sqlite@3.40.0%nvhpc@22.11+column_metadata+dynamic_extensions+fts~functions+rtree build_system=autotools arch=linux-ubuntu20.04-x86_64 ^tar@1.30%nvhpc@22.11 build_system=autotools patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64 ^util-linux-uuid@2.38.1%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^xz@5.2.7%gcc@11.1.0~pic build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%nvhpc@22.11+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 from any configured mirrors
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/db/dbc7601a3b7472d559dc7b933b18b4b66f9aa7452c120e87dfb33d02008c8a18.zip
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/e9/e9508c3b3a1e1a24669014a0c1b9f3b009a149ea3886cf711eaef2a32b247fdb
+==> Applied patch /spack/var/spack/repos/builtin/packages/py-numpy/check_executables.patch
+==> Applied patch https://github.com/numpy/numpy/pull/21448.patch?full_index=1
+==> py-numpy: Executing phase: 'install'
+==> Error: ProcessError: Command exited with status 1:
+    '/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/gcc-11.1.0/python-3.10.8-ngptfwb7kxxp6gdobz5rsw7dqywjxkv3/bin/python3.10' '-m' 'pip' '-vvv' '--no-input' '--no-cache-dir' '--disable-pip-version-check' 'install' '--no-deps' '--ignore-installed' '--no-build-isolation' '--no-warn-script-location' '--no-index' '--prefix=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-numpy-1.22.3-26ll4lp7dy24ewvgk6y6sphqtpjsu3db' '.'
+
+2 errors found in build log:
+     80       package init file 'numpy/f2py/tests/src/size/__init__.py' not found (or not a regular file)
+     81       package init file 'numpy/f2py/tests/src/array_from_pyobj/__init__.py' not found (or not a regular file)
+     82       package init file 'numpy/f2py/tests/src/parameter/__init__.py' not found (or not a regular file)
+     83       package init file 'numpy/f2py/tests/src/assumed_shape/__init__.py' not found (or not a regular file)
+     84       package init file 'numpy/f2py/tests/src/mixed/__init__.py' not found (or not a regular file)
+     85       package init file 'numpy/f2py/tests/src/kind/__init__.py' not found (or not a regular file)
+  >> 86     /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_
+            placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-setuptools-63.0.0-hobexd5daxor3pr
+            klad2ithtsnxsehoj/lib/python3.10/site-packages/setuptools/command/egg_info.py:632: SetuptoolsDeprecationWarning: Custom 'build_py' does not implement 'get_data_files
+            _without_manifest'.
+     87       Please extend command classes from setuptools instead of distutils.
+     88         warnings.warn(
+     89       reading manifest file '/tmp/pip-modern-metadata-6_yn10bb/numpy.egg-info/SOURCES.txt'
+     90       reading manifest template 'MANIFEST.in'
+     91       warning: no previously-included files found matching 'LICENSES_bundled.txt'
+     92       warning: no previously-included files found matching 'azure-*.yml'
+
+     ...
+
+     112    Building wheels for collected packages: numpy
+     113      Created temporary directory: /tmp/pip-wheel-rlgz97l_
+     114      Destination directory: /tmp/pip-wheel-rlgz97l_
+     115      Building wheel for numpy (pyproject.toml): started
+     116      Running command Building wheel for numpy (pyproject.toml)
+     117      Running from numpy source directory.
+  >> 118    /tmp/root/spack-stage/spack-stage-py-numpy-1.22.3-26ll4lp7dy24ewvgk6y6sphqtpjsu3db/spack-src/tools/cythonize.py:63: DeprecationWarning: The distutils package is depr
+            ecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+     119        from distutils.version import LooseVersion
+     120      Processing numpy/random/_bounded_integers.pxd.in
+     121      Processing numpy/random/_mt19937.pyx
+     122      Processing numpy/random/_generator.pyx
+     123      Processing numpy/random/_philox.pyx
+     124      Processing numpy/random/_bounded_integers.pyx.in
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-py-numpy-1.22.3-26ll4lp7dy24ewvgk6y6sphqtpjsu3db/spack-build-out.txt
+
+==> Installing py-numpy-1.22.4-reithnxf4hqv5w2y7yzcld3bvw7e7vnl
+==> py-numpy exists in binary cache but with different hash
+==> No binary for py-numpy-1.22.4-reithnxf4hqv5w2y7yzcld3bvw7e7vnl found: installing from source
+==> Warning: download_tarball() was unable to download py-numpy@1.22.4%nvhpc@22.11+blas+lapack build_system=python_pip patches=873745d arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%nvhpc@22.11+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%nvhpc@22.11~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^diffutils@3.7%nvhpc@22.11 build_system=autotools patches=6e42dc2 arch=linux-ubuntu20.04-x86_64 ^expat@2.5.0%nvhpc@22.11+libbsd build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gettext@0.21.1%nvhpc@22.11+bzip2+curses+git~libunistring+libxml2+tar+xz build_system=autotools patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64 ^libbsd@0.11.3%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libffi@3.4.2%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%nvhpc@22.11 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libmd@1.0.4%nvhpc@22.11 build_system=autotools patches=991953c arch=linux-ubuntu20.04-x86_64 ^libxcrypt@4.4.33%gcc@11.1.0~obsolete_api build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxml2@2.10.3%nvhpc@22.11~python build_system=autotools arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%nvhpc@22.11~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openblas@0.3.21%nvhpc@22.11~bignuma~consistent_fpcsr+fortran~ilp64+locking+pic+shared build_system=makefile patches=d3d9b15 symbol_suffix=none threads=none arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%nvhpc@22.11~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%nvhpc@22.11+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pigz@2.7%nvhpc@22.11 build_system=makefile arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^py-cython@0.29.32%gcc@11.1.0 build_system=python_pip arch=linux-ubuntu20.04-x86_64 ^py-pip@22.2.2%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^py-setuptools@63.0.0%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^py-wheel@0.37.1%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^python@3.10.8%gcc@11.1.0+bz2+crypt+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tkinter+uuid+zlib build_system=generic patches=0d98e93,7d40923,f2fd060 arch=linux-ubuntu20.04-x86_64 ^readline@8.2%gcc@11.1.0 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^sqlite@3.40.0%nvhpc@22.11+column_metadata+dynamic_extensions+fts~functions+rtree build_system=autotools arch=linux-ubuntu20.04-x86_64 ^tar@1.30%nvhpc@22.11 build_system=autotools patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64 ^util-linux-uuid@2.38.1%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^xz@5.2.7%gcc@11.1.0~pic build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%nvhpc@22.11+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 from any configured mirrors
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/42/425b390e4619f58d8526b3dcf656dde069133ae5c240229821f01b5f44ea07af.zip
+==> Applied patch /spack/var/spack/repos/builtin/packages/py-numpy/check_executables.patch
+==> py-numpy: Executing phase: 'install'
+==> Error: ProcessError: Command exited with status 1:
+    '/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/gcc-11.1.0/python-3.10.8-ngptfwb7kxxp6gdobz5rsw7dqywjxkv3/bin/python3.10' '-m' 'pip' '-vvv' '--no-input' '--no-cache-dir' '--disable-pip-version-check' 'install' '--no-deps' '--ignore-installed' '--no-build-isolation' '--no-warn-script-location' '--no-index' '--prefix=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-numpy-1.22.4-reithnxf4hqv5w2y7yzcld3bvw7e7vnl' '.'
+
+2 errors found in build log:
+     80       package init file 'numpy/f2py/tests/src/size/__init__.py' not found (or not a regular file)
+     81       package init file 'numpy/f2py/tests/src/array_from_pyobj/__init__.py' not found (or not a regular file)
+     82       package init file 'numpy/f2py/tests/src/parameter/__init__.py' not found (or not a regular file)
+     83       package init file 'numpy/f2py/tests/src/assumed_shape/__init__.py' not found (or not a regular file)
+     84       package init file 'numpy/f2py/tests/src/mixed/__init__.py' not found (or not a regular file)
+     85       package init file 'numpy/f2py/tests/src/kind/__init__.py' not found (or not a regular file)
+  >> 86     /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_
+            placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-setuptools-63.0.0-hobexd5daxor3pr
+            klad2ithtsnxsehoj/lib/python3.10/site-packages/setuptools/command/egg_info.py:632: SetuptoolsDeprecationWarning: Custom 'build_py' does not implement 'get_data_files
+            _without_manifest'.
+     87       Please extend command classes from setuptools instead of distutils.
+     88         warnings.warn(
+     89       reading manifest file '/tmp/pip-modern-metadata-_pnm3eqb/numpy.egg-info/SOURCES.txt'
+     90       reading manifest template 'MANIFEST.in'
+     91       warning: no previously-included files found matching 'LICENSES_bundled.txt'
+     92       warning: no previously-included files found matching 'azure-*.yml'
+
+     ...
+
+     112    Building wheels for collected packages: numpy
+     113      Created temporary directory: /tmp/pip-wheel-exowltgy
+     114      Destination directory: /tmp/pip-wheel-exowltgy
+     115      Building wheel for numpy (pyproject.toml): started
+     116      Running command Building wheel for numpy (pyproject.toml)
+     117      Running from numpy source directory.
+  >> 118    /tmp/root/spack-stage/spack-stage-py-numpy-1.22.4-reithnxf4hqv5w2y7yzcld3bvw7e7vnl/spack-src/tools/cythonize.py:63: DeprecationWarning: The distutils package is depr
+            ecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+     119        from distutils.version import LooseVersion
+     120      Processing numpy/random/_bounded_integers.pxd.in
+     121      Processing numpy/random/_mt19937.pyx
+     122      Processing numpy/random/_generator.pyx
+     123      Processing numpy/random/_philox.pyx
+     124      Processing numpy/random/_bounded_integers.pyx.in
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-py-numpy-1.22.4-reithnxf4hqv5w2y7yzcld3bvw7e7vnl/spack-build-out.txt
+
 ==> Installing py-numpy-1.23.5-xcprgdpek3e773uq25zqtwlofacqokqw
 ==> py-numpy exists in binary cache but with different hash
 ==> No binary for py-numpy-1.23.5-xcprgdpek3e773uq25zqtwlofacqokqw found: installing from source
+==> Warning: Skipping build of py-numexpr-2.7.3-rwev3b3zu6ajc2qki2p5dbryp62dtfhd since py-numpy-1.22.4-reithnxf4hqv5w2y7yzcld3bvw7e7vnl failed
+==> Warning: Skipping build of py-pandas-1.4.0-p3cjhsuualjv6gd5ajx2z3auwahkfyfa since py-numexpr-2.7.3-rwev3b3zu6ajc2qki2p5dbryp62dtfhd failed
+==> Warning: Skipping build of py-bottleneck-1.3.2-qbyaese3yvrykst5hwxnlmwtxe2z6w66 since py-numpy-1.22.4-reithnxf4hqv5w2y7yzcld3bvw7e7vnl failed
 ==> Warning: download_tarball() was unable to download py-numpy@1.23.5%nvhpc@22.11+blas+lapack build_system=python_pip patches=873745d arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%nvhpc@22.11+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%nvhpc@22.11~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^diffutils@3.7%nvhpc@22.11 build_system=autotools patches=6e42dc2 arch=linux-ubuntu20.04-x86_64 ^expat@2.5.0%nvhpc@22.11+libbsd build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gettext@0.21.1%nvhpc@22.11+bzip2+curses+git~libunistring+libxml2+tar+xz build_system=autotools patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64 ^libbsd@0.11.3%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libffi@3.4.2%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%nvhpc@22.11 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libmd@1.0.4%nvhpc@22.11 build_system=autotools patches=991953c arch=linux-ubuntu20.04-x86_64 ^libxcrypt@4.4.33%gcc@11.1.0~obsolete_api build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxml2@2.10.3%nvhpc@22.11~python build_system=autotools arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%nvhpc@22.11~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openblas@0.3.21%nvhpc@22.11~bignuma~consistent_fpcsr+fortran~ilp64+locking+pic+shared build_system=makefile patches=d3d9b15 symbol_suffix=none threads=none arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%nvhpc@22.11~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%nvhpc@22.11+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pigz@2.7%nvhpc@22.11 build_system=makefile arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^py-cython@0.29.32%gcc@11.1.0 build_system=python_pip arch=linux-ubuntu20.04-x86_64 ^py-pip@22.2.2%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^py-setuptools@63.0.0%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^py-wheel@0.37.1%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^python@3.10.8%gcc@11.1.0+bz2+crypt+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tkinter+uuid+zlib build_system=generic patches=0d98e93,7d40923,f2fd060 arch=linux-ubuntu20.04-x86_64 ^readline@8.2%gcc@11.1.0 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^sqlite@3.40.0%nvhpc@22.11+column_metadata+dynamic_extensions+fts~functions+rtree build_system=autotools arch=linux-ubuntu20.04-x86_64 ^tar@1.30%nvhpc@22.11 build_system=autotools patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64 ^util-linux-uuid@2.38.1%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^xz@5.2.7%gcc@11.1.0~pic build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%nvhpc@22.11+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 from any configured mirrors
-==> Fetching https://mirror.spack.io/_source-cache/archive/1b/1b1766d6f397c18153d40015ddfc79ddb715cabadc04d2d228d4e5a8bc4ded1a.tar.gz
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/1b/1b1766d6f397c18153d40015ddfc79ddb715cabadc04d2d228d4e5a8bc4ded1a.tar.gz
 ==> Applied patch /spack/var/spack/repos/builtin/packages/py-numpy/check_executables.patch
 ==> py-numpy: Executing phase: 'install'
 ==> Error: ProcessError: Command exited with status 1:
@@ -264,8 +148,8 @@ See build log for details:
 
 3 errors found in build log:
      12     Processing /tmp/root/spack-stage/spack-stage-py-numpy-1.23.5-xcprgdpek3e773uq25zqtwlofacqokqw/spack-src
-     13       Added file:///tmp/root/spack-stage/spack-stage-py-numpy-1.23.5-xcprgdpek3e773uq25zqtwlofacqokqw/spack-src to build tracker '/tmp/pip-build-tracker-cuwpjyfh'
-     14       Created temporary directory: /tmp/pip-modern-metadata-y0v3b209
+     13       Added file:///tmp/root/spack-stage/spack-stage-py-numpy-1.23.5-xcprgdpek3e773uq25zqtwlofacqokqw/spack-src to build tracker '/tmp/pip-build-tracker-4wlc84qh'
+     14       Created temporary directory: /tmp/pip-modern-metadata-it7bys81
      15       Preparing metadata (pyproject.toml): started
      16       Running command Preparing metadata (pyproject.toml)
      17       Running from numpy source directory.
@@ -291,7 +175,7 @@ See build log for details:
             _without_manifest'.
      112      Please extend command classes from setuptools instead of distutils.
      113        warnings.warn(
-     114      reading manifest file '/tmp/pip-modern-metadata-y0v3b209/numpy.egg-info/SOURCES.txt'
+     114      reading manifest file '/tmp/pip-modern-metadata-it7bys81/numpy.egg-info/SOURCES.txt'
      115      reading manifest template 'MANIFEST.in'
      116      warning: no previously-included files found matching 'LICENSES_bundled.txt'
      117      warning: no previously-included files found matching 'azure-*.yml'
@@ -299,8 +183,8 @@ See build log for details:
      ...
 
      137    Building wheels for collected packages: numpy
-     138      Created temporary directory: /tmp/pip-wheel-1zgfe8n9
-     139      Destination directory: /tmp/pip-wheel-1zgfe8n9
+     138      Created temporary directory: /tmp/pip-wheel-4fi27_rk
+     139      Destination directory: /tmp/pip-wheel-4fi27_rk
      140      Building wheel for numpy (pyproject.toml): started
      141      Running command Building wheel for numpy (pyproject.toml)
      142      Running from numpy source directory.
@@ -315,117 +199,11 @@ See build log for details:
 See build log for details:
   /tmp/root/spack-stage/spack-stage-py-numpy-1.23.5-xcprgdpek3e773uq25zqtwlofacqokqw/spack-build-out.txt
 
-==> Installing py-numpy-1.22.3-26ll4lp7dy24ewvgk6y6sphqtpjsu3db
-==> py-numpy exists in binary cache but with different hash
-==> No binary for py-numpy-1.22.3-26ll4lp7dy24ewvgk6y6sphqtpjsu3db found: installing from source
 ==> Warning: Skipping build of ecflow-5.8.3-k3jx3zm3xgdwixrq5kixfkmuo4jdhls7 since py-numpy-1.23.5-xcprgdpek3e773uq25zqtwlofacqokqw failed
-==> Warning: download_tarball() was unable to download py-numpy@1.22.3%nvhpc@22.11+blas+lapack build_system=python_pip patches=873745d,e9508c3 arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%nvhpc@22.11+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%nvhpc@22.11~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^diffutils@3.7%nvhpc@22.11 build_system=autotools patches=6e42dc2 arch=linux-ubuntu20.04-x86_64 ^expat@2.5.0%nvhpc@22.11+libbsd build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gettext@0.21.1%nvhpc@22.11+bzip2+curses+git~libunistring+libxml2+tar+xz build_system=autotools patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64 ^libbsd@0.11.3%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libffi@3.4.2%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%nvhpc@22.11 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libmd@1.0.4%nvhpc@22.11 build_system=autotools patches=991953c arch=linux-ubuntu20.04-x86_64 ^libxcrypt@4.4.33%gcc@11.1.0~obsolete_api build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxml2@2.10.3%nvhpc@22.11~python build_system=autotools arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%nvhpc@22.11~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openblas@0.3.21%nvhpc@22.11~bignuma~consistent_fpcsr+fortran~ilp64+locking+pic+shared build_system=makefile patches=d3d9b15 symbol_suffix=none threads=none arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%nvhpc@22.11~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%nvhpc@22.11+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pigz@2.7%nvhpc@22.11 build_system=makefile arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^py-cython@0.29.32%gcc@11.1.0 build_system=python_pip arch=linux-ubuntu20.04-x86_64 ^py-pip@22.2.2%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^py-setuptools@63.0.0%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^py-wheel@0.37.1%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^python@3.10.8%gcc@11.1.0+bz2+crypt+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tkinter+uuid+zlib build_system=generic patches=0d98e93,7d40923,f2fd060 arch=linux-ubuntu20.04-x86_64 ^readline@8.2%gcc@11.1.0 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^sqlite@3.40.0%nvhpc@22.11+column_metadata+dynamic_extensions+fts~functions+rtree build_system=autotools arch=linux-ubuntu20.04-x86_64 ^tar@1.30%nvhpc@22.11 build_system=autotools patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64 ^util-linux-uuid@2.38.1%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^xz@5.2.7%gcc@11.1.0~pic build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%nvhpc@22.11+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 from any configured mirrors
-==> Fetching https://mirror.spack.io/_source-cache/archive/db/dbc7601a3b7472d559dc7b933b18b4b66f9aa7452c120e87dfb33d02008c8a18.zip
-==> Fetching https://mirror.spack.io/_source-cache/archive/e9/e9508c3b3a1e1a24669014a0c1b9f3b009a149ea3886cf711eaef2a32b247fdb
-==> Applied patch /spack/var/spack/repos/builtin/packages/py-numpy/check_executables.patch
-==> Applied patch https://github.com/numpy/numpy/pull/21448.patch?full_index=1
-==> py-numpy: Executing phase: 'install'
-==> Error: ProcessError: Command exited with status 1:
-    '/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/gcc-11.1.0/python-3.10.8-ngptfwb7kxxp6gdobz5rsw7dqywjxkv3/bin/python3.10' '-m' 'pip' '-vvv' '--no-input' '--no-cache-dir' '--disable-pip-version-check' 'install' '--no-deps' '--ignore-installed' '--no-build-isolation' '--no-warn-script-location' '--no-index' '--prefix=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-numpy-1.22.3-26ll4lp7dy24ewvgk6y6sphqtpjsu3db' '.'
-
-2 errors found in build log:
-     80       package init file 'numpy/f2py/tests/src/size/__init__.py' not found (or not a regular file)
-     81       package init file 'numpy/f2py/tests/src/array_from_pyobj/__init__.py' not found (or not a regular file)
-     82       package init file 'numpy/f2py/tests/src/parameter/__init__.py' not found (or not a regular file)
-     83       package init file 'numpy/f2py/tests/src/assumed_shape/__init__.py' not found (or not a regular file)
-     84       package init file 'numpy/f2py/tests/src/mixed/__init__.py' not found (or not a regular file)
-     85       package init file 'numpy/f2py/tests/src/kind/__init__.py' not found (or not a regular file)
-  >> 86     /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_
-            placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-setuptools-63.0.0-hobexd5daxor3pr
-            klad2ithtsnxsehoj/lib/python3.10/site-packages/setuptools/command/egg_info.py:632: SetuptoolsDeprecationWarning: Custom 'build_py' does not implement 'get_data_files
-            _without_manifest'.
-     87       Please extend command classes from setuptools instead of distutils.
-     88         warnings.warn(
-     89       reading manifest file '/tmp/pip-modern-metadata-b8xrz459/numpy.egg-info/SOURCES.txt'
-     90       reading manifest template 'MANIFEST.in'
-     91       warning: no previously-included files found matching 'LICENSES_bundled.txt'
-     92       warning: no previously-included files found matching 'azure-*.yml'
-
-     ...
-
-     112    Building wheels for collected packages: numpy
-     113      Created temporary directory: /tmp/pip-wheel-ykdesjv6
-     114      Destination directory: /tmp/pip-wheel-ykdesjv6
-     115      Building wheel for numpy (pyproject.toml): started
-     116      Running command Building wheel for numpy (pyproject.toml)
-     117      Running from numpy source directory.
-  >> 118    /tmp/root/spack-stage/spack-stage-py-numpy-1.22.3-26ll4lp7dy24ewvgk6y6sphqtpjsu3db/spack-src/tools/cythonize.py:63: DeprecationWarning: The distutils package is depr
-            ecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
-     119        from distutils.version import LooseVersion
-     120      Processing numpy/random/_bounded_integers.pxd.in
-     121      Processing numpy/random/_mt19937.pyx
-     122      Processing numpy/random/_generator.pyx
-     123      Processing numpy/random/_philox.pyx
-     124      Processing numpy/random/_bounded_integers.pyx.in
-
-See build log for details:
-  /tmp/root/spack-stage/spack-stage-py-numpy-1.22.3-26ll4lp7dy24ewvgk6y6sphqtpjsu3db/spack-build-out.txt
-
-==> Installing py-numpy-1.22.4-reithnxf4hqv5w2y7yzcld3bvw7e7vnl
-==> py-numpy exists in binary cache but with different hash
-==> No binary for py-numpy-1.22.4-reithnxf4hqv5w2y7yzcld3bvw7e7vnl found: installing from source
-==> Warning: download_tarball() was unable to download py-numpy@1.22.4%nvhpc@22.11+blas+lapack build_system=python_pip patches=873745d arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%nvhpc@22.11+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%nvhpc@22.11~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^diffutils@3.7%nvhpc@22.11 build_system=autotools patches=6e42dc2 arch=linux-ubuntu20.04-x86_64 ^expat@2.5.0%nvhpc@22.11+libbsd build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gettext@0.21.1%nvhpc@22.11+bzip2+curses+git~libunistring+libxml2+tar+xz build_system=autotools patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64 ^libbsd@0.11.3%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libffi@3.4.2%gcc@11.1.0 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%nvhpc@22.11 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libmd@1.0.4%nvhpc@22.11 build_system=autotools patches=991953c arch=linux-ubuntu20.04-x86_64 ^libxcrypt@4.4.33%gcc@11.1.0~obsolete_api build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxml2@2.10.3%nvhpc@22.11~python build_system=autotools arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%nvhpc@22.11~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openblas@0.3.21%nvhpc@22.11~bignuma~consistent_fpcsr+fortran~ilp64+locking+pic+shared build_system=makefile patches=d3d9b15 symbol_suffix=none threads=none arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%nvhpc@22.11~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%nvhpc@22.11+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pigz@2.7%nvhpc@22.11 build_system=makefile arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^py-cython@0.29.32%gcc@11.1.0 build_system=python_pip arch=linux-ubuntu20.04-x86_64 ^py-pip@22.2.2%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^py-setuptools@63.0.0%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^py-wheel@0.37.1%nvhpc@22.11 build_system=generic arch=linux-ubuntu20.04-x86_64 ^python@3.10.8%gcc@11.1.0+bz2+crypt+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tkinter+uuid+zlib build_system=generic patches=0d98e93,7d40923,f2fd060 arch=linux-ubuntu20.04-x86_64 ^readline@8.2%gcc@11.1.0 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^sqlite@3.40.0%nvhpc@22.11+column_metadata+dynamic_extensions+fts~functions+rtree build_system=autotools arch=linux-ubuntu20.04-x86_64 ^tar@1.30%nvhpc@22.11 build_system=autotools patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64 ^util-linux-uuid@2.38.1%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^xz@5.2.7%gcc@11.1.0~pic build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%nvhpc@22.11+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 from any configured mirrors
-==> Fetching https://mirror.spack.io/_source-cache/archive/42/425b390e4619f58d8526b3dcf656dde069133ae5c240229821f01b5f44ea07af.zip
-==> Applied patch /spack/var/spack/repos/builtin/packages/py-numpy/check_executables.patch
-==> py-numpy: Executing phase: 'install'
-==> Error: ProcessError: Command exited with status 1:
-    '/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/gcc-11.1.0/python-3.10.8-ngptfwb7kxxp6gdobz5rsw7dqywjxkv3/bin/python3.10' '-m' 'pip' '-vvv' '--no-input' '--no-cache-dir' '--disable-pip-version-check' 'install' '--no-deps' '--ignore-installed' '--no-build-isolation' '--no-warn-script-location' '--no-index' '--prefix=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-numpy-1.22.4-reithnxf4hqv5w2y7yzcld3bvw7e7vnl' '.'
-
-2 errors found in build log:
-     80       package init file 'numpy/f2py/tests/src/size/__init__.py' not found (or not a regular file)
-     81       package init file 'numpy/f2py/tests/src/array_from_pyobj/__init__.py' not found (or not a regular file)
-     82       package init file 'numpy/f2py/tests/src/parameter/__init__.py' not found (or not a regular file)
-     83       package init file 'numpy/f2py/tests/src/assumed_shape/__init__.py' not found (or not a regular file)
-     84       package init file 'numpy/f2py/tests/src/mixed/__init__.py' not found (or not a regular file)
-     85       package init file 'numpy/f2py/tests/src/kind/__init__.py' not found (or not a regular file)
-  >> 86     /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_
-            placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-setuptools-63.0.0-hobexd5daxor3pr
-            klad2ithtsnxsehoj/lib/python3.10/site-packages/setuptools/command/egg_info.py:632: SetuptoolsDeprecationWarning: Custom 'build_py' does not implement 'get_data_files
-            _without_manifest'.
-     87       Please extend command classes from setuptools instead of distutils.
-     88         warnings.warn(
-     89       reading manifest file '/tmp/pip-modern-metadata-2j9x59u0/numpy.egg-info/SOURCES.txt'
-     90       reading manifest template 'MANIFEST.in'
-     91       warning: no previously-included files found matching 'LICENSES_bundled.txt'
-     92       warning: no previously-included files found matching 'azure-*.yml'
-
-     ...
-
-     112    Building wheels for collected packages: numpy
-     113      Created temporary directory: /tmp/pip-wheel-05_ckj1a
-     114      Destination directory: /tmp/pip-wheel-05_ckj1a
-     115      Building wheel for numpy (pyproject.toml): started
-     116      Running command Building wheel for numpy (pyproject.toml)
-     117      Running from numpy source directory.
-  >> 118    /tmp/root/spack-stage/spack-stage-py-numpy-1.22.4-reithnxf4hqv5w2y7yzcld3bvw7e7vnl/spack-src/tools/cythonize.py:63: DeprecationWarning: The distutils package is depr
-            ecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
-     119        from distutils.version import LooseVersion
-     120      Processing numpy/random/_bounded_integers.pxd.in
-     121      Processing numpy/random/_mt19937.pyx
-     122      Processing numpy/random/_generator.pyx
-     123      Processing numpy/random/_philox.pyx
-     124      Processing numpy/random/_bounded_integers.pyx.in
-
-See build log for details:
-  /tmp/root/spack-stage/spack-stage-py-numpy-1.22.4-reithnxf4hqv5w2y7yzcld3bvw7e7vnl/spack-build-out.txt
-
-==> Warning: Skipping build of py-pandas-1.4.0-p3cjhsuualjv6gd5ajx2z3auwahkfyfa since py-numpy-1.22.4-reithnxf4hqv5w2y7yzcld3bvw7e7vnl failed
-==> Warning: Skipping build of py-bottleneck-1.3.2-qbyaese3yvrykst5hwxnlmwtxe2z6w66 since py-numpy-1.22.4-reithnxf4hqv5w2y7yzcld3bvw7e7vnl failed
-==> Warning: Skipping build of py-numexpr-2.7.3-rwev3b3zu6ajc2qki2p5dbryp62dtfhd since py-numpy-1.22.4-reithnxf4hqv5w2y7yzcld3bvw7e7vnl failed
-==> Error: gftl-shared-1.5.0-fdec3c4x7aomxkjltjspwbl5zbfo2kft: ProcessError: Command exited with status 1:
-    '/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/gcc-11.1.0/cmake-3.25.1-vghw527fwqerrspvi7gahv4uk6kir3em/bin/cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/gftl-shared-1.5.0-fdec3c4x7aomxkjltjspwbl5zbfo2kft' '-DCMAKE_BUILD_TYPE:STRING=Release' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/gftl-shared-1.5.0-fdec3c4x7aomxkjltjspwbl5zbfo2kft/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/gftl-shared-1.5.0-fdec3c4x7aomxkjltjspwbl5zbfo2kft/lib64' '-DCMAKE_PREFIX_PATH:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/gftl-1.8.1-q4styoimuc2fab76uwjdtpfdr3f6klrl;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/m4-1.4.19-sylqsk2xbpkawpmwjqyqw7vi4mwhwd53;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/gcc-11.1.0/cmake-3.25.1-vghw527fwqerrspvi7gahv4uk6kir3em' '/tmp/root/spack-stage/spack-stage-gftl-shared-1.5.0-fdec3c4x7aomxkjltjspwbl5zbfo2kft/spack-src'
 ==> Error: py-numpy-1.22.3-26ll4lp7dy24ewvgk6y6sphqtpjsu3db: ProcessError: Command exited with status 1:
     '/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/gcc-11.1.0/python-3.10.8-ngptfwb7kxxp6gdobz5rsw7dqywjxkv3/bin/python3.10' '-m' 'pip' '-vvv' '--no-input' '--no-cache-dir' '--disable-pip-version-check' 'install' '--no-deps' '--ignore-installed' '--no-build-isolation' '--no-warn-script-location' '--no-index' '--prefix=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-numpy-1.22.3-26ll4lp7dy24ewvgk6y6sphqtpjsu3db' '.'
 ==> Error: ecflow-5.8.3-k3jx3zm3xgdwixrq5kixfkmuo4jdhls7: Package was not installed
-==> Error: gftl-shared-1.5.0-fdec3c4x7aomxkjltjspwbl5zbfo2kft: Package was not installed
 ==> Error: py-numpy-1.22.3-26ll4lp7dy24ewvgk6y6sphqtpjsu3db: Package was not installed
 ==> Error: py-pandas-1.4.0-p3cjhsuualjv6gd5ajx2z3auwahkfyfa: Package was not installed
-==> Error: py-shapely-1.8.0-ceqw4brgp4zqg5bvtw24igcjthsxuxaz: Package was not installed
 ==> Error: Installation request failed.  Refer to reported errors for failing package(s).
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-setuptools-scm-6.0.1-yckp6utkuqlhswnwkoj2jphaxhrocjrc
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/nvhpc-22.11/py-python-dateutil-2.8.2-3mu2kprc6hgyvsqi6dxnicsrtwbdyyqh
