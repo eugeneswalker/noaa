@@ -61,7 +61,6 @@ spack:
   - bison@3.8.2
   - ecbuild@3.6.5
   - eccodes@2.25.0
-  - ecflow@5.8.3
   - eigen@3.4.0
   - esmf@8.3.0b09 +pio
   - flex@2.6.4
@@ -80,8 +79,6 @@ spack:
   - nlohmann-json@3.10.5
   - parallel-netcdf@1.12.2
   - parallelio@2.5.4
-  - py-numpy@1.22.3
-  - py-pandas@1.4.0
   - sp@2.3.3
   - udunits@2.2.28
   - w3nco@2.4.1
@@ -89,16 +86,20 @@ spack:
 
   # ERRORS
   # - crtm@2.3.0                            # crtm
+  # - ecflow@5.8.3                          # py-numpy
   # - fms@2022.01                           # fms
   # - fms@2022.03                           # fms
   # - fms@2022.04                           # fms
+  # - gftl-shared@1.5.0                     # gtfl-shared
+  # - py-numpy@1.22.3                       # py-numpy
+  # - py-pandas@1.4.0                       # py-numpy
   # - py-scipy@1.8.0                        # re2c
   # - py-shapely@1.8.0                      # re2c
-  # - gftl-shared@1.5.0                     # gtfl-shared
   # --
   # crtm: NVFORTRAN-F-0004-Unable to open MODULE file iso_fortran_env.mod
   # fms: NVFORTRAN-S-0155-Same name common blocks with different sizes in same file not supported  (fms2_io/netcdf_io.F90)
   # gtfl-shared: CMake Error at cmake/fortran_try.cmake:13 (string): string sub-command STRIP requires two arguments.cmake/check_intrinsic_kinds.cmake:16 (CHECK_Fortran_SOURCE_RUN)
+  # py-numpy: ??
   # re2c: src/dfa/closure_posix.h", line 83: error: no instance of function template "re2c::init_gor1" matches the argument list
 
   # NEED TO ADD VERSION
