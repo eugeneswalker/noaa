@@ -36,6 +36,7 @@ spack:
   - ecbuild@3.6.5
   - eccodes@2.25.0
   - ecflow@5.8.3
+  - eckit@1.19.0
   - eigen@3.4.0
   - esmf@8.3.0b09 +pio
   - flex@2.6.4
@@ -56,6 +57,7 @@ spack:
   - netcdf-fortran@4.5.4
   - nlohmann-json-schema-validator@2.1.0
   - nlohmann-json@3.10.5
+  - odc@1.4.5
   - parallel-netcdf@1.12.2
   - py-numpy@1.22.3
   - py-pandas@1.4.0
@@ -65,16 +67,14 @@ spack:
   - udunits@2.2.28
   - zlib@1.2.12                             # deprecated version
 
-  # NEW PR
-  - bufr@11.7.0
-  - eckit@1.19.0
-  - fms@2019.01.03
-  - odc@1.4.5
-
   # ERRORS
+  # - bufr@11.7.0                           # bufr
+  # - fms@2019.01.03                        # fms
   # - parallelio@2.5.4                      # parallelio
   # - w3nco@2.4.1                           # w3nco
   # ---
+  # bufr: utils/sinv.f90:49:11: "/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placehold' // & Error: Unterminated character constant beginning at (1)
+  # fms: Ignoring extra path from command line: "/tmp/root/spack-stage/spack-stage-fms-2019.01.03-z325zggijsfjxvkys36gojgf24fzoadm/spack-src" CMake Error: The source directory "/tmp/root/spack-stage/spack-stage-fms-2019.01.03-z325zggijsfjxvkys36gojgf24fzoadm/spack-src" does not appear to contain CMakeLists.txt.
   # parallelio: patching failed: 1 out of 2 hunks FAILED -- saving rejects to file CMakeLists.txt.rej
   # w3nco: Please submit a full bug report, with preprocessed source if appropriate. Please include the complete backtrace with any bug report.
 
