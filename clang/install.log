@@ -1,0 +1,137 @@
+==> Installing environment /
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/libiconv-1.16-hxkyau7zweprjwiklx77xy5uk4jgc3gh
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/pkgconf-1.8.0-xksz3xou3mbc3lpshgnvwhfnzb5hodmm
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/xz-5.2.7-qaeqhhnsciec4yu4n3d7oddsxbosp52k
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/zlib-1.2.13-2ekbc22kudeq7t7yi23ynvq5qb62lyrt
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/findutils-4.9.0-oqxf6rf6hwpbnputigwzyuygq6qsbptg
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/libsigsegv-2.13-6icdiifz4li6n2rxwlbjrlvqbalgkdgb
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/util-macros-1.19.3-66wvnolwjyjv3gxh6vtuybaqpcoydprh
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/libfabric-1.16.1-pfo7welh32ltr6gmfvr3nsfbbuudefhm
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/berkeley-db-18.1.40-ezsvwnsjc3qmggylnbqvnivdeod6377w
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/libmd-1.0.4-pzcw2ur6z6szlkfddcppcjrbazownyug
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/zstd-1.5.2-7cypj47seafzja4c2vo5ldbtyzwjoa3u
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/libffi-3.4.2-jcpgm3egfrcoi46qix3cq6o2lkayw2az
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/libxcrypt-4.4.33-5tz3unu2vxwkosdrs5wbxvgdfkeuczuk
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/ca-certificates-mozilla-2022-10-11-zbk2wl2ebtba6vl34i2bpodfnwy7iyzu
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/diffutils-3.8-257ucyf4u7vxpwks6btuhlzfs2wln56w
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/util-linux-uuid-2.38.1-5qt5sndo25p5funvjspxa3btjvwcys4x
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/ncurses-6.3-3v6uyyykzsjdtxfwvikyposaxma6iaud
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/libxml2-2.10.3-2yymdxhoniemqbvetg5gt3zo7yo6yurp
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/pigz-2.7-ut4slyuajtmw5azoik4c47zfgpy75ulj
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/libbsd-0.11.5-zmb6riiee5b4nf4pdzoo7nmyuyculwdb
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/bzip2-1.0.8-ruw77v4cw3t5pwxj2wxnasymokt2h3wv
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/m4-1.4.19-hsvmwm3k3qp2t347k7qbe32ijl67gn2k
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/readline-8.2-7p4qhyjuldke5ymksborc5lvqwxf6dix
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/expat-2.5.0-itldrwzwf723tp5ozijulv2j4z6hxyvm
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/tar-1.34-ldq3pyn7mk6b4yind3jlrfo4amtij7dd
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/libtool-2.4.7-prv6j2lp3akoldialxoawg6oplzechen
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/sqlite-3.40.0-4fq3btqpkj3je4cibwg5t2eerv3ly3ed
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/gdbm-1.23-hwbpsifdgrtf3vkvgw4xlqbrjoilwqxo
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/gettext-0.21.1-tozxgnmx5birylxldmzpgn67ii3kp7mk
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/libpciaccess-0.16-c3bxkjrr4ywi4j7ttzs4m7tw5jyk74cm
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/perl-5.36.0-nbdau6i77p7qhabnrjomk3sbn57bcoao
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/hwloc-2.8.0-jcqwo4y5qxvl4cfpfgje2tdffnoza3m7
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/autoconf-2.69-qk6o72uuq5fmnhc6prnrqut5yav3ivbh
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/openssl-1.1.1s-o6mxdlfgh7yqay6kw6lnx6lyra7fmvzz
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/automake-1.16.5-qxy7reki3kxllczss2mxexzn4exq74z5
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/curl-7.85.0-uiq7qmsxjk7sah2vxmqqx7plpuemj7df
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/cmake-3.25.1-v7rz7lmdkwr2s46kk5i4o4bhj5t6bjun
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/python-3.10.8-diap73shj55by2xvz4duv3wycq4c6vmh
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/xerces-c-3.2.3-ejkzzhb74uow7pqg7qpdk3xk2kum2srd
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/yaksa-0.2-2o2pnoa6t4du5i64jbwrdw5awzdwglzw
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/mpich-4.0.2-ns2hn3cy4r3ror7wwqbauc56gehhktyt
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/hdf5-1.12.2-croa67xpmlguu4vjq6bmlyemvdr36buu
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/parallel-netcdf-1.12.3-msamdfxmzudvwtjbac25nxyb53t7ny4h
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/netcdf-c-4.9.0-mpxejdft2skhx7zxgjrgvu2zuilmksda
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/clang-15.0.6/netcdf-fortran-4.6.0-skgx7p2j2toll5pmp5ebhvybn4ahjwnv
+==> Installing esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u
+==> esmf exists in binary cache but with different hash
+==> No binary for esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u found: installing from source
+==> Warning: download_tarball() was unable to download esmf@8.3.0b09%clang@15.0.6~debug~external-lapack+mpi+netcdf~parallelio+pio+pnetcdf+xerces build_system=makefile arch=linux-ubuntu20.04-x86_64 ^autoconf@2.69%clang@15.0.6 build_system=autotools patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64 ^automake@1.16.5%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%clang@15.0.6+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%clang@15.0.6~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%clang@15.0.6 build_system=generic arch=linux-ubuntu20.04-x86_64 ^cmake@3.25.1%clang@15.0.6~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64 ^curl@7.85.0%clang@15.0.6~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 build_system=autotools libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64 ^diffutils@3.8%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^expat@2.5.0%clang@15.0.6+libbsd build_system=autotools arch=linux-ubuntu20.04-x86_64 ^findutils@4.9.0%clang@15.0.6 build_system=autotools patches=440b954 arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gettext@0.21.1%clang@15.0.6+bzip2+curses+git~libunistring+libxml2+tar+xz build_system=autotools arch=linux-ubuntu20.04-x86_64 ^hdf5@1.12.2%clang@15.0.6~cxx~fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64 ^hwloc@2.8.0%clang@15.0.6~cairo~cuda~gl~libudev+libxml2~netloc~nvml~oneapi-level-zero~opencl+pci~rocm build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libbsd@0.11.5%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libfabric@1.16.1%clang@15.0.6~debug~kdreg build_system=autotools fabrics=sockets,tcp,udp arch=linux-ubuntu20.04-x86_64 ^libffi@3.4.2%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%clang@15.0.6 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libmd@1.0.4%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libpciaccess@0.16%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libsigsegv@2.13%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libtool@2.4.7%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxcrypt@4.4.33%clang@15.0.6~obsolete_api build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxml2@2.10.3%clang@15.0.6~python build_system=autotools arch=linux-ubuntu20.04-x86_64 ^m4@1.4.19%clang@15.0.6+sigsegv build_system=autotools patches=9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64 ^mpich@4.0.2%clang@15.0.6~argobots~cuda+fortran+hwloc+hydra+libxml2+pci~rocm+romio~slurm~two_level_namespace~vci~verbs~wrapperrpath build_system=autotools datatype-engine=auto device=ch4 netmod=ofi patches=d4c0e99 pmi=pmi arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%clang@15.0.6~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^netcdf-c@4.9.0%clang@15.0.6~dap~fsync~hdf4~jna+mpi+optimize~parallel-netcdf+pic+shared+zstd build_system=autotools arch=linux-ubuntu20.04-x86_64 ^netcdf-fortran@4.6.0%clang@15.0.6~doc+pic+shared build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%clang@15.0.6~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^parallel-netcdf@1.12.3%clang@15.0.6~burstbuffer+cxx+fortran+pic+shared build_system=autotools arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%clang@15.0.6+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pigz@2.7%clang@15.0.6 build_system=makefile arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^python@3.10.8%clang@15.0.6+bz2+crypt+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tkinter+uuid+zlib build_system=generic patches=0d98e93,7d40923,f2fd060 arch=linux-ubuntu20.04-x86_64 ^readline@8.2%clang@15.0.6 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^sqlite@3.40.0%clang@15.0.6+column_metadata+dynamic_extensions+fts~functions+rtree build_system=autotools arch=linux-ubuntu20.04-x86_64 ^tar@1.34%clang@15.0.6 build_system=autotools zip=pigz arch=linux-ubuntu20.04-x86_64 ^util-linux-uuid@2.38.1%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^util-macros@1.19.3%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^xerces-c@3.2.3%clang@15.0.6 build_system=autotools cxxstd=default netaccessor=curl transcoder=gnuiconv arch=linux-ubuntu20.04-x86_64 ^xz@5.2.7%clang@15.0.6~pic build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^yaksa@0.2%clang@15.0.6~cuda~rocm build_system=autotools arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%clang@15.0.6+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 ^zstd@1.5.2%clang@15.0.6+programs build_system=makefile compression=none libs=shared,static arch=linux-ubuntu20.04-x86_64 from any configured mirrors
+==> Using cached archive: /spack/var/spack/cache/_source-cache/git//esmf-org/esmf.git/5b7e546c4b.tar.gz
+==> No patches needed for esmf
+==> Warning: Fetching from mirror without a checksum!
+  This package is normally checked out from a version control system, but it has been archived on a spack mirror.  This means we cannot know a checksum for the tarball in advance. Be sure that your connection to this mirror is secure!
+==> esmf: Executing phase: 'edit'
+==> esmf: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j32'
+
+11 errors found in build log:
+     4645    In file included from /tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/src/include/ESMCI_VM.h:41:
+     4646    In file included from /tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/src/include/ESMCI_VMKernel.h:28
+             :
+     4647    In file included from /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward/strstream:50:
+     4648    /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward/backward_warning.h:32:2: warning: This file includes at least one deprecate
+             d or antiquated header which   may be removed without further notice at a future date. Please use a   non-deprecated interface with equivalent f
+             unctionality instead. For a   listing of replacement headers and interfaces, consult the file   backward_warning.h. To disable this warning use 
+             -Wno-deprecated. [-W#warnings]
+     4649    #warning \
+     4650     ^
+  >> 4651    /tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/src/Infrastructure/Mesh/src/Legacy/ESMCI_MeshPNC.C:12
+             5:45: error: non-constant-expression cannot be narrowed from type 'long' to 'int' in initializer list [-Wc++11-narrowing]
+     4652        int local_grid_dims[2] = {grid_dims[0], my_num > 0 ? my_num+1 : 0};
+     4653                                                ^~~~~~~~~~~~~~~~~~~~~~~~~
+     4654    /tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/src/Infrastructure/Mesh/src/Legacy/ESMCI_MeshPNC.C:12
+             5:45: note: insert an explicit cast to silence this issue
+     4655        int local_grid_dims[2] = {grid_dims[0], my_num > 0 ? my_num+1 : 0};
+     4656                                                ^~~~~~~~~~~~~~~~~~~~~~~~~
+     4657                                                static_cast<int>(        )
+
+     ...
+
+     4709    In file included from /tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/src/include/ESMCI_VMKernel.h:28
+             :
+     4710    In file included from /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward/strstream:50:
+     4711    /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward/backward_warning.h:32:2: warning: This file includes at least one deprecate
+             d or antiquated header which   may be removed without further notice at a future date. Please use a   non-deprecated interface with equivalent f
+             unctionality instead. For a   listing of replacement headers and interfaces, consult the file   backward_warning.h. To disable this warning use 
+             -Wno-deprecated. [-W#warnings]
+     4712    #warning \
+     4713     ^
+     4714    1 warning and 1 error generated.
+  >> 4715    make[9]: *** [/tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/build/common.mk:3733: /tmp/root/spack-s
+             tage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/obj/objO/Linux.gfortranclang.64.mpich2.default/ESMCI_MeshPNC.o] Error 
+             1
+     4716    make[9]: *** Waiting for unfinished jobs....
+     4717    1 warning generated.
+     4718    1 warning generated.
+     4719    1 warning generated.
+     4720    1 warning generated.
+     4721    In file included from /tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/src/Infrastructure/Mesh/src/Leg
+             acy/ESMCI_MEValues.C:12:
+
+     ...
+
+     4866    1 warning generated.
+     4867    1 warning generated.
+     4868    1 warning generated.
+     4869    1 warning generated.
+     4870    1 warning generated.
+     4871    make[9]: Leaving directory '/tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/mod/modO/Linux.gfortrancl
+             ang.64.mpich2.default'
+  >> 4872    make[8]: *** [/tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/build/common.mk:2173: esmflib] Error 2
+     4873    make[8]: Leaving directory '/tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/mod/modO/Linux.gfortrancl
+             ang.64.mpich2.default'
+  >> 4874    make[7]: *** [/tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/build/common.mk:2169: tree_lib] Error 2
+     4875    make[7]: Leaving directory '/tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/src/Infrastructure/Mesh/s
+             rc/Legacy'
+  >> 4876    make[6]: *** [/tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/build/common.mk:3661: tree] Error 1
+     4877    make[6]: Leaving directory '/tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/src/Infrastructure/Mesh/s
+             rc'
+  >> 4878    make[5]: *** [/tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/build/common.mk:3661: tree] Error 1
+     4879    make[5]: Leaving directory '/tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/src/Infrastructure/Mesh'
+  >> 4880    make[4]: *** [/tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/build/common.mk:3661: tree] Error 1
+     4881    make[4]: Leaving directory '/tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/src/Infrastructure'
+  >> 4882    make[3]: *** [/tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/build/common.mk:3661: tree] Error 1
+     4883    make[3]: Leaving directory '/tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/src'
+  >> 4884    make[2]: *** [/tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/build/common.mk:3661: tree] Error 1
+     4885    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src'
+  >> 4886    make[1]: *** [/tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/build/common.mk:2136: build_libs] Error
+              2
+     4887    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src'
+  >> 4888    make: *** [/tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-src/build/common.mk:2128: lib] Error 2
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-esmf-8.3.0b09-4alrwdyqoaxhzquncnogmnv2ayoybd3u/spack-build-out.txt
+
