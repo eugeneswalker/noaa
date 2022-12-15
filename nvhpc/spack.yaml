@@ -84,6 +84,12 @@ spack:
   - w3nco@2.4.1
   - zlib@1.2.12                             # deprecated version
 
+  # NEW PR
+  - bufr@11.7.0
+  - eckit@1.19.0
+  - fms@2019.01.03
+  - odc@1.4.5
+
   # ERRORS
   # - crtm@2.3.0                            # crtm
   # - ecflow@5.8.3                          # py-numpy
@@ -103,14 +109,10 @@ spack:
   # re2c: src/dfa/closure_posix.h", line 83: error: no instance of function template "re2c::init_gor1" matches the argument list
 
   # NEED TO ADD VERSION
-  # - bufr@11.7.0                           # add version: https://github.com/spack/spack/pull/34509
   # - crtm@v2.3-jedi.4                      # add version: private?
-  # - eckit@1.19.0                          # add version: https://github.com/spack/spack/pull/34510
-  # - fms@2019.01.03                        # add version: https://github.com/spack/spack/pull/34511
   # - fms@release-jcsda                     # add version: private?
   # - nco@5.0.6                             # add version: https://github.com/spack/spack/pull/34512
   # - netcdf-cxx@4.3.1                      # add version: deprecated? use new package?
-  # - odc@1.4.5                             # add version: https://github.com/spack/spack/pull/34513
 
   # NEED TO ADD PACKAGE
   # - ecmwf-atlas@0.29.0                    # add pkg: https://github.com/noaa-emc/spack/ (jcsda_emc_spack_stack branch)
