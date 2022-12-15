@@ -1,0 +1,172 @@
+==> Starting concretization pool with 5 processes
+==> Environment concretized in 15.22 seconds.
+==> Concretized bufr@11.7.0
+ -   6ofk5px  bufr@11.7.0%clang@15.0.6~ipo build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  v7rz7lm      ^cmake@3.25.1%clang@15.0.6~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  3v6uyyy          ^ncurses@6.3%clang@15.0.6~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  xksz3xo              ^pkgconf@1.8.0%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  o6mxdlf          ^openssl@1.1.1s%clang@15.0.6~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64
+[+]  zbk2wl2              ^ca-certificates-mozilla@2022-10-11%clang@15.0.6 build_system=generic arch=linux-ubuntu20.04-x86_64
+[+]  nbdau6i              ^perl@5.36.0%clang@15.0.6+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64
+[+]  ezsvwns                  ^berkeley-db@18.1.40%clang@15.0.6+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ruw77v4                  ^bzip2@1.0.8%clang@15.0.6~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64
+[+]  257ucyf                      ^diffutils@3.8%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  hxkyau7                          ^libiconv@1.16%clang@15.0.6 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  hwbpsif                  ^gdbm@1.23%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  7p4qhyj                      ^readline@8.2%clang@15.0.6 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64
+[+]  2ekbc22              ^zlib@1.2.13%clang@15.0.6+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64
+
+==> Concretized esmf@8.3.0b09+pio
+ -   4alrwdy  esmf@8.3.0b09%clang@15.0.6~debug~external-lapack+mpi+netcdf~parallelio+pio+pnetcdf+xerces build_system=makefile arch=linux-ubuntu20.04-x86_64
+[+]  2yymdxh      ^libxml2@2.10.3%clang@15.0.6~python build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  hxkyau7          ^libiconv@1.16%clang@15.0.6 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  xksz3xo          ^pkgconf@1.8.0%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  qaeqhhn          ^xz@5.2.7%clang@15.0.6~pic build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  ns2hn3c      ^mpich@4.0.2%clang@15.0.6~argobots~cuda+fortran+hwloc+hydra+libxml2+pci~rocm+romio~slurm~two_level_namespace~vci~verbs~wrapperrpath build_system=autotools datatype-engine=auto device=ch4 netmod=ofi patches=d4c0e99 pmi=pmi arch=linux-ubuntu20.04-x86_64
+[+]  oqxf6rf          ^findutils@4.9.0%clang@15.0.6 build_system=autotools patches=440b954 arch=linux-ubuntu20.04-x86_64
+[+]  jcqwo4y          ^hwloc@2.8.0%clang@15.0.6~cairo~cuda~gl~libudev+libxml2~netloc~nvml~oneapi-level-zero~opencl+pci~rocm build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  3v6uyyy              ^ncurses@6.3%clang@15.0.6~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  pfo7wel          ^libfabric@1.16.1%clang@15.0.6~debug~kdreg build_system=autotools fabrics=sockets,tcp,udp arch=linux-ubuntu20.04-x86_64
+[+]  c3bxkjr          ^libpciaccess@0.16%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  prv6j2l              ^libtool@2.4.7%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  66wvnol              ^util-macros@1.19.3%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  2o2pnoa          ^yaksa@0.2%clang@15.0.6~cuda~rocm build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  qk6o72u              ^autoconf@2.69%clang@15.0.6 build_system=autotools patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64
+[+]  qxy7rek              ^automake@1.16.5%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  diap73s              ^python@3.10.8%clang@15.0.6+bz2+crypt+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tkinter+uuid+zlib build_system=generic patches=0d98e93,7d40923,f2fd060 arch=linux-ubuntu20.04-x86_64
+[+]  itldrwz                  ^expat@2.5.0%clang@15.0.6+libbsd build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  zmb6rii                      ^libbsd@0.11.5%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  pzcw2ur                          ^libmd@1.0.4%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  tozxgnm                  ^gettext@0.21.1%clang@15.0.6+bzip2+curses+git~libunistring+libxml2+tar+xz build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  ldq3pyn                      ^tar@1.34%clang@15.0.6 build_system=autotools zip=pigz arch=linux-ubuntu20.04-x86_64
+[+]  ut4slyu                          ^pigz@2.7%clang@15.0.6 build_system=makefile arch=linux-ubuntu20.04-x86_64
+[+]  jcpgm3e                  ^libffi@3.4.2%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  5tz3unu                  ^libxcrypt@4.4.33%clang@15.0.6~obsolete_api build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  7p4qhyj                  ^readline@8.2%clang@15.0.6 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64
+[+]  4fq3btq                  ^sqlite@3.40.0%clang@15.0.6+column_metadata+dynamic_extensions+fts~functions+rtree build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  5qt5snd                  ^util-linux-uuid@2.38.1%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  mpxejdf      ^netcdf-c@4.9.0%clang@15.0.6~dap~fsync~hdf4~jna+mpi+optimize~parallel-netcdf+pic+shared+zstd build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  croa67x          ^hdf5@1.12.2%clang@15.0.6~cxx~fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  v7rz7lm              ^cmake@3.25.1%clang@15.0.6~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  hsvmwm3          ^m4@1.4.19%clang@15.0.6+sigsegv build_system=autotools patches=9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+[+]  257ucyf              ^diffutils@3.8%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  6icdiif              ^libsigsegv@2.13%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  7cypj47          ^zstd@1.5.2%clang@15.0.6+programs build_system=makefile compression=none libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  skgx7p2      ^netcdf-fortran@4.6.0%clang@15.0.6~doc+pic+shared build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  msamdfx      ^parallel-netcdf@1.12.3%clang@15.0.6~burstbuffer+cxx+fortran+pic+shared build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  nbdau6i          ^perl@5.36.0%clang@15.0.6+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64
+[+]  ezsvwns              ^berkeley-db@18.1.40%clang@15.0.6+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ruw77v4              ^bzip2@1.0.8%clang@15.0.6~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64
+[+]  hwbpsif              ^gdbm@1.23%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  ejkzzhb      ^xerces-c@3.2.3%clang@15.0.6 build_system=autotools cxxstd=default netaccessor=curl transcoder=gnuiconv arch=linux-ubuntu20.04-x86_64
+[+]  uiq7qms          ^curl@7.85.0%clang@15.0.6~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 build_system=autotools libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  o6mxdlf              ^openssl@1.1.1s%clang@15.0.6~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64
+[+]  zbk2wl2                  ^ca-certificates-mozilla@2022-10-11%clang@15.0.6 build_system=generic arch=linux-ubuntu20.04-x86_64
+[+]  2ekbc22      ^zlib@1.2.13%clang@15.0.6+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64
+
+==> Concretized fms@2019.01.03
+ -   z325zgg  fms@2019.01.03%clang@15.0.6+64bit+gfs_phys~ipo+openmp+quad_precision build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  v7rz7lm      ^cmake@3.25.1%clang@15.0.6~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  3v6uyyy          ^ncurses@6.3%clang@15.0.6~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  o6mxdlf          ^openssl@1.1.1s%clang@15.0.6~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64
+[+]  zbk2wl2              ^ca-certificates-mozilla@2022-10-11%clang@15.0.6 build_system=generic arch=linux-ubuntu20.04-x86_64
+[+]  nbdau6i              ^perl@5.36.0%clang@15.0.6+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64
+[+]  ezsvwns                  ^berkeley-db@18.1.40%clang@15.0.6+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ruw77v4                  ^bzip2@1.0.8%clang@15.0.6~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64
+[+]  hwbpsif                  ^gdbm@1.23%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  ns2hn3c      ^mpich@4.0.2%clang@15.0.6~argobots~cuda+fortran+hwloc+hydra+libxml2+pci~rocm+romio~slurm~two_level_namespace~vci~verbs~wrapperrpath build_system=autotools datatype-engine=auto device=ch4 netmod=ofi patches=d4c0e99 pmi=pmi arch=linux-ubuntu20.04-x86_64
+[+]  oqxf6rf          ^findutils@4.9.0%clang@15.0.6 build_system=autotools patches=440b954 arch=linux-ubuntu20.04-x86_64
+[+]  jcqwo4y          ^hwloc@2.8.0%clang@15.0.6~cairo~cuda~gl~libudev+libxml2~netloc~nvml~oneapi-level-zero~opencl+pci~rocm build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  pfo7wel          ^libfabric@1.16.1%clang@15.0.6~debug~kdreg build_system=autotools fabrics=sockets,tcp,udp arch=linux-ubuntu20.04-x86_64
+[+]  c3bxkjr          ^libpciaccess@0.16%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  prv6j2l              ^libtool@2.4.7%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  66wvnol              ^util-macros@1.19.3%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  2yymdxh          ^libxml2@2.10.3%clang@15.0.6~python build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  hxkyau7              ^libiconv@1.16%clang@15.0.6 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  qaeqhhn              ^xz@5.2.7%clang@15.0.6~pic build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  xksz3xo          ^pkgconf@1.8.0%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  2o2pnoa          ^yaksa@0.2%clang@15.0.6~cuda~rocm build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  qk6o72u              ^autoconf@2.69%clang@15.0.6 build_system=autotools patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64
+[+]  qxy7rek              ^automake@1.16.5%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  diap73s              ^python@3.10.8%clang@15.0.6+bz2+crypt+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tkinter+uuid+zlib build_system=generic patches=0d98e93,7d40923,f2fd060 arch=linux-ubuntu20.04-x86_64
+[+]  itldrwz                  ^expat@2.5.0%clang@15.0.6+libbsd build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  zmb6rii                      ^libbsd@0.11.5%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  pzcw2ur                          ^libmd@1.0.4%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  tozxgnm                  ^gettext@0.21.1%clang@15.0.6+bzip2+curses+git~libunistring+libxml2+tar+xz build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  ldq3pyn                      ^tar@1.34%clang@15.0.6 build_system=autotools zip=pigz arch=linux-ubuntu20.04-x86_64
+[+]  ut4slyu                          ^pigz@2.7%clang@15.0.6 build_system=makefile arch=linux-ubuntu20.04-x86_64
+[+]  jcpgm3e                  ^libffi@3.4.2%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  5tz3unu                  ^libxcrypt@4.4.33%clang@15.0.6~obsolete_api build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  7p4qhyj                  ^readline@8.2%clang@15.0.6 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64
+[+]  4fq3btq                  ^sqlite@3.40.0%clang@15.0.6+column_metadata+dynamic_extensions+fts~functions+rtree build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  5qt5snd                  ^util-linux-uuid@2.38.1%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  mpxejdf      ^netcdf-c@4.9.0%clang@15.0.6~dap~fsync~hdf4~jna+mpi+optimize~parallel-netcdf+pic+shared+zstd build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  croa67x          ^hdf5@1.12.2%clang@15.0.6~cxx~fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  hsvmwm3          ^m4@1.4.19%clang@15.0.6+sigsegv build_system=autotools patches=9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+[+]  257ucyf              ^diffutils@3.8%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  6icdiif              ^libsigsegv@2.13%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  2ekbc22          ^zlib@1.2.13%clang@15.0.6+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64
+[+]  7cypj47          ^zstd@1.5.2%clang@15.0.6+programs build_system=makefile compression=none libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  skgx7p2      ^netcdf-fortran@4.6.0%clang@15.0.6~doc+pic+shared build_system=autotools arch=linux-ubuntu20.04-x86_64
+
+==> Concretized parallelio@2.5.4
+ -   d4fazwb  parallelio@2_5_4%clang@15.0.6+fortran~ipo~logging+mpi~pnetcdf~timing build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  v7rz7lm      ^cmake@3.25.1%clang@15.0.6~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  3v6uyyy          ^ncurses@6.3%clang@15.0.6~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  o6mxdlf          ^openssl@1.1.1s%clang@15.0.6~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64
+[+]  zbk2wl2              ^ca-certificates-mozilla@2022-10-11%clang@15.0.6 build_system=generic arch=linux-ubuntu20.04-x86_64
+[+]  nbdau6i              ^perl@5.36.0%clang@15.0.6+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64
+[+]  ezsvwns                  ^berkeley-db@18.1.40%clang@15.0.6+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ruw77v4                  ^bzip2@1.0.8%clang@15.0.6~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64
+[+]  hwbpsif                  ^gdbm@1.23%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  ns2hn3c      ^mpich@4.0.2%clang@15.0.6~argobots~cuda+fortran+hwloc+hydra+libxml2+pci~rocm+romio~slurm~two_level_namespace~vci~verbs~wrapperrpath build_system=autotools datatype-engine=auto device=ch4 netmod=ofi patches=d4c0e99 pmi=pmi arch=linux-ubuntu20.04-x86_64
+[+]  oqxf6rf          ^findutils@4.9.0%clang@15.0.6 build_system=autotools patches=440b954 arch=linux-ubuntu20.04-x86_64
+[+]  jcqwo4y          ^hwloc@2.8.0%clang@15.0.6~cairo~cuda~gl~libudev+libxml2~netloc~nvml~oneapi-level-zero~opencl+pci~rocm build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  pfo7wel          ^libfabric@1.16.1%clang@15.0.6~debug~kdreg build_system=autotools fabrics=sockets,tcp,udp arch=linux-ubuntu20.04-x86_64
+[+]  c3bxkjr          ^libpciaccess@0.16%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  prv6j2l              ^libtool@2.4.7%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  66wvnol              ^util-macros@1.19.3%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  2yymdxh          ^libxml2@2.10.3%clang@15.0.6~python build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  hxkyau7              ^libiconv@1.16%clang@15.0.6 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  qaeqhhn              ^xz@5.2.7%clang@15.0.6~pic build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  xksz3xo          ^pkgconf@1.8.0%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  2o2pnoa          ^yaksa@0.2%clang@15.0.6~cuda~rocm build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  qk6o72u              ^autoconf@2.69%clang@15.0.6 build_system=autotools patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64
+[+]  qxy7rek              ^automake@1.16.5%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  diap73s              ^python@3.10.8%clang@15.0.6+bz2+crypt+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tkinter+uuid+zlib build_system=generic patches=0d98e93,7d40923,f2fd060 arch=linux-ubuntu20.04-x86_64
+[+]  itldrwz                  ^expat@2.5.0%clang@15.0.6+libbsd build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  zmb6rii                      ^libbsd@0.11.5%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  pzcw2ur                          ^libmd@1.0.4%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  tozxgnm                  ^gettext@0.21.1%clang@15.0.6+bzip2+curses+git~libunistring+libxml2+tar+xz build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  ldq3pyn                      ^tar@1.34%clang@15.0.6 build_system=autotools zip=pigz arch=linux-ubuntu20.04-x86_64
+[+]  ut4slyu                          ^pigz@2.7%clang@15.0.6 build_system=makefile arch=linux-ubuntu20.04-x86_64
+[+]  jcpgm3e                  ^libffi@3.4.2%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  5tz3unu                  ^libxcrypt@4.4.33%clang@15.0.6~obsolete_api build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  7p4qhyj                  ^readline@8.2%clang@15.0.6 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64
+[+]  4fq3btq                  ^sqlite@3.40.0%clang@15.0.6+column_metadata+dynamic_extensions+fts~functions+rtree build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  5qt5snd                  ^util-linux-uuid@2.38.1%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  mpxejdf      ^netcdf-c@4.9.0%clang@15.0.6~dap~fsync~hdf4~jna+mpi+optimize~parallel-netcdf+pic+shared+zstd build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  croa67x          ^hdf5@1.12.2%clang@15.0.6~cxx~fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  hsvmwm3          ^m4@1.4.19%clang@15.0.6+sigsegv build_system=autotools patches=9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+[+]  257ucyf              ^diffutils@3.8%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  6icdiif              ^libsigsegv@2.13%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  2ekbc22          ^zlib@1.2.13%clang@15.0.6+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64
+[+]  7cypj47          ^zstd@1.5.2%clang@15.0.6+programs build_system=makefile compression=none libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  skgx7p2      ^netcdf-fortran@4.6.0%clang@15.0.6~doc+pic+shared build_system=autotools arch=linux-ubuntu20.04-x86_64
+
+==> Concretized w3nco@2.4.1
+ -   z4ginoc  w3nco@2.4.1%clang@15.0.6~ipo build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  v7rz7lm      ^cmake@3.25.1%clang@15.0.6~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  3v6uyyy          ^ncurses@6.3%clang@15.0.6~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  xksz3xo              ^pkgconf@1.8.0%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  o6mxdlf          ^openssl@1.1.1s%clang@15.0.6~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64
+[+]  zbk2wl2              ^ca-certificates-mozilla@2022-10-11%clang@15.0.6 build_system=generic arch=linux-ubuntu20.04-x86_64
+[+]  nbdau6i              ^perl@5.36.0%clang@15.0.6+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64
+[+]  ezsvwns                  ^berkeley-db@18.1.40%clang@15.0.6+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ruw77v4                  ^bzip2@1.0.8%clang@15.0.6~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64
+[+]  257ucyf                      ^diffutils@3.8%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  hxkyau7                          ^libiconv@1.16%clang@15.0.6 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  hwbpsif                  ^gdbm@1.23%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  7p4qhyj                      ^readline@8.2%clang@15.0.6 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64
+[+]  2ekbc22              ^zlib@1.2.13%clang@15.0.6+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64
+
