@@ -1,0 +1,314 @@
+==> Installing environment /
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/libiconv-1.16-rkm5hjccpn5kqecvj5mvvgrvlhflelnv
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/libsigsegv-2.13-vjvr7cnirlzvy5kf5cvhmy3n2td3fuew
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/berkeley-db-18.1.40-ssqwerq2ew6ct5ca4umtxbsfumze3q7m
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/pkgconf-1.8.0-mfzuo7mbd33hj2jha3ie35y24niiqym6
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zlib-1.2.13-kpabegzebgtlrbli4lykanrnfss2jan7
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ca-certificates-mozilla-2022-10-11-srxvf4jwn7f3zmfdhkfze2lt4d3rcifu
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/findutils-4.9.0-x554kr6oucrwtfdqgslj75bdpueknkv3
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zstd-1.5.2-5l5jnbhfyr4ejb4blmzxcakvel2sz6ph
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/diffutils-3.8-3q6zhw3quqlvxvaeximxrwcp7jpf6awp
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/m4-1.4.19-iammksszl7gtwyyb2hr27g5uyiq2mxrd
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/bzip2-1.0.8-m2kcoyfpdho5ftzsjvolrn2nzxwrvibk
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/readline-8.2-kco5dp3hqp5k3us2wumzhb4jm3mdvwcr
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/gdbm-1.23-ih7tpmf6qw3ucea3lugzsfoxyuos7c2l
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/perl-5.36.0-72qvwmoiy6djawq3v3vw2lcpt6tubxxb
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openssl-1.1.1s-jczqrbnams7uurx62yymhs7bbtzpg2fa
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/bison-3.8.2-3mwqwmyydeq4tymwyd5b7vyyadybueqj
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yiikeqyyllhspp4tmuwi77uqk
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/flex-2.6.3-kcy3upzkhlorscfl3sqjvtjmpij3rya5
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/hdf5-1.12.2-bf22wf3d4t3pus6n7kqvgly4ad53mfbg
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ecbuild-3.6.5-kopnwppdug2d6g5ahg7c4xiieknkicjj
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-c-4.9.0-z4xbqolzxinxf5jvuzkn7dlaawjshxbc
+==> Installing eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr
+==> eckit exists in binary cache but with different hash
+==> No binary for eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr found: installing from source
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/9c/9c11ddaaf346e40d11312b81ca7f1b510017f26618f4c0f5c5c59c37623fbac8.tar.gz
+==> No patches needed for eckit
+==> eckit: Executing phase: 'cmake'
+==> eckit: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j16'
+
+4 errors found in build log:
+     1321        static void eckit_cmd_unput (int c, char * eckit_cmd__bp )
+     1322                    ^
+     1323    /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/cmd/cmdsl.c:1765:16: warning: 'static
+             ' function 'eckit_cmd_input' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+     1324        static int eckit_cmd_input (void)
+     1325                   ^
+     1326    In file included from /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src/eckit/sql/SQLParser.cc:47:
+  >> 1327    /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/sql/sqly.c:817:3: error: use of undec
+             lared identifier 'pЇ'
+     1328      pЇ<U+0001>
+     1329      ^
+     1330    [ 77%] Building CXX object src/eckit/mpi/CMakeFiles/eckit_mpi.dir/Parallel.cc.o
+     1331    cd /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/mpi && /spack/lib/spack/env/oneapi
+             /icpx -Deckit_mpi_EXPORTS -I/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src -I/tmp/root/spa
+             ck-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src -I/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeho
+             lder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spa
+             ck_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa/m
+             pi/2021.7.1/include -Wall -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT src/eckit
+             /mpi/CMakeFiles/eckit_mpi.dir/Parallel.cc.o -MF CMakeFiles/eckit_mpi.dir/Parallel.cc.o.d -o CMakeFiles/eckit_mpi.dir/Parallel.cc.o -c /tmp/root/spa
+             ck-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src/eckit/mpi/Parallel.cc
+     1332    [ 78%] Building CXX object src/eckit/mpi/CMakeFiles/eckit_mpi.dir/ParallelStatus.cc.o
+     1333    cd /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/mpi && /spack/lib/spack/env/oneapi
+             /icpx -Deckit_mpi_EXPORTS -I/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src -I/tmp/root/spa
+             ck-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src -I/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeho
+             lder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spa
+             ck_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa/m
+             pi/2021.7.1/include -Wall -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT src/eckit
+             /mpi/CMakeFiles/eckit_mpi.dir/ParallelStatus.cc.o -MF CMakeFiles/eckit_mpi.dir/ParallelStatus.cc.o.d -o CMakeFiles/eckit_mpi.dir/ParallelStatus.cc.
+             o -c /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src/eckit/mpi/ParallelStatus.cc
+
+     ...
+
+     1346    cd /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/cmd && /spack/lib/spack/env/oneapi
+             /icpx -Deckit_cmd_EXPORTS -I/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src -I/tmp/root/spa
+             ck-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src -I/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeho
+             lder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spa
+             ck_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2/include -Wall -
+             Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT src/eckit/cmd/CMakeFiles/eckit_cmd.d
+             ir/DirCmd.cc.o -MF CMakeFiles/eckit_cmd.dir/DirCmd.cc.o.d -o CMakeFiles/eckit_cmd.dir/DirCmd.cc.o -c /tmp/root/spack-stage/spack-stage-eckit-1.20.2
+             -4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src/eckit/cmd/DirCmd.cc
+     1347    [ 79%] Building CXX object src/eckit/sql/CMakeFiles/eckit_sql.dir/SQLSelectFactory.cc.o
+     1348    cd /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/sql && /spack/lib/spack/env/oneapi
+             /icpx -Deckit_sql_EXPORTS -I/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src -I/tmp/root/spa
+             ck-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src -Wall -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-sign
+             -compare -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT src/eckit/sql/CMakeFiles/eckit_sql.dir/SQLSelectFactory.cc.o -MF CMakeFiles/eckit_sql.dir/SQLSe
+             lectFactory.cc.o.d -o CMakeFiles/eckit_sql.dir/SQLSelectFactory.cc.o -c /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh
+             4ckr/spack-src/src/eckit/sql/SQLSelectFactory.cc
+     1349    [ 79%] Building CXX object src/eckit/cmd/CMakeFiles/eckit_cmd.dir/EchoCmd.cc.o
+     1350    cd /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/cmd && /spack/lib/spack/env/oneapi
+             /icpx -Deckit_cmd_EXPORTS -I/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src -I/tmp/root/spa
+             ck-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src -I/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeho
+             lder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spa
+             ck_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2/include -Wall -
+             Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT src/eckit/cmd/CMakeFiles/eckit_cmd.d
+             ir/EchoCmd.cc.o -MF CMakeFiles/eckit_cmd.dir/EchoCmd.cc.o.d -o CMakeFiles/eckit_cmd.dir/EchoCmd.cc.o -c /tmp/root/spack-stage/spack-stage-eckit-1.2
+             0.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src/eckit/cmd/EchoCmd.cc
+     1351    1 warning and 1 error generated.
+  >> 1352    make[2]: *** [src/eckit/sql/CMakeFiles/eckit_sql.dir/build.make:226: src/eckit/sql/CMakeFiles/eckit_sql.dir/SQLParser.cc.o] Error 1
+     1353    make[2]: *** Waiting for unfinished jobs....
+     1354    [ 79%] Building CXX object src/eckit/cmd/CMakeFiles/eckit_cmd.dir/EnvironmentCmd.cc.o
+     1355    [ 80%] Building CXX object src/eckit/cmd/CMakeFiles/eckit_cmd.dir/ExportCmd.cc.o
+     1356    cd /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/cmd && /spack/lib/spack/env/oneapi
+             /icpx -Deckit_cmd_EXPORTS -I/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src -I/tmp/root/spa
+             ck-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src -I/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeho
+             lder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spa
+             ck_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2/include -Wall -
+             Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT src/eckit/cmd/CMakeFiles/eckit_cmd.d
+             ir/EnvironmentCmd.cc.o -MF CMakeFiles/eckit_cmd.dir/EnvironmentCmd.cc.o.d -o CMakeFiles/eckit_cmd.dir/EnvironmentCmd.cc.o -c /tmp/root/spack-stage/
+             spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src/eckit/cmd/EnvironmentCmd.cc
+     1357    cd /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/cmd && /spack/lib/spack/env/oneapi
+             /icpx -Deckit_cmd_EXPORTS -I/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src -I/tmp/root/spa
+             ck-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src -I/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeho
+             lder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spa
+             ck_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2/include -Wall -
+             Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT src/eckit/cmd/CMakeFiles/eckit_cmd.d
+             ir/ExportCmd.cc.o -MF CMakeFiles/eckit_cmd.dir/ExportCmd.cc.o.d -o CMakeFiles/eckit_cmd.dir/ExportCmd.cc.o -c /tmp/root/spack-stage/spack-stage-eck
+             it-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src/eckit/cmd/ExportCmd.cc
+     1358    [ 80%] Building CXX object src/eckit/cmd/CMakeFiles/eckit_cmd.dir/JSONCmd.cc.o
+
+     ...
+
+     1530    cd /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/cmd && /spack/opt/spack/__spack_pa
+             th_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placehold
+             er__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yii
+             keqyyllhspp4tmuwi77uqk/bin/cmake -E remove /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/lib/
+             libeckit_cmd.so
+     1531    cd /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/cmd && /spack/opt/spack/__spack_pa
+             th_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placehold
+             er__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yii
+             keqyyllhspp4tmuwi77uqk/bin/cmake -E cmake_link_script CMakeFiles/eckit_cmd.dir/link.txt --verbose=1
+     1532    /spack/lib/spack/env/oneapi/icpx -fPIC  -Wall -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG  -Wl,--disable-n
+             ew-dtags -shared -Wl,-soname,libeckit_cmd.so -o ../../../lib/libeckit_cmd.so CMakeFiles/eckit_cmd.dir/AliasCmd.cc.o CMakeFiles/eckit_cmd.dir/Arg.cc
+             .o CMakeFiles/eckit_cmd.dir/CmdApplication.cc.o CMakeFiles/eckit_cmd.dir/CmdArg.cc.o CMakeFiles/eckit_cmd.dir/CmdParser.cc.o CMakeFiles/eckit_cmd.d
+             ir/CmdResource.cc.o CMakeFiles/eckit_cmd.dir/ConfigCmd.cc.o CMakeFiles/eckit_cmd.dir/DirCmd.cc.o CMakeFiles/eckit_cmd.dir/EchoCmd.cc.o CMakeFiles/e
+             ckit_cmd.dir/EnvironmentCmd.cc.o CMakeFiles/eckit_cmd.dir/ExportCmd.cc.o CMakeFiles/eckit_cmd.dir/JSONCmd.cc.o CMakeFiles/eckit_cmd.dir/HistoryCmd.
+             cc.o CMakeFiles/eckit_cmd.dir/KillCmd.cc.o CMakeFiles/eckit_cmd.dir/LibEcKitCmd.cc.o CMakeFiles/eckit_cmd.dir/LockCmd.cc.o CMakeFiles/eckit_cmd.dir
+             /ManCmd.cc.o CMakeFiles/eckit_cmd.dir/MemoryCmd.cc.o CMakeFiles/eckit_cmd.dir/PsCmd.cc.o CMakeFiles/eckit_cmd.dir/QuitCmd.cc.o CMakeFiles/eckit_cmd
+             .dir/RemoteCmd.cc.o CMakeFiles/eckit_cmd.dir/RemoteCommandable.cc.o CMakeFiles/eckit_cmd.dir/RemoteCommander.cc.o CMakeFiles/eckit_cmd.dir/RemoteCo
+             mmandUser.cc.o CMakeFiles/eckit_cmd.dir/SleepCmd.cc.o CMakeFiles/eckit_cmd.dir/StartCmd.cc.o CMakeFiles/eckit_cmd.dir/StatusCmd.cc.o CMakeFiles/eck
+             it_cmd.dir/StopCmd.cc.o CMakeFiles/eckit_cmd.dir/TailCmd.cc.o CMakeFiles/eckit_cmd.dir/TermBuf.cc.o CMakeFiles/eckit_cmd.dir/term.c.o CMakeFiles/ec
+             kit_cmd.dir/UpTimeCmd.cc.o CMakeFiles/eckit_cmd.dir/UserInput.cc.o  -Wl,-rpath,"/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholde
+             r__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_
+             path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/lib:/spack/opt/sp
+             ack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_
+             path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/eckit-1.2
+             0.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/lib64:/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spac
+             k_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_place
+             holde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2/lib:\$ORIGIN/../lib" /spack/opt/spack/__spack_path_plac
+             eholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__
+             spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kra
+             ig7illytbjnok2/lib/libncurses.so /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_pla
+             ceholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linu
+             x-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2/lib/libtinfo.so /spack/opt/spack/__spack_path_placeholder__/__spa
+             ck_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_plac
+             eholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2/
+             lib/libform.so ../../../lib/libeckit.so -lm /usr/lib/x86_64-linux-gnu/librt.so -lpthread -ldl
+     1533    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau'
+     1534    [ 88%] Built target eckit_cmd
+     1535    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau'
+  >> 1536    make[1]: *** [CMakeFiles/Makefile2:1360: src/eckit/sql/CMakeFiles/eckit_sql.dir/all] Error 2
+     1537    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau'
+  >> 1538    make: *** [Makefile:169: all] Error 2
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-out.txt
+
+==> Installing eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu
+==> eckit exists in binary cache but with different hash
+==> No binary for eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu found: installing from source
+==> Warning: Skipping build of odc-1.4.5-4agkzxhjmscwjjfolukqjk2u7mnbgawb since eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr failed
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/a5/a5fef36b4058f2f0aac8daf5bcc9740565f68da7357ddd242de3a5eed4765cc7.tar.gz
+==> No patches needed for eckit
+==> eckit: Executing phase: 'cmake'
+==> eckit: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j16'
+
+6 errors found in build log:
+     1319    /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src/eckit/cmd/cmdsl.c:1765:16: warning: 'static
+             ' function 'eckit_cmd_input' declared in header file should be declared 'static inline' [-Wunneeded-internal-declaration]
+     1320        static int eckit_cmd_input (void)
+     1321                   ^
+     1322    [ 78%] Building CXX object src/eckit/sql/CMakeFiles/eckit_sql.dir/SQLSimpleOutput.cc.o
+     1323    cd /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src/eckit/sql && /spack/lib/spack/env/oneapi
+             /icpx -Deckit_sql_EXPORTS -I/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src -I/tmp/root/spa
+             ck-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-src/src -Wall -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-sign
+             -compare -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT src/eckit/sql/CMakeFiles/eckit_sql.dir/SQLSimpleOutput.cc.o -MF CMakeFiles/eckit_sql.dir/SQLSim
+             pleOutput.cc.o.d -o CMakeFiles/eckit_sql.dir/SQLSimpleOutput.cc.o -c /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7ope
+             u/spack-src/src/eckit/sql/SQLSimpleOutput.cc
+     1324    In file included from /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-src/src/eckit/sql/SQLParser.cc:47:
+  >> 1325    /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src/eckit/sql/sqly.c:817:3: error: source file 
+             is not valid UTF-8
+     1326      <B0><FF>j<U+0001>
+     1327      ^
+  >> 1328    /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src/eckit/sql/sqly.c:817:4: error: source file 
+             is not valid UTF-8
+     1329      <B0><FF>j<U+0001>
+     1330          ^
+  >> 1331    /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src/eckit/sql/sqly.c:817:5: error: use of undec
+             lared identifier 'j'
+     1332      <B0><FF>j<U+0001>
+     1333              ^
+     1334    [ 78%] Building CXX object src/eckit/mpi/CMakeFiles/eckit_mpi.dir/Status.cc.o
+     1335    [ 78%] Building CXX object src/eckit/web/CMakeFiles/eckit_web.dir/HttpService.cc.o
+     1336    cd /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src/eckit/web && /spack/lib/spack/env/oneapi
+             /icpx -Deckit_web_EXPORTS -I/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src -I/tmp/root/spa
+             ck-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-src/src -Wall -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-sign
+             -compare -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT src/eckit/web/CMakeFiles/eckit_web.dir/HttpService.cc.o -MF CMakeFiles/eckit_web.dir/HttpServic
+             e.cc.o.d -o CMakeFiles/eckit_web.dir/HttpService.cc.o -c /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-src/
+             src/eckit/web/HttpService.cc
+     1337    cd /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src/eckit/mpi && /spack/lib/spack/env/oneapi
+             /icpx -Deckit_mpi_EXPORTS -I/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src -I/tmp/root/spa
+             ck-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-src/src -I/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeho
+             lder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spa
+             ck_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa/m
+             pi/2021.7.1/include -Wall -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT src/eckit
+             /mpi/CMakeFiles/eckit_mpi.dir/Status.cc.o -MF CMakeFiles/eckit_mpi.dir/Status.cc.o.d -o CMakeFiles/eckit_mpi.dir/Status.cc.o -c /tmp/root/spack-sta
+             ge/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-src/src/eckit/mpi/Status.cc
+
+     ...
+
+     1350    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya'
+     1351    make  -f src/tools/CMakeFiles/eckit_version.dir/build.make src/tools/CMakeFiles/eckit_version.dir/build
+     1352    make[2]: Entering directory '/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya'
+     1353    [ 79%] Building CXX object src/tools/CMakeFiles/eckit_version.dir/eckit-version.cc.o
+     1354    cd /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src/tools && /spack/lib/spack/env/oneapi/icp
+             x  -I/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src -I/tmp/root/spack-stage/spack-stage-ec
+             kit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-src/src -Wall -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBU
+             G -fPIE -std=gnu++11 -MD -MT src/tools/CMakeFiles/eckit_version.dir/eckit-version.cc.o -MF CMakeFiles/eckit_version.dir/eckit-version.cc.o.d -o CMa
+             keFiles/eckit_version.dir/eckit-version.cc.o -c /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-src/src/tools
+             /eckit-version.cc
+     1355    1 warning and 3 errors generated.
+  >> 1356    make[2]: *** [src/eckit/sql/CMakeFiles/eckit_sql.dir/build.make:226: src/eckit/sql/CMakeFiles/eckit_sql.dir/SQLParser.cc.o] Error 1
+     1357    make[2]: *** Waiting for unfinished jobs....
+     1358    make  -f src/tools/CMakeFiles/eckit_info.dir/build.make src/tools/CMakeFiles/eckit_info.dir/depend
+     1359    make[2]: Entering directory '/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya'
+     1360    cd /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya && /spack/opt/spack/__spack_path_placeholder
+             __/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_p
+             ath_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yiikeqyyllhspp4tm
+             uwi77uqk/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-src /tmp
+             /root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-src/src/tools /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visu
+             eyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visuey
+             a/src/tools /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src/tools/CMakeFiles/eckit_info.dir
+             /DependInfo.cmake --color=
+     1361    make  -f src/tools/CMakeFiles/dhcopy.dir/build.make src/tools/CMakeFiles/dhcopy.dir/depend
+     1362    make[2]: Entering directory '/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya'
+
+     ...
+
+     1538    /spack/lib/spack/env/oneapi/icpx -fPIC  -Wall -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG  -Wl,--disable-n
+             ew-dtags -shared -Wl,-soname,libeckit_cmd.so -o ../../../lib/libeckit_cmd.so CMakeFiles/eckit_cmd.dir/AliasCmd.cc.o CMakeFiles/eckit_cmd.dir/Arg.cc
+             .o CMakeFiles/eckit_cmd.dir/CmdApplication.cc.o CMakeFiles/eckit_cmd.dir/CmdArg.cc.o CMakeFiles/eckit_cmd.dir/CmdParser.cc.o CMakeFiles/eckit_cmd.d
+             ir/CmdResource.cc.o CMakeFiles/eckit_cmd.dir/ConfigCmd.cc.o CMakeFiles/eckit_cmd.dir/DirCmd.cc.o CMakeFiles/eckit_cmd.dir/EchoCmd.cc.o CMakeFiles/e
+             ckit_cmd.dir/EnvironmentCmd.cc.o CMakeFiles/eckit_cmd.dir/ExportCmd.cc.o CMakeFiles/eckit_cmd.dir/JSONCmd.cc.o CMakeFiles/eckit_cmd.dir/HistoryCmd.
+             cc.o CMakeFiles/eckit_cmd.dir/KillCmd.cc.o CMakeFiles/eckit_cmd.dir/LibEcKitCmd.cc.o CMakeFiles/eckit_cmd.dir/LockCmd.cc.o CMakeFiles/eckit_cmd.dir
+             /ManCmd.cc.o CMakeFiles/eckit_cmd.dir/MemoryCmd.cc.o CMakeFiles/eckit_cmd.dir/PsCmd.cc.o CMakeFiles/eckit_cmd.dir/QuitCmd.cc.o CMakeFiles/eckit_cmd
+             .dir/RemoteCmd.cc.o CMakeFiles/eckit_cmd.dir/RemoteCommandable.cc.o CMakeFiles/eckit_cmd.dir/RemoteCommander.cc.o CMakeFiles/eckit_cmd.dir/RemoteCo
+             mmandUser.cc.o CMakeFiles/eckit_cmd.dir/SleepCmd.cc.o CMakeFiles/eckit_cmd.dir/StartCmd.cc.o CMakeFiles/eckit_cmd.dir/StatusCmd.cc.o CMakeFiles/eck
+             it_cmd.dir/StopCmd.cc.o CMakeFiles/eckit_cmd.dir/TailCmd.cc.o CMakeFiles/eckit_cmd.dir/TermBuf.cc.o CMakeFiles/eckit_cmd.dir/term.c.o CMakeFiles/ec
+             kit_cmd.dir/UpTimeCmd.cc.o CMakeFiles/eckit_cmd.dir/UserInput.cc.o  -Wl,-rpath,"/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholde
+             r__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_
+             path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/lib:/spack/opt/sp
+             ack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_
+             path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/eckit-1.1
+             9.0-visueyakrqyoz3yi32upl3uikqj7opeu/lib64:/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spac
+             k_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_place
+             holde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2/lib:\$ORIGIN/../lib" /spack/opt/spack/__spack_path_plac
+             eholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__
+             spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kra
+             ig7illytbjnok2/lib/libncurses.so /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_pla
+             ceholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linu
+             x-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2/lib/libtinfo.so /spack/opt/spack/__spack_path_placeholder__/__spa
+             ck_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_plac
+             eholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2/
+             lib/libform.so ../../../lib/libeckit.so -lm /usr/lib/x86_64-linux-gnu/librt.so -lpthread -ldl
+     1539    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya'
+     1540    [ 89%] Built target eckit_web
+     1541    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya'
+     1542    [ 89%] Built target eckit_cmd
+     1543    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya'
+  >> 1544    make[1]: *** [CMakeFiles/Makefile2:1360: src/eckit/sql/CMakeFiles/eckit_sql.dir/all] Error 2
+     1545    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya'
+  >> 1546    make: *** [Makefile:169: all] Error 2
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-out.txt
+
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-fortran-4.6.0-er5bcgksemffq32n6wrk55ygo4r3mfva
+==> Installing fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x
+==> fms exists in binary cache but with different hash
+==> No binary for fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x found: installing from source
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/60/60a5181e883e141f2fdd4a30c535a788d609bcbbbca4af7e1ec73f66f4e58dc0.tar.gz
+==> No patches needed for fms
+==> fms: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    '/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yiikeqyyllhspp4tmuwi77uqk/bin/cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x/lib64;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-c-4.9.0-z4xbqolzxinxf5jvuzkn7dlaawjshxbc/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/hdf5-1.12.2-bf22wf3d4t3pus6n7kqvgly4ad53mfbg/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zlib-1.2.13-kpabegzebgtlrbli4lykanrnfss2jan7/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zstd-1.5.2-5l5jnbhfyr4ejb4blmzxcakvel2sz6ph/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-fortran-4.6.0-er5bcgksemffq32n6wrk55ygo4r3mfva/lib' '-DCMAKE_PREFIX_PATH:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-fortran-4.6.0-er5bcgksemffq32n6wrk55ygo4r3mfva;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-c-4.9.0-z4xbqolzxinxf5jvuzkn7dlaawjshxbc;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zstd-1.5.2-5l5jnbhfyr4ejb4blmzxcakvel2sz6ph;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/hdf5-1.12.2-bf22wf3d4t3pus6n7kqvgly4ad53mfbg;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yiikeqyyllhspp4tmuwi77uqk;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zlib-1.2.13-kpabegzebgtlrbli4lykanrnfss2jan7' '-D64BIT:BOOL=ON' '-DGFS_PHYS:BOOL=ON' '-DOPENMP:BOOL=ON' '-DENABLE_QUAD_PRECISION:BOOL=ON' '' '' '' '-DCMAKE_C_COMPILER:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa/mpi/2021.7.1/bin/mpiicc' '-DCMAKE_CXX_COMPILER:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa/mpi/2021.7.1/bin/mpiicpc' '-DCMAKE_Fortran_COMPILER:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa/mpi/2021.7.1/bin/mpiifort' '/tmp/root/spack-stage/spack-stage-fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x/spack-src'
+
+1 error found in build log:
+     15    CMake Warning:
+     16      Ignoring extra path from command line:
+     17    
+     18       "/tmp/root/spack-stage/spack-stage-fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x/spack-src"
+     19    
+     20    
+  >> 21    CMake Error: The source directory "/tmp/root/spack-stage/spack-stage-fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x/spack-src" does not appear to co
+           ntain CMakeLists.txt.
+     22    Specify --help for usage, or press the help button on the CMake GUI.
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x/spack-build-out.txt
+
+==> Error: eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu: ProcessError: Command exited with status 2:
+    'make' '-j16'
+==> Error: fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x: ProcessError: Command exited with status 1:
+    '/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yiikeqyyllhspp4tmuwi77uqk/bin/cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x/lib64;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-c-4.9.0-z4xbqolzxinxf5jvuzkn7dlaawjshxbc/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/hdf5-1.12.2-bf22wf3d4t3pus6n7kqvgly4ad53mfbg/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zlib-1.2.13-kpabegzebgtlrbli4lykanrnfss2jan7/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zstd-1.5.2-5l5jnbhfyr4ejb4blmzxcakvel2sz6ph/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-fortran-4.6.0-er5bcgksemffq32n6wrk55ygo4r3mfva/lib' '-DCMAKE_PREFIX_PATH:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-fortran-4.6.0-er5bcgksemffq32n6wrk55ygo4r3mfva;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-c-4.9.0-z4xbqolzxinxf5jvuzkn7dlaawjshxbc;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zstd-1.5.2-5l5jnbhfyr4ejb4blmzxcakvel2sz6ph;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/hdf5-1.12.2-bf22wf3d4t3pus6n7kqvgly4ad53mfbg;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yiikeqyyllhspp4tmuwi77uqk;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zlib-1.2.13-kpabegzebgtlrbli4lykanrnfss2jan7' '-D64BIT:BOOL=ON' '-DGFS_PHYS:BOOL=ON' '-DOPENMP:BOOL=ON' '-DENABLE_QUAD_PRECISION:BOOL=ON' '' '' '' '-DCMAKE_C_COMPILER:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa/mpi/2021.7.1/bin/mpiicc' '-DCMAKE_CXX_COMPILER:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa/mpi/2021.7.1/bin/mpiicpc' '-DCMAKE_Fortran_COMPILER:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa/mpi/2021.7.1/bin/mpiifort' '/tmp/root/spack-stage/spack-stage-fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x/spack-src'
+==> Error: eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu: Package was not installed
+==> Error: fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x: Package was not installed
+==> Error: odc-1.4.5-4agkzxhjmscwjjfolukqjk2u7mnbgawb: Package was not installed
+==> Error: Installation request failed.  Refer to reported errors for failing package(s).
