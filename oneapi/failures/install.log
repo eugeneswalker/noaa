@@ -1,14 +1,14 @@
 ==> Installing environment /
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-liwfts3tim6vr4mm2tj6jv545as43o5m
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/libiconv-1.16-rkm5hjccpn5kqecvj5mvvgrvlhflelnv
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/libsigsegv-2.13-vjvr7cnirlzvy5kf5cvhmy3n2td3fuew
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/berkeley-db-18.1.40-ssqwerq2ew6ct5ca4umtxbsfumze3q7m
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/pkgconf-1.8.0-mfzuo7mbd33hj2jha3ie35y24niiqym6
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/xz-5.2.7-itpnx2enx35dkij4mciunoazgwqcz2ix
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zlib-1.2.13-kpabegzebgtlrbli4lykanrnfss2jan7
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ca-certificates-mozilla-2022-10-11-srxvf4jwn7f3zmfdhkfze2lt4d3rcifu
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/berkeley-db-18.1.40-ssqwerq2ew6ct5ca4umtxbsfumze3q7m
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/libsigsegv-2.13-vjvr7cnirlzvy5kf5cvhmy3n2td3fuew
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zstd-1.5.2-5l5jnbhfyr4ejb4blmzxcakvel2sz6ph
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/findutils-4.9.0-x554kr6oucrwtfdqgslj75bdpueknkv3
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/xz-5.2.7-itpnx2enx35dkij4mciunoazgwqcz2ix
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zstd-1.5.2-5l5jnbhfyr4ejb4blmzxcakvel2sz6ph
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/nasm-2.15.05-gob6kge3nhunnsrex5xnnvp6w7fpaohg
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zstd-1.5.2-naw2g7xbj2o4x4pnufi5rrt43ym6u7rl
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/libmd-1.0.4-2emskqxbqqadwmhl42cuewwsmgdsecjz
@@ -16,8 +16,8 @@
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/libxcrypt-4.4.33-tt3fhby5tetolrdolmx24cnb2tlvjoj2
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/re2c-2.2-cjodjrlrrhrzro3daew6z5l6pzwmltsl
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/diffutils-3.8-3q6zhw3quqlvxvaeximxrwcp7jpf6awp
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/util-linux-uuid-2.38.1-ylmpled3ivqyaurbf2h2vo2imxfuqwul
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/util-linux-uuid-2.38.1-ylmpled3ivqyaurbf2h2vo2imxfuqwul
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/pigz-2.7-ut2llledfcy3i7wo3d6vmmwnlwicbupn
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/libxml2-2.10.3-wwxxc2rgopaoep4buhhim54glpe55mkx
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/libbsd-0.11.5-mblnzunearugxu55k5k5g5jjzyuljkue
@@ -30,19 +30,15 @@
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/gdbm-1.23-ih7tpmf6qw3ucea3lugzsfoxyuos7c2l
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/gettext-0.21.1-j37lpjmnmgekmdcbobmz4i5b4nr4wd3y
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/perl-5.36.0-72qvwmoiy6djawq3v3vw2lcpt6tubxxb
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openblas-0.3.21-akdxepiwrp5g76t7wanwd2pfotzfqteb
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openssl-1.1.1s-jczqrbnams7uurx62yymhs7bbtzpg2fa
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/bison-3.8.2-3mwqwmyydeq4tymwyd5b7vyyadybueqj
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/parallel-netcdf-1.12.3-ens4xd3544eklur74wym7dwpy7obstcv
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/curl-7.85.0-444mnoftfbdvhzxs6s3sjyajdtewxgse
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yiikeqyyllhspp4tmuwi77uqk
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/python-3.10.8-47oe6zkjpp2qe3myyg7ry6on2adsdyrt
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/parallel-netcdf-1.12.3-pzveghnlbsklituylqmw5ucnzsj7gxu4
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openssl-1.1.1s-jczqrbnams7uurx62yymhs7bbtzpg2fa
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openblas-0.3.21-akdxepiwrp5g76t7wanwd2pfotzfqteb
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/flex-2.6.3-kcy3upzkhlorscfl3sqjvtjmpij3rya5
 ==> Installing krb5-1.20.1-62sn7f4m4hokbjewjoy33ne2o6rb4uoj
 ==> krb5 exists in binary cache but with different hash
 ==> No binary for krb5-1.20.1-62sn7f4m4hokbjewjoy33ne2o6rb4uoj found: installing from source
-==> Warning: download_tarball() was unable to download krb5@1.20.1%gcc@11.1.0+shared build_system=autotools arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%oneapi@2022.2.1+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bison@3.8.2%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%oneapi@2022.2.1~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%oneapi@2022.2.1 build_system=generic arch=linux-ubuntu20.04-x86_64 ^diffutils@3.8%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gettext@0.21.1%oneapi@2022.2.1+bzip2+curses+git~libunistring+libxml2+tar+xz build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%oneapi@2022.2.1 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libsigsegv@2.13%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxml2@2.10.3%oneapi@2022.2.1~python build_system=autotools arch=linux-ubuntu20.04-x86_64 ^m4@1.4.19%gcc@11.1.0+sigsegv build_system=autotools patches=9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%oneapi@2022.2.1~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%oneapi@2022.2.1~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%oneapi@2022.2.1+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pigz@2.7%oneapi@2022.2.1 build_system=makefile arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^readline@8.2%oneapi@2022.2.1 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^tar@1.34%oneapi@2022.2.1 build_system=autotools zip=pigz arch=linux-ubuntu20.04-x86_64 ^xz@5.2.7%oneapi@2022.2.1~pic build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%oneapi@2022.2.1+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 ^zstd@1.5.2%oneapi@2022.2.1+programs build_system=makefile compression=none libs=shared,static arch=linux-ubuntu20.04-x86_64 from any configured mirrors
-==> Fetching https://mirror.spack.io/_source-cache/archive/70/704aed49b19eb5a7178b34b2873620ec299db08752d6a8574f95d41879ab8851.tar.gz
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/70/704aed49b19eb5a7178b34b2873620ec299db08752d6a8574f95d41879ab8851.tar.gz
 ==> Ran patch() for krb5
 ==> krb5: Executing phase: 'autoreconf'
 ==> krb5: Executing phase: 'configure'
@@ -51,24 +47,21 @@
     'make' '-j16' 'V=1'
 
 30 errors found in build log:
-     2414    /spack/lib/spack/env/gcc/gcc -DHAVE_CONFIG_H  -I../../include -I../../include -I. -DKRB5_DEPRECATED=1 -DKRB5_PRIVATE  -fcommon -Wall -Wcast-align -Wshadow -Wmissing
-             -prototypes -Wno-format-zero-length -Woverflow -Wstrict-overflow -Wmissing-format-attribute -Wmissing-prototypes -Wreturn-type -Wmissing-braces -Wparentheses -Wswit
-             ch -Wunused-function -Wunused-label -Wunused-variable -Wunused-value -Wunknown-pragmas -Wsign-compare -Werror=uninitialized -Wno-maybe-uninitialized -Werror=pointer
-             -arith -Werror=int-conversion -Werror=incompatible-pointer-types -Werror=discarded-qualifiers -Werror=implicit-int -Werror=declaration-after-statement -Werror-impli
-             cit-function-declaration -pthread  -c keytab.c
+     2414    /spack/lib/spack/env/gcc/gcc -DHAVE_CONFIG_H  -I../../include -I../../include -I. -DKRB5_DEPRECATED=1 -DKRB5_PRIVATE  -fcommon -Wall -Wcast-align -Wshadow -Wmissing-prototypes -Wno-format-
+             zero-length -Woverflow -Wstrict-overflow -Wmissing-format-attribute -Wmissing-prototypes -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wunused-var
+             iable -Wunused-value -Wunknown-pragmas -Wsign-compare -Werror=uninitialized -Wno-maybe-uninitialized -Werror=pointer-arith -Werror=int-conversion -Werror=incompatible-pointer-types -Werror
+             =discarded-qualifiers -Werror=implicit-int -Werror=declaration-after-statement -Werror-implicit-function-declaration -pthread  -c keytab.c
      2415    getdate.y: warning: 4 shift/reduce conflicts [-Wconflicts-sr]
      2416    getdate.y: note: rerun with option '-Wcounterexamples' to generate conflict counterexamples
-     2417    /spack/lib/spack/env/gcc/gcc -DHAVE_CONFIG_H  -I../../include -I../../include -I. -DKRB5_DEPRECATED=1 -DKRB5_PRIVATE  -fcommon -Wall -Wcast-align -Wshadow -Wmissing
-             -prototypes -Wno-format-zero-length -Woverflow -Wstrict-overflow -Wmissing-format-attribute -Wmissing-prototypes -Wreturn-type -Wmissing-braces -Wparentheses -Wswit
-             ch -Wunused-function -Wunused-label -Wunused-variable -Wunused-value -Wunknown-pragmas -Wsign-compare -Werror=uninitialized -Wno-maybe-uninitialized -Werror=pointer
-             -arith -Werror=int-conversion -Werror=incompatible-pointer-types -Werror=discarded-qualifiers -Werror=implicit-int -Werror=declaration-after-statement -Werror-impli
-             cit-function-declaration -pthread  -c kadmin_ct.c
+     2417    /spack/lib/spack/env/gcc/gcc -DHAVE_CONFIG_H  -I../../include -I../../include -I. -DKRB5_DEPRECATED=1 -DKRB5_PRIVATE  -fcommon -Wall -Wcast-align -Wshadow -Wmissing-prototypes -Wno-format-
+             zero-length -Woverflow -Wstrict-overflow -Wmissing-format-attribute -Wmissing-prototypes -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wunused-var
+             iable -Wunused-value -Wunknown-pragmas -Wsign-compare -Werror=uninitialized -Wno-maybe-uninitialized -Werror=pointer-arith -Werror=int-conversion -Werror=incompatible-pointer-types -Werror
+             =discarded-qualifiers -Werror=implicit-int -Werror=declaration-after-statement -Werror-implicit-function-declaration -pthread  -c kadmin_ct.c
      2418    mv -f y.tab.c getdate.c
-     2419    /spack/lib/spack/env/gcc/gcc -DHAVE_CONFIG_H  -I../../include -I../../include -I. -DKRB5_DEPRECATED=1 -DKRB5_PRIVATE  -fcommon -Wall -Wcast-align -Wshadow -Wmissing
-             -prototypes -Wno-format-zero-length -Woverflow -Wstrict-overflow -Wmissing-format-attribute -Wmissing-prototypes -Wreturn-type -Wmissing-braces -Wparentheses -Wswit
-             ch -Wunused-function -Wunused-label -Wunused-variable -Wunused-value -Wunknown-pragmas -Wsign-compare -Werror=uninitialized -Wno-maybe-uninitialized -Werror=pointer
-             -arith -Werror=int-conversion -Werror=incompatible-pointer-types -Werror=discarded-qualifiers -Werror=implicit-int -Werror=declaration-after-statement -Werror-impli
-             cit-function-declaration -pthread  -c getdate.c
+     2419    /spack/lib/spack/env/gcc/gcc -DHAVE_CONFIG_H  -I../../include -I../../include -I. -DKRB5_DEPRECATED=1 -DKRB5_PRIVATE  -fcommon -Wall -Wcast-align -Wshadow -Wmissing-prototypes -Wno-format-
+             zero-length -Woverflow -Wstrict-overflow -Wmissing-format-attribute -Wmissing-prototypes -Wreturn-type -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wunused-var
+             iable -Wunused-value -Wunknown-pragmas -Wsign-compare -Werror=uninitialized -Wno-maybe-uninitialized -Werror=pointer-arith -Werror=int-conversion -Werror=incompatible-pointer-types -Werror
+             =discarded-qualifiers -Werror=implicit-int -Werror=declaration-after-statement -Werror-implicit-function-declaration -pthread  -c getdate.c
   >> 2420    getdate.y:178:5: error: unknown type name 'time_t'
      2421      178 |     time_t              Number;
      2422          |     ^~~~~~
@@ -148,7 +141,7 @@
      2496      368 | %%
      2497          | ^~
   >> 2498    getdate.y:368:1: error: expected identifier or '(' before numeric constant
-  >> 2499    getdate.y:368:3: error: stray '\305' in program
+  >> 2499    getdate.y:368:3: error: stray '\341' in program
      2500      368 | %%
      2501          |   ^
   >> 2502    getdate.y:368:4: error: stray '\1' in program
@@ -168,211 +161,391 @@
 See build log for details:
   /tmp/root/spack-stage/spack-stage-krb5-1.20.1-62sn7f4m4hokbjewjoy33ne2o6rb4uoj/spack-build-out.txt
 
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/curl-7.85.0-444mnoftfbdvhzxs6s3sjyajdtewxgse
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yiikeqyyllhspp4tmuwi77uqk
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/python-3.10.8-47oe6zkjpp2qe3myyg7ry6on2adsdyrt
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/xerces-c-3.2.3-xfr7dnvudld4nt7rddq5axwrdi34qbyq
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/hdf5-1.12.2-76hsbfowjv6hk7iuyvtvf54ed2spzrsl
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/hdf5-1.12.2-bf22wf3d4t3pus6n7kqvgly4ad53mfbg
 ==> Installing w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv
 ==> w3nco exists in binary cache but with different hash
 ==> No binary for w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv found: installing from source
 ==> Warning: Skipping build of libtirpc-1.2.6-4jko2gbpukchw6pzavllmzy7vpzvdhb7 since krb5-1.20.1-62sn7f4m4hokbjewjoy33ne2o6rb4uoj failed
 ==> Warning: Skipping build of hdf-4.2.15-424tm3fnhs3kz3jpjqdyvuvmeelt5qmy since libtirpc-1.2.6-4jko2gbpukchw6pzavllmzy7vpzvdhb7 failed
-==> Warning: download_tarball() was unable to download w3nco@2.4.1%oneapi@2022.2.1~ipo build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%oneapi@2022.2.1+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%oneapi@2022.2.1~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%oneapi@2022.2.1 build_system=generic arch=linux-ubuntu20.04-x86_64 ^cmake@3.25.1%oneapi@2022.2.1~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64 ^diffutils@3.8%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%oneapi@2022.2.1 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%oneapi@2022.2.1~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%oneapi@2022.2.1~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%oneapi@2022.2.1+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^readline@8.2%oneapi@2022.2.1 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%oneapi@2022.2.1+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 from any configured mirrors
-==> Fetching https://mirror.spack.io/_source-cache/archive/48/48b06e0ea21d3d0fd5d5c4e7eb50b081402567c1bff6c4abf4fd4f3669070139.tar.gz
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/48/48b06e0ea21d3d0fd5d5c4e7eb50b081402567c1bff6c4abf4fd4f3669070139.tar.gz
 ==> No patches needed for w3nco
 ==> w3nco: Executing phase: 'cmake'
 ==> w3nco: Executing phase: 'build'
 ==> Error: ProcessError: Command exited with status 2:
     'make' '-j16'
 
-19 errors found in build log:
-     98     void elapse (timer)
-     99          ^
-     100    [  5%] Building Fortran object src/CMakeFiles/w3nco_d_f.dir/aea.f.o
-     101    [  5%] Building Fortran object src/CMakeFiles/w3nco_d_f.dir/errexit.f.o
-     102    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module 
-            include_4 -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/gbytec.f -o CMakeFiles/w3nco_4_f.dir/gbytec.f.o
-     103    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module 
-            include_4 -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/fparser.f -o CMakeFiles/w3nco_4_f.dir/fparser.f.o
-  >> 104    /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/summary.c:259:13: error: call to undeclared function 'times'; ISO C99 an
-            d later do not support implicit function declarations [-Wimplicit-function-declaration]
-     105          ret = times (&Time_buffer);
-     106                ^
-     107    /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/summary.c:259:13: note: did you mean 'utimes'?
-     108    /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/summary.c:189:5: warning: a function definition without a prototype is d
-            eprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
-     109    int bucket (lng)
-     110        ^
+18 errors found in build log:
+     96     void elapse (timer)
+     97          ^
+     98     [  4%] Building Fortran object src/CMakeFiles/w3nco_4_f.dir/aea.f.o
+     99     [  4%] Building Fortran object src/CMakeFiles/w3nco_4_f.dir/fparser.f.o
+     100    [  4%] Building Fortran object src/CMakeFiles/w3nco_4_f.dir/errexit.f.o
+     101    [  4%] Building Fortran object src/CMakeFiles/w3nco_4_f.dir/fparsei.f.o
+  >> 102    /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/summary.c:259:13: error: call to undeclared function 'times'; ISO C99 and later do not support i
+            mplicit function declarations [-Wimplicit-function-declaration]
+     103          ret = times (&Time_buffer);
+     104                ^
+     105    /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/summary.c:259:13/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/s
+            pack-src/src/summary.c:: 259error: :call to undeclared function 'times'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]13
+     106    : note: did you mean 'utimes'?
+     107          ret = times (&Time_buffer);
+     108                ^
+  >> 109    /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/summary.c:259:13: /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv
+            /spack-src/src/summary.cerror: :call to undeclared function 'times'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]259
+     110    :13: note: did you mean 'utimes'?
+     111          ret = times (&Time_buffer);
+     112                ^
+     113    /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/summary.c:259:13: note: did you mean 'utimes'?
+     114    /usr/include/x86_64-linux-gnu/sys/time.h:136:12: note: 'utimes' declared here
+     115    /usr/include/x86_64-linux-gnu/sys/time.h:136:12: note: 'utimes' declared here
 
      ...
 
-     127    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module 
-            include_d -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/aea.f -o CMakeFiles/w3nco_d_f.dir/aea.f.o
-     128    /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/summary.c:391:6: warning: a function definition without a prototype is d
-            eprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
-     129    void print_timing (string, time)
-     130         ^
-     131    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module 
-            include_d -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/errexit.f -o CMakeFiles/w3nco_d_f.dir/errexit.f.o
-     132    /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/summary.c:cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5og
-            dbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module include_8 -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6
-            su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/errexit.f -o CMakeFiles/w3nco_8_f.dir/errexit.f.o
-  >> 133    259:13: error: call to undeclared function 'times'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
-     134          ret = times (&Time_buffer);
-     135                ^
-     136    [  6%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/errmsg.f.o
-     137    /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/summary.c:259:13: note: did you mean 'utimes'?6
-     138     warnings and 1 error generated.
-     139    /usr/include/x86_64-linux-gnu/sys/time.h:136:12: note: 'utimes' declared here
-
-     ...
-
-     157        ^
-     158    6 warnings and 1 error generated.
-     159    /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/summary.c:202:6: warning: a function definition without a prototype is d
-            eprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
-     160    void elapse (timer)
-     161         ^
-     162    [  7%] Building Fortran object src/CMakeFiles/w3nco_4_f.dir/gbytesc.f.o
-  >> 163    /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/summary.c:259:13: error: call to undeclared function 'times'; ISO C99 an
-            d later do not support implicit function declarations [-Wimplicit-function-declaration]
-     164          ret = times (&Time_buffer);
-     165                ^
-     166    /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/summary.c:259:13: note: did you mean 'utimes'?
-     167    /usr/include/x86_64-linux-gnu/sys/time.h:136:12: note: 'utimes' declared here
-     168    extern int utimes (const char *__file, const struct timeval __tvp[2])
-     169               ^
-
-     ...
-
-     178         ^
-     179    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module 
-            include_4 -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/gbytesc.f -o CMakeFiles/w3nco_4_f.dir/gbytesc.f.o
-     180    /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/summary.c:391:6: warning: a function definition without a prototype is d
-            eprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
-     181    void print_timing (string, time)
-     182         ^
-     183    6 warnings and 1 error generated.
-  >> 184    make[2]: *** [src/CMakeFiles/w3nco_8_c.dir/build.make:93: src/CMakeFiles/w3nco_8_c.dir/summary.c.o] Error 1
+     178    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module include_d -c /tmp/root/s
+            pack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/aea.f -o CMakeFiles/w3nco_d_f.dir/aea.f.o
+     179    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module include_8 -c /tmp/root/s
+            pack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/aea.f -o CMakeFiles/w3nco_8_f.dir/aea.f.o
+     180    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module include_4 -c /tmp/root/s
+            pack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/fparser.f -o CMakeFiles/w3nco_4_f.dir/fparser.f.o
+     181    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module include_8 -c /tmp/root/s
+            pack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/fparsei.f -o CMakeFiles/w3nco_8_f.dir/fparsei.f.o
+     182    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module include_4 -c /tmp/root/s
+            pack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/gbytec.f -o CMakeFiles/w3nco_4_f.dir/gbytec.f.o
+     183    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module include_4 -c /tmp/root/s
+            pack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/gbyte.f -o CMakeFiles/w3nco_4_f.dir/gbyte.f.o
+  >> 184    make[2]: *** [src/CMakeFiles/w3nco_d_c.dir/build.make:93: src/CMakeFiles/w3nco_d_c.dir/summary.c.o] Error 1
      185    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x'
-  >> 186    make[2]: *** [src/CMakeFiles/w3nco_d_c.dir/build.make:93: src/CMakeFiles/w3nco_d_c.dir/summary.c.o] Error 1
-     187    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x'
-  >> 188    make[1]: *** [CMakeFiles/Makefile2:222: src/CMakeFiles/w3nco_8_c.dir/all] Error 2
-     189    make[1]: *** Waiting for unfinished jobs....
-  >> 190    make[1]: *** [CMakeFiles/Makefile2:301: src/CMakeFiles/w3nco_d_c.dir/all] Error 2
-  >> 191    make[2]: *** [src/CMakeFiles/w3nco_4_c.dir/build.make:93: src/CMakeFiles/w3nco_4_c.dir/summary.c.o] Error 1
+  >> 186    make[1]: *** [CMakeFiles/Makefile2:301: src/CMakeFiles/w3nco_d_c.dir/all] Error 2
+  >> 187    make[2]: *** [src/CMakeFiles/w3nco_4_c.dir/build.make:93: src/CMakeFiles/w3nco_4_c.dir/summary.c.o] Error 1
+     188    make[1]: *** Waiting for unfinished jobs....
+     189    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x'
+  >> 190    make[1]: *** [CMakeFiles/Makefile2:143: src/CMakeFiles/w3nco_4_c.dir/all] Error 2
+  >> 191    make[2]: *** [src/CMakeFiles/w3nco_8_c.dir/build.make:93: src/CMakeFiles/w3nco_8_c.dir/summary.c.o] Error 1
      192    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x'
-  >> 193    make[1]: *** [CMakeFiles/Makefile2:143: src/CMakeFiles/w3nco_4_c.dir/all] Error 2
-     194    [  7%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/fparsei.f.o
-     195    [  7%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/fparser.f.o
-     196    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module 
-            include_8 -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/fparsei.f -o CMakeFiles/w3nco_8_f.dir/fparsei.f.o
-     197    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module 
-            include_8 -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/fparser.f -o CMakeFiles/w3nco_8_f.dir/fparser.f.o
-     198    [  7%] Building Fortran object src/CMakeFiles/w3nco_4_f.dir/gbytes.f.o
-     199    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module 
-            include_4 -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/gbytes.f -o CMakeFiles/w3nco_4_f.dir/gbytes.f.o
+  >> 193    make[1]: *** [CMakeFiles/Makefile2:222: src/CMakeFiles/w3nco_8_c.dir/all] Error 2
+     194    [  6%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/fparser.f.o
+     195    [  8%] Building Fortran object src/CMakeFiles/w3nco_4_f.dir/gbytesc.f.o
+     196    [  8%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/gbytec.f.o
+     197    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module include_8 -c /tmp/root/s
+            pack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/fparser.f -o CMakeFiles/w3nco_8_f.dir/fparser.f.o
+     198    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module include_8 -c /tmp/root/s
+            pack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/gbytec.f -o CMakeFiles/w3nco_8_f.dir/gbytec.f.o
+     199    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module include_4 -c /tmp/root/s
+            pack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/gbytesc.f -o CMakeFiles/w3nco_4_f.dir/gbytesc.f.o
 
      ...
 
-     417    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x10acc96]
-     418    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x10ac46d]
-     419    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x1259aec]
-     420    /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7f79b79c6083]
-     421    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0xeeba29]
-     422    
-  >> 423    /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/iw3unp29.f(1469): error #5533: Feature found on this line is not yet sup
-            ported in ifx
-     424          END
-     425    ------^
-     426    [ 37%] Building Fortran object src/CMakeFiles/w3nco_4_f.dir/pdsens.f.o
-     427    [ 37%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/lengds.f.o
-     428    compilation aborted for /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/iw3unp29.f (code 3)
-     429    [ 38%] Building Fortran object src/CMakeFiles/w3nco_4_f.dir/mkfldsep.f.o
-     430    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module 
-            include_4 -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/pdsens.f -o CMakeFiles/w3nco_4_f.dir/pdsens.f.o
-     431    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module 
-            include_8 -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/lengds.f -o CMakeFiles/w3nco_8_f.dir/lengds.f.o
-     432    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module 
-            include_4 -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/mkfldsep.f -o CMakeFiles/w3nco_4_f.dir/mkfldsep.f.o
-  >> 433    make[2]: *** [src/CMakeFiles/w3nco_d_f.dir/build.make:546: src/CMakeFiles/w3nco_d_f.dir/iw3unp29.f.o] Error 3
-     434    make[2]: *** Waiting for unfinished jobs....
-     435    [ 38%] Building Fortran object src/CMakeFiles/w3nco_d_f.dir/mkfldsep.f.o
-     436    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module 
-            include_d -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/mkfldsep.f -o CMakeFiles/w3nco_d_f.dir/mkfldsep.f.o
-     437    [ 39%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/makwmo.f.o
-     438    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module 
-            include_8 -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/makwmo.f -o CMakeFiles/w3nco_8_f.dir/makwmo.f.o
-     439    [ 39%] Building Fortran object src/CMakeFiles/w3nco_4_f.dir/pdseup.f.o
+     413    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x10ac46d]
+     414    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x1259aec]
+     415    /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7f99406ce083]
+     416    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0xeeba29]
+     417    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module include_4 -c /tmp/root/s
+            pack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/putgbe.f -o CMakeFiles/w3nco_4_f.dir/putgbe.f.o
+     418    
+  >> 419    /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/iw3unp29.f(1469): error #5533: Feature found on this line is not yet supported in ifx
+     420          END
+     421    ------^
+     422    compilation aborted for /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/iw3unp29.f (code 3)
+  >> 423    make[2]: *** [src/CMakeFiles/w3nco_4_f.dir/build.make:546: src/CMakeFiles/w3nco_4_f.dir/iw3unp29.f.o] Error 3
+     424    make[2]: *** Waiting for unfinished jobs....
+     425    [ 36%] Building Fortran object src/CMakeFiles/w3nco_d_f.dir/ixgb.f.o
+     426    [ 36%] Building Fortran object src/CMakeFiles/w3nco_d_f.dir/iw3unp29.f.o
+     427    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module include_d -c /tmp/root/s
+            pack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/ixgb.f -o CMakeFiles/w3nco_d_f.dir/ixgb.f.o
+     428    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module include_d -c /tmp/root/s
+            pack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/iw3unp29.f -o CMakeFiles/w3nco_d_f.dir/iw3unp29.f.o
+     429    [ 37%] Building Fortran object src/CMakeFiles/w3nco_d_f.dir/lengds.f.o
 
      ...
 
-     454    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x10acc96]
-     455    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x10ac46d]
-     456    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x1259aec]
-     457    /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7f608facb083]
-     458    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0xeeba29]
-     459    
-  >> 460    /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/iw3unp29.f(1469): error #5533: Feature found on this line is not yet sup
-            ported in ifx
-     461          END
-     462    ------^
-     463    compilation aborted for /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/iw3unp29.f (code 3)
-     464    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x146924a]
-     465    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x11501a2]
-     466    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x11b6082]
+     447    [ 39%] Building Fortran object src/CMakeFiles/w3nco_d_f.dir/putgben.f.o
+     448    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module include_d -c /tmp/root/s
+            pack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/putgben.f -o CMakeFiles/w3nco_d_f.dir/putgben.f.o
+     449    [ 40%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/makwmo.f.o
+     450    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module include_8 -c /tmp/root/s
+            pack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/makwmo.f -o CMakeFiles/w3nco_8_f.dir/makwmo.f.o
+     451    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x'
+     452    [ 40%] Building Fortran object src/CMakeFiles/w3nco_d_f.dir/putgb.f.o
+  >> 453    make[1]: *** [CMakeFiles/Makefile2:117: src/CMakeFiles/w3nco_4_f.dir/all] Error 2
+     454    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module include_d -c /tmp/root/s
+            pack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/putgb.f -o CMakeFiles/w3nco_d_f.dir/putgb.f.o
+     455    [ 41%] Building Fortran object src/CMakeFiles/w3nco_d_f.dir/putgbex.f.o
+     456    [ 41%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/mkfldsep.f.o
+     457    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module include_d -c /tmp/root/s
+            pack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/putgbex.f -o CMakeFiles/w3nco_d_f.dir/putgbex.f.o
+     458    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module include_8 -c /tmp/root/s
+            pack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/mkfldsep.f -o CMakeFiles/w3nco_8_f.dir/mkfldsep.f.o
+     459    [ 41%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/pdsens.f.o
 
      ...
 
-     474    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x120364c]
-     475    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x120082a]
-     476    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x120364c]
-     477    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x10acc96]
-     478    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x10ac46d]
-     479    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x1259aec]
-  >> 480    make[2]: *** [src/CMakeFiles/w3nco_8_f.dir/build.make:546: src/CMakeFiles/w3nco_8_f.dir/iw3unp29.f.o] Error 3
-     481    /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7f8c97af0083]
-     482    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0xeeba29]
-     483    make[2]: *** Waiting for unfinished jobs....
-     484    
-  >> 485    /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/iw3unp29.f(1469): error #5533: Feature found on this line is not yet sup
-            ported in ifx
-     486          END
-     487    ------^
-     488    [ 39%] Building Fortran object src/CMakeFiles/w3nco_4_f.dir/putgbe.f.o
-     489    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module 
-            include_4 -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/putgbe.f -o CMakeFiles/w3nco_4_f.dir/putgbe.f.o
-     490    compilation aborted for /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/iw3unp29.f (code 3)
-  >> 491    make[2]: *** [src/CMakeFiles/w3nco_4_f.dir/build.make:546: src/CMakeFiles/w3nco_4_f.dir/iw3unp29.f.o] Error 3
-     492    make[2]: *** Waiting for unfinished jobs....
-     493    [ 40%] Building Fortran object src/CMakeFiles/w3nco_4_f.dir/putgben.f.o
-     494    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module 
-            include_4 -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/putgben.f -o CMakeFiles/w3nco_4_f.dir/putgben.f.o
-     495    [ 40%] Building Fortran object src/CMakeFiles/w3nco_4_f.dir/putgb.f.o
-     496    [ 40%] Building Fortran object src/CMakeFiles/w3nco_4_f.dir/putgbex.f.o
-     497    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module 
-            include_4 -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/putgb.f -o CMakeFiles/w3nco_4_f.dir/putgb.f.o
-     498    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module 
-            include_4 -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/putgbex.f -o CMakeFiles/w3nco_4_f.dir/putgbex.f.o
-     499    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x'
-  >> 500    make[1]: *** [CMakeFiles/Makefile2:275: src/CMakeFiles/w3nco_d_f.dir/all] Error 2
-     501    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x'
-  >> 502    make[1]: *** [CMakeFiles/Makefile2:196: src/CMakeFiles/w3nco_8_f.dir/all] Error 2
-     503    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x'
-  >> 504    make[1]: *** [CMakeFiles/Makefile2:117: src/CMakeFiles/w3nco_4_f.dir/all] Error 2
-     505    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x'
-  >> 506    make: *** [Makefile:139: all] Error 2
+     476    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x10acc96]
+     477    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x10ac46d]
+     478    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x1259aec]
+     479    /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7f16ec332083]
+     480    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0xeeba29]
+     481    
+  >> 482    /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/iw3unp29.f(1469): error #5533: Feature found on this line is not yet supported in ifx
+     483          END
+     484    ------^
+     485    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x146924a]
+     486    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x11501a2]
+     487    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x11b6082]
+     488    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x11b6056]
+
+     ...
+
+     498    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x10acc96]
+     499    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x10ac46d]
+     500    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0x1259aec]
+     501    /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7f8dfe7cf083]
+     502    /opt/intel/oneapi/compiler/2022.2.1/linux/bin-llvm/xfortcom[0xeeba29]
+     503    
+  >> 504    /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/iw3unp29.f(1469): error #5533: Feature found on this line is not yet supported in ifx
+     505          END
+     506    ------^
+     507    compilation aborted for /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/iw3unp29.f (code 3)
+     508    compilation aborted for /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/iw3unp29.f (code 3)
+  >> 509    make[2]: *** [src/CMakeFiles/w3nco_8_f.dir/build.make:546: src/CMakeFiles/w3nco_8_f.dir/iw3unp29.f.o] Error 3
+  >> 510    make[2]: *** [src/CMakeFiles/w3nco_d_f.dir/build.make:546: src/CMakeFiles/w3nco_d_f.dir/iw3unp29.f.o] Error 3
+     511    make[2]: *** Waiting for unfinished jobs....
+     512    make[2]: *** Waiting for unfinished jobs....
+     513    [ 42%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/putgbe.f.o
+     514    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x/src && /spack/lib/spack/env/oneapi/ifx -DLINUX  -O2 -g -module include_8 -c /tmp/root/s
+            pack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-src/src/putgbe.f -o CMakeFiles/w3nco_8_f.dir/putgbe.f.o
+     515    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x'
+  >> 516    make[1]: *** [CMakeFiles/Makefile2:275: src/CMakeFiles/w3nco_d_f.dir/all] Error 2
+     517    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x'
+  >> 518    make[1]: *** [CMakeFiles/Makefile2:196: src/CMakeFiles/w3nco_8_f.dir/all] Error 2
+     519    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-jz6su6x'
+  >> 520    make: *** [Makefile:139: all] Error 2
 
 See build log for details:
   /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv/spack-build-out.txt
 
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/libjpeg-turbo-2.1.4-dutn7yhkb6b6jmmmhl5oc3ytenuxsufu
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ecbuild-3.6.5-kopnwppdug2d6g5ahg7c4xiieknkicjj
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/gftl-1.8.1-5vhnlg3g2vgwnzkr4g5c6ja7jf2no7c7
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/libjpeg-turbo-2.1.4-dutn7yhkb6b6jmmmhl5oc3ytenuxsufu
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ninja-1.11.1-wkku24fcggcuhwd6gwhavlrdl4oy5o57
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-pip-22.2.2-mj6pcvtd23l43yty7fntnfaox3c7jgni
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-c-4.9.0-mixulbi7n64yp5oeyjdxpx5jadsqjlio
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-c-4.9.0-z4xbqolzxinxf5jvuzkn7dlaawjshxbc
+==> Installing eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr
+==> eckit exists in binary cache but with different hash
+==> No binary for eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr found: installing from source
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/9c/9c11ddaaf346e40d11312b81ca7f1b510017f26618f4c0f5c5c59c37623fbac8.tar.gz
+==> No patches needed for eckit
+==> eckit: Executing phase: 'cmake'
+==> eckit: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j16'
+
+6 errors found in build log:
+     1335    cd /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/cmd && /spack/lib/spack/env/oneapi/icpx -Deckit_cmd_EXPORTS -I/tmp/root/spa
+             ck-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src -I/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src -
+             I/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_
+             path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2/include -Wall -Wextra -Wno-unuse
+             d-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT src/eckit/cmd/CMakeFiles/eckit_cmd.dir/EnvironmentCmd.cc.o -MF CMakeFiles/eckit_cmd.dir/Enviro
+             nmentCmd.cc.o.d -o CMakeFiles/eckit_cmd.dir/EnvironmentCmd.cc.o -c /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src/eckit/cmd/EnvironmentCmd.cc
+     1336    [ 77%] Building CXX object src/eckit/sql/CMakeFiles/eckit_sql.dir/SQLSimpleOutput.cc.o
+     1337    cd /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/sql && /spack/lib/spack/env/oneapi/icpx -Deckit_sql_EXPORTS -I/tmp/root/spa
+             ck-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src -I/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src -
+             Wall -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT src/eckit/sql/CMakeFiles/eckit_sql.dir/SQLSimpleOutput.cc.o -MF CMakeFi
+             les/eckit_sql.dir/SQLSimpleOutput.cc.o.d -o CMakeFiles/eckit_sql.dir/SQLSimpleOutput.cc.o -c /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src/e
+             ckit/sql/SQLSimpleOutput.cc
+     1338    [ 77%] Building CXX object src/eckit/sql/CMakeFiles/eckit_sql.dir/SQLStatement.cc.o
+     1339    cd /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/sql && /spack/lib/spack/env/oneapi/icpx -Deckit_sql_EXPORTS -I/tmp/root/spa
+             ck-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src -I/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src -
+             Wall -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT src/eckit/sql/CMakeFiles/eckit_sql.dir/SQLStatement.cc.o -MF CMakeFiles
+             /eckit_sql.dir/SQLStatement.cc.o.d -o CMakeFiles/eckit_sql.dir/SQLStatement.cc.o -c /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src/eckit/sql/
+             SQLStatement.cc
+     1340    In file included from /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src/eckit/sql/SQLParser.cc:47:
+  >> 1341    /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/sql/sqly.c:817:4: error: source file is not valid UTF-8
+     1342      p<F0><FD><U+0001>
+     1343       ^
+  >> 1344    /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/sql/sqly.c:817:5: error: source file is not valid UTF-8
+     1345      p<F0><FD><U+0001>
+     1346           ^
+  >> 1347    /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/sql/sqly.c:817:3: error: use of undeclared identifier 'p'
+     1348      p<F0><FD><U+0001>
+     1349      ^
+     1350    [ 78%] Building CXX object src/eckit/web/CMakeFiles/eckit_web.dir/JavaResource.cc.o
+     1351    cd /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/web && /spack/lib/spack/env/oneapi/icpx -Deckit_web_EXPORTS -I/tmp/root/spa
+             ck-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src -I/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src -
+             Wall -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT src/eckit/web/CMakeFiles/eckit_web.dir/JavaResource.cc.o -MF CMakeFiles
+             /eckit_web.dir/JavaResource.cc.o.d -o CMakeFiles/eckit_web.dir/JavaResource.cc.o -c /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src/eckit/web/
+             JavaResource.cc
+     1352    [ 78%] Building CXX object src/eckit/web/CMakeFiles/eckit_web.dir/JavaServer.cc.o
+     1353    cd /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/web && /spack/lib/spack/env/oneapi/icpx -Deckit_web_EXPORTS -I/tmp/root/spa
+             ck-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src -I/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src -
+             Wall -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT src/eckit/web/CMakeFiles/eckit_web.dir/JavaServer.cc.o -MF CMakeFiles/e
+             ckit_web.dir/JavaServer.cc.o.d -o CMakeFiles/eckit_web.dir/JavaServer.cc.o -c /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src/eckit/web/JavaSe
+             rver.cc
+
+     ...
+
+     1358    cd /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/cmd && /spack/lib/spack/env/oneapi/icpx -Deckit_cmd_EXPORTS -I/tmp/root/spa
+             ck-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src -I/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src -
+             I/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_
+             path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2/include -Wall -Wextra -Wno-unuse
+             d-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT src/eckit/cmd/CMakeFiles/eckit_cmd.dir/ExportCmd.cc.o -MF CMakeFiles/eckit_cmd.dir/ExportCmd.c
+             c.o.d -o CMakeFiles/eckit_cmd.dir/ExportCmd.cc.o -c /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src/eckit/cmd/ExportCmd.cc
+     1359    [ 79%] Building CXX object src/eckit/cmd/CMakeFiles/eckit_cmd.dir/JSONCmd.cc.o
+     1360    cd /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/cmd && /spack/lib/spack/env/oneapi/icpx -Deckit_cmd_EXPORTS -I/tmp/root/spa
+             ck-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src -I/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src -
+             I/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_
+             path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2/include -Wall -Wextra -Wno-unuse
+             d-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT src/eckit/cmd/CMakeFiles/eckit_cmd.dir/JSONCmd.cc.o -MF CMakeFiles/eckit_cmd.dir/JSONCmd.cc.o.
+             d -o CMakeFiles/eckit_cmd.dir/JSONCmd.cc.o -c /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src/eckit/cmd/JSONCmd.cc
+     1361    [ 79%] Building CXX object src/eckit/cmd/CMakeFiles/eckit_cmd.dir/HistoryCmd.cc.o
+     1362    cd /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/cmd && /spack/lib/spack/env/oneapi/icpx -Deckit_cmd_EXPORTS -I/tmp/root/spa
+             ck-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src -I/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src -
+             I/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_
+             path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2/include -Wall -Wextra -Wno-unuse
+             d-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT src/eckit/cmd/CMakeFiles/eckit_cmd.dir/HistoryCmd.cc.o -MF CMakeFiles/eckit_cmd.dir/HistoryCmd
+             .cc.o.d -o CMakeFiles/eckit_cmd.dir/HistoryCmd.cc.o -c /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src/eckit/cmd/HistoryCmd.cc
+     1363    1 warning and 3 errors generated.
+  >> 1364    make[2]: *** [src/eckit/sql/CMakeFiles/eckit_sql.dir/build.make:226: src/eckit/sql/CMakeFiles/eckit_sql.dir/SQLParser.cc.o] Error 1
+     1365    make[2]: *** Waiting for unfinished jobs....
+     1366    [ 79%] Building CXX object src/eckit/cmd/CMakeFiles/eckit_cmd.dir/KillCmd.cc.o
+     1367    [ 80%] Building CXX object src/eckit/mpi/CMakeFiles/eckit_mpi.dir/SerialStatus.cc.o
+     1368    cd /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/cmd && /spack/lib/spack/env/oneapi/icpx -Deckit_cmd_EXPORTS -I/tmp/root/spa
+             ck-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src -I/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src -
+             I/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_
+             path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2/include -Wall -Wextra -Wno-unuse
+             d-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT src/eckit/cmd/CMakeFiles/eckit_cmd.dir/KillCmd.cc.o -MF CMakeFiles/eckit_cmd.dir/KillCmd.cc.o.
+             d -o CMakeFiles/eckit_cmd.dir/KillCmd.cc.o -c /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src/eckit/cmd/KillCmd.cc
+     1369    cd /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src/eckit/mpi && /spack/lib/spack/env/oneapi/icpx -Deckit_mpi_EXPORTS -I/tmp/root/spa
+             ck-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau/src -I/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src -
+             I/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_
+             path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa/mpi/2021.7.1/inclu
+             de -Wall -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT src/eckit/mpi/CMakeFiles/eckit_mpi.dir/SerialStatus.cc.o -MF CMakeF
+             iles/eckit_mpi.dir/SerialStatus.cc.o.d -o CMakeFiles/eckit_mpi.dir/SerialStatus.cc.o -c /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-src/src/eckit/
+             mpi/SerialStatus.cc
+     1370    [ 80%] Building CXX object src/eckit/web/CMakeFiles/eckit_web.dir/JavaService.cc.o
+
+     ...
+
+     1542    [ 88%] Built target ECKIT-166.x
+     1543    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau'
+     1544    [ 88%] Built target eckit_cmd
+     1545    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau'
+     1546    [ 88%] Built target ECKIT-221.x
+     1547    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau'
+  >> 1548    make[1]: *** [CMakeFiles/Makefile2:1360: src/eckit/sql/CMakeFiles/eckit_sql.dir/all] Error 2
+     1549    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-4bz5iau'
+  >> 1550    make: *** [Makefile:169: all] Error 2
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr/spack-build-out.txt
+
+==> Installing eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu
+==> eckit exists in binary cache but with different hash
+==> No binary for eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu found: installing from source
+==> Warning: Skipping build of odc-1.4.5-4agkzxhjmscwjjfolukqjk2u7mnbgawb since eckit-1.20.2-4bz5iautripo3fnxzjlye6yd7gjh4ckr failed
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/a5/a5fef36b4058f2f0aac8daf5bcc9740565f68da7357ddd242de3a5eed4765cc7.tar.gz
+==> No patches needed for eckit
+==> eckit: Executing phase: 'cmake'
+==> eckit: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j16'
+
+6 errors found in build log:
+     1367    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya'
+     1368    make  -f src/tools/CMakeFiles/eckit_info.dir/build.make src/tools/CMakeFiles/eckit_info.dir/build
+     1369    make[2]: Entering directory '/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya'
+     1370    [ 80%] Building CXX object src/tools/CMakeFiles/eckit_info.dir/eckit-info.cc.o
+     1371    cd /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src/tools && /spack/lib/spack/env/oneapi/icpx  -I/tmp/root/spack-stage/spack-stage-ec
+             kit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src -I/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-src/src -Wall -Wextra -Wno-unuse
+             d-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG -fPIE -std=gnu++11 -MD -MT src/tools/CMakeFiles/eckit_info.dir/eckit-info.cc.o -MF CMakeFiles/eckit_info.dir/eckit-info.c
+             c.o.d -o CMakeFiles/eckit_info.dir/eckit-info.cc.o -c /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-src/src/tools/eckit-info.cc
+     1372    In file included from /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-src/src/eckit/sql/SQLParser.cc:47:
+  >> 1373    /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src/eckit/sql/sqly.c:817:3: error: source file is not valid UTF-8
+     1374      <B0>_<BD>
+     1375      ^
+  >> 1376    /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src/eckit/sql/sqly.c:817:5: error: source file is not valid UTF-8
+     1377      <B0>_<BD>
+     1378           ^
+  >> 1379    /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src/eckit/sql/sqly.c:817:4: error: use of undeclared identifier '_'
+     1380      <B0>_<BD>
+     1381          ^
+     1382    make  -f src/tools/CMakeFiles/dhcopy.dir/build.make src/tools/CMakeFiles/dhcopy.dir/depend
+     1383    make[2]: Entering directory '/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya'
+     1384    cd /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya && /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pat
+             h_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu2
+             0.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yiikeqyyllhspp4tmuwi77uqk/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3u
+             ikqj7opeu/spack-src /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-src/src/tools /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl
+             3uikqj7opeu/spack-build-visueya /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src/tools /tmp/root/spack-stage/spack-stage-eckit-1.19.0
+             -visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src/tools/CMakeFiles/dhcopy.dir/DependInfo.cmake --color=
+     1385    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya'
+
+     ...
+
+     1408    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya'
+     1409    make  -f regressions/CMakeFiles/ECKIT-175.x.dir/build.make regressions/CMakeFiles/ECKIT-175.x.dir/build
+     1410    make[2]: Entering directory '/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya'
+     1411    [ 80%] Building CXX object regressions/CMakeFiles/ECKIT-175.x.dir/ECKIT-175.cc.o
+     1412    cd /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/regressions && /spack/lib/spack/env/oneapi/icpx  -I/tmp/root/spack-stage/spack-stage-
+             eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/src -I/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-src/src -I/spack/opt/spack/__s
+             pack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__
+             spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa/mpi/2021.7.1/include -Wall -Wextra -Wno
+             -unused-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG -fPIE -std=gnu++11 -MD -MT regressions/CMakeFiles/ECKIT-175.x.dir/ECKIT-175.cc.o -MF CMakeFiles/ECKIT-175.x.dir/ECK
+             IT-175.cc.o.d -o CMakeFiles/ECKIT-175.x.dir/ECKIT-175.cc.o -c /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-src/regressions/ECKIT-175.cc
+     1413    1 warning and 3 errors generated.
+  >> 1414    make[2]: *** [src/eckit/sql/CMakeFiles/eckit_sql.dir/build.make:226: src/eckit/sql/CMakeFiles/eckit_sql.dir/SQLParser.cc.o] Error 1
+     1415    make[2]: *** Waiting for unfinished jobs....
+     1416    make  -f regressions/CMakeFiles/ECKIT-221.x.dir/build.make regressions/CMakeFiles/ECKIT-221.x.dir/depend
+     1417    make[2]: Entering directory '/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya'
+     1418    cd /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya && /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pat
+             h_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu2
+             0.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yiikeqyyllhspp4tmuwi77uqk/bin/cmake -E cmake_depends "Unix Makefiles" /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3u
+             ikqj7opeu/spack-src /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-src/regressions /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32u
+             pl3uikqj7opeu/spack-build-visueya /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/regressions /tmp/root/spack-stage/spack-stage-eckit-1.
+             19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya/regressions/CMakeFiles/ECKIT-221.x.dir/DependInfo.cmake --color=
+     1419    make  -f regressions/CMakeFiles/ECKIT-166.x.dir/build.make regressions/CMakeFiles/ECKIT-166.x.dir/depend
+     1420    make[2]: Entering directory '/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya'
+
+     ...
+
+     1536    /spack/lib/spack/env/oneapi/icpx -fPIC  -Wall -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-sign-compare -O2 -g -DNDEBUG  -Wl,--disable-new-dtags -shared -Wl,-soname,libeckit_cmd
+             .so -o ../../../lib/libeckit_cmd.so CMakeFiles/eckit_cmd.dir/AliasCmd.cc.o CMakeFiles/eckit_cmd.dir/Arg.cc.o CMakeFiles/eckit_cmd.dir/CmdApplication.cc.o CMakeFiles/eckit_cmd.dir/CmdArg.cc
+             .o CMakeFiles/eckit_cmd.dir/CmdParser.cc.o CMakeFiles/eckit_cmd.dir/CmdResource.cc.o CMakeFiles/eckit_cmd.dir/ConfigCmd.cc.o CMakeFiles/eckit_cmd.dir/DirCmd.cc.o CMakeFiles/eckit_cmd.dir/E
+             choCmd.cc.o CMakeFiles/eckit_cmd.dir/EnvironmentCmd.cc.o CMakeFiles/eckit_cmd.dir/ExportCmd.cc.o CMakeFiles/eckit_cmd.dir/JSONCmd.cc.o CMakeFiles/eckit_cmd.dir/HistoryCmd.cc.o CMakeFiles/e
+             ckit_cmd.dir/KillCmd.cc.o CMakeFiles/eckit_cmd.dir/LibEcKitCmd.cc.o CMakeFiles/eckit_cmd.dir/LockCmd.cc.o CMakeFiles/eckit_cmd.dir/ManCmd.cc.o CMakeFiles/eckit_cmd.dir/MemoryCmd.cc.o CMake
+             Files/eckit_cmd.dir/PsCmd.cc.o CMakeFiles/eckit_cmd.dir/QuitCmd.cc.o CMakeFiles/eckit_cmd.dir/RemoteCmd.cc.o CMakeFiles/eckit_cmd.dir/RemoteCommandable.cc.o CMakeFiles/eckit_cmd.dir/Remote
+             Commander.cc.o CMakeFiles/eckit_cmd.dir/RemoteCommandUser.cc.o CMakeFiles/eckit_cmd.dir/SleepCmd.cc.o CMakeFiles/eckit_cmd.dir/StartCmd.cc.o CMakeFiles/eckit_cmd.dir/StatusCmd.cc.o CMakeFi
+             les/eckit_cmd.dir/StopCmd.cc.o CMakeFiles/eckit_cmd.dir/TailCmd.cc.o CMakeFiles/eckit_cmd.dir/TermBuf.cc.o CMakeFiles/eckit_cmd.dir/term.c.o CMakeFiles/eckit_cmd.dir/UpTimeCmd.cc.o CMakeFi
+             les/eckit_cmd.dir/UserInput.cc.o  -Wl,-rpath,"/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_plac
+             eholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/eckit-1.19.0-visueyakrqyoz3yi32u
+             pl3uikqj7opeu/lib:/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_place
+             holder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/lib64:/spack/o
+             pt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_plac
+             eholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2/lib:\$ORIGIN/../lib" /spack/opt/spack/__s
+             pack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__
+             spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2/lib/libncurses.so /spack/opt/spack/__spack_path_place
+             holder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_plac
+             eholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2/lib/libtinfo.so /spack/opt/spack/__spack_path_placeholder__/__spack_
+             path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack
+             _path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/ncurses-6.3-5stv74w7iv3hnd4kraig7illytbjnok2/lib/libform.so ../../../lib/libeckit.so -lm /usr/lib/x86_64-linux-gnu/librt.so -lpthr
+             ead -ldl
+     1537    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya'
+     1538    [ 88%] Built target eckit_web
+     1539    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya'
+     1540    [ 88%] Built target eckit_cmd
+     1541    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya'
+  >> 1542    make[1]: *** [CMakeFiles/Makefile2:1360: src/eckit/sql/CMakeFiles/eckit_sql.dir/all] Error 2
+     1543    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-visueya'
+  >> 1544    make: *** [Makefile:169: all] Error 2
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu/spack-build-out.txt
+
 ==> Installing gftl-shared-1.5.0-4e4djbp63u37i6ycrzebsstku2axvusi
 ==> gftl-shared exists in binary cache but with different hash
 ==> No binary for gftl-shared-1.5.0-4e4djbp63u37i6ycrzebsstku2axvusi found: installing from source
-==> Warning: download_tarball() was unable to download gftl-shared@1.5.0%oneapi@2022.2.1~ipo build_system=cmake build_type=Release arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%oneapi@2022.2.1+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%oneapi@2022.2.1~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%oneapi@2022.2.1 build_system=generic arch=linux-ubuntu20.04-x86_64 ^cmake@3.25.1%oneapi@2022.2.1~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64 ^diffutils@3.8%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gftl@1.8.1%oneapi@2022.2.1~ipo build_system=cmake build_type=Release arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%oneapi@2022.2.1 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libsigsegv@2.13%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^m4@1.4.19%gcc@11.1.0+sigsegv build_system=autotools patches=9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%oneapi@2022.2.1~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%oneapi@2022.2.1~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%oneapi@2022.2.1+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^readline@8.2%oneapi@2022.2.1 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%oneapi@2022.2.1+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 from any configured mirrors
 ==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/c1/c19b8197cc6956d4a51a16f98b38b63c7bc9f784f1fd38f8e3949be3ea792356.tar.gz
 ==> No patches needed for gftl-shared
 ==> gftl-shared: Executing phase: 'cmake'
@@ -381,15 +554,14 @@ See build log for details:
 
 1 error found in build log:
      1    ==> gftl-shared: Executing phase: 'cmake'
-     2    ==> [2022-12-13-16:57:29.288605] '/spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yiikeqyyllhspp4tmuwi77uqk/bin/cma
-          ke' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/gftl-shared-1.5.0-4e4djbp63u37
-          i6ycrzebsstku2axvusi' '-DCMAKE_BUILD_TYPE:STRING=Release' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON'
-           '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/gftl-share
-          d-1.5.0-4e4djbp63u37i6ycrzebsstku2axvusi/lib;/spack/opt/spack/[padded-to-353-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/gftl-shared-1.5.0-4e4djbp63u37i6ycrzebsstk
-          u2axvusi/lib64' '-DCMAKE_PREFIX_PATH:STRING=/spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/gftl-1.8.1-5vhnlg3g2vgwnzkr4g5c6ja7jf2no7c7
-          ;/spack/opt/spack/[padded-to-342-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/m4-1.4.19-iammksszl7gtwyyb2hr27g5uyiq2mxrd;/spack/opt/spack/[padded-to-336-chars]/linux-ubu
-          ntu20.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yiikeqyyllhspp4tmuwi77uqk' '/tmp/root/spack-stage/spack-stage-gftl-shared-1.5.0-4e4djbp63u37i6ycrzebsstku2axvusi/sp
-          ack-src'
+     2    ==> [2022-12-16-09:05:45.128815] '/spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yiikeqyyllhspp4tmuwi77uqk/bin/cmake' '-G' 'Unix Makefiles
+          ' '-DCMAKE_INSTALL_PREFIX:STRING=/spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/gftl-shared-1.5.0-4e4djbp63u37i6ycrzebsstku2axvusi' '-DCMAKE_BUILD_TYPE:STRING
+          =Release' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:ST
+          RING=/spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/gftl-shared-1.5.0-4e4djbp63u37i6ycrzebsstku2axvusi/lib;/spack/opt/spack/[padded-to-353-chars]/linux-ubuntu
+          20.04-x86_64/oneapi-2022.2.1/gftl-shared-1.5.0-4e4djbp63u37i6ycrzebsstku2axvusi/lib64' '-DCMAKE_PREFIX_PATH:STRING=/spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.
+          2.1/gftl-1.8.1-5vhnlg3g2vgwnzkr4g5c6ja7jf2no7c7;/spack/opt/spack/[padded-to-342-chars]/linux-ubuntu20.04-x86_64/gcc-11.1.0/m4-1.4.19-iammksszl7gtwyyb2hr27g5uyiq2mxrd;/spack/opt/spack/[padded-
+          to-336-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yiikeqyyllhspp4tmuwi77uqk' '/tmp/root/spack-stage/spack-stage-gftl-shared-1.5.0-4e4djbp63u37i6ycrzebsstku2axvusi/spa
+          ck-src'
      3    -- The Fortran compiler identification is IntelLLVM 2022.2.1
      4    -- Detecting Fortran compiler ABI info
      5    -- Detecting Fortran compiler ABI info - done
@@ -405,43 +577,66 @@ See build log for details:
 See build log for details:
   /tmp/root/spack-stage/spack-stage-gftl-shared-1.5.0-4e4djbp63u37i6ycrzebsstku2axvusi/spack-build-out.txt
 
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-setuptools-59.4.0-5wbkvum3uswd6ah3xlyoy3pec6l3rfhn
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-wheel-0.37.1-hxdiyffg5sta33wwer2tr674hqhhdkjz
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-setuptools-63.0.0-nm3y7rb7bjbqpnalvaq75i4duh6q56kh
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-fortran-4.6.0-tsyh53rhsi6uw7a54a4oroeizl6mh2in
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-cython-0.29.32-5slhk4hpacelguajirse4r64leczdawr
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-flit-core-3.7.1-xdpojvuhqtbnhpagt36hi562uugjsnr6
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-pybind11-2.8.1-rlrjmhwesmgdwslhrudawthukj6kkv6t
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-ply-3.11-wdvniwiyrzhpogdfnltw65twqe6xfc6h
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-gast-0.5.3-cbcuatkgmfhy2trfzkokze44c6cgvisb
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-six-1.16.0-hdrlxmca4lgehxq6yyxwrp7z2n2j6nuo
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-wheel-0.37.1-hxdiyffg5sta33wwer2tr674hqhhdkjz
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-setuptools-59.4.0-5wbkvum3uswd6ah3xlyoy3pec6l3rfhn
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-fortran-4.6.0-er5bcgksemffq32n6wrk55ygo4r3mfva
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-cython-0.29.32-vlqxhlcw2pysagqmg3ifjiw5aweafmdm
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-pytz-2022.2.1-fddnx23kwjjbibsbwyr2lyjwryag3yyp
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-versioneer-0.26-y4nzculfb4aaqvw6icbunhytrivi2exu
-==> Installing esmf-8.3.0b09-3v7iw47gpep7d5ayrikexsxl73uz3hkx
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-pytz-2022.2.1-fddnx23kwjjbibsbwyr2lyjwryag3yyp
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-six-1.16.0-hdrlxmca4lgehxq6yyxwrp7z2n2j6nuo
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-flit-core-3.7.1-xdpojvuhqtbnhpagt36hi562uugjsnr6
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-cython-0.29.32-5slhk4hpacelguajirse4r64leczdawr
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-gast-0.5.3-cbcuatkgmfhy2trfzkokze44c6cgvisb
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-ply-3.11-wdvniwiyrzhpogdfnltw65twqe6xfc6h
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-pybind11-2.8.1-rlrjmhwesmgdwslhrudawthukj6kkv6t
+==> Installing fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x
+==> fms exists in binary cache but with different hash
+==> No binary for fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x found: installing from source
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/60/60a5181e883e141f2fdd4a30c535a788d609bcbbbca4af7e1ec73f66f4e58dc0.tar.gz
+==> No patches needed for fms
+==> fms: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    '/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yiikeqyyllhspp4tmuwi77uqk/bin/cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x/lib64;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-c-4.9.0-z4xbqolzxinxf5jvuzkn7dlaawjshxbc/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/hdf5-1.12.2-bf22wf3d4t3pus6n7kqvgly4ad53mfbg/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zlib-1.2.13-kpabegzebgtlrbli4lykanrnfss2jan7/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zstd-1.5.2-5l5jnbhfyr4ejb4blmzxcakvel2sz6ph/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-fortran-4.6.0-er5bcgksemffq32n6wrk55ygo4r3mfva/lib' '-DCMAKE_PREFIX_PATH:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-fortran-4.6.0-er5bcgksemffq32n6wrk55ygo4r3mfva;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-c-4.9.0-z4xbqolzxinxf5jvuzkn7dlaawjshxbc;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zstd-1.5.2-5l5jnbhfyr4ejb4blmzxcakvel2sz6ph;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/hdf5-1.12.2-bf22wf3d4t3pus6n7kqvgly4ad53mfbg;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yiikeqyyllhspp4tmuwi77uqk;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zlib-1.2.13-kpabegzebgtlrbli4lykanrnfss2jan7' '-D64BIT:BOOL=ON' '-DGFS_PHYS:BOOL=ON' '-DOPENMP:BOOL=ON' '-DENABLE_QUAD_PRECISION:BOOL=ON' '' '' '' '-DCMAKE_C_COMPILER:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa/mpi/2021.7.1/bin/mpiicc' '-DCMAKE_CXX_COMPILER:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa/mpi/2021.7.1/bin/mpiicpc' '-DCMAKE_Fortran_COMPILER:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa/mpi/2021.7.1/bin/mpiifort' '/tmp/root/spack-stage/spack-stage-fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x/spack-src'
+
+1 error found in build log:
+     15    CMake Warning:
+     16      Ignoring extra path from command line:
+     17    
+     18       "/tmp/root/spack-stage/spack-stage-fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x/spack-src"
+     19    
+     20    
+  >> 21    CMake Error: The source directory "/tmp/root/spack-stage/spack-stage-fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x/spack-src" does not appear to contain CMakeLists.txt.
+     22    Specify --help for usage, or press the help button on the CMake GUI.
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x/spack-build-out.txt
+
+==> Installing esmf-8.3.0b09-faww7wsc3ojxujlnkzdy26bdljgcjm76
 ==> esmf exists in binary cache but with different hash
-==> No binary for esmf-8.3.0b09-3v7iw47gpep7d5ayrikexsxl73uz3hkx found: installing from source
-==> Warning: download_tarball() was unable to download esmf@8.3.0b09%oneapi@2022.2.1~debug~external-lapack+mpi+netcdf~parallelio+pio+pnetcdf+xerces build_system=makefile patches=e931f6d arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%oneapi@2022.2.1+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%oneapi@2022.2.1~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%oneapi@2022.2.1 build_system=generic arch=linux-ubuntu20.04-x86_64 ^cmake@3.25.1%oneapi@2022.2.1~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64 ^curl@7.85.0%oneapi@2022.2.1~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 build_system=autotools libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64 ^diffutils@3.8%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^hdf5@1.12.2%oneapi@2022.2.1~cxx~fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64 ^intel-oneapi-mpi@2021.7.1%oneapi@2022.2.1~external-libfabric~generic-names~ilp64 build_system=generic arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%oneapi@2022.2.1 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libsigsegv@2.13%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxml2@2.10.3%oneapi@2022.2.1~python build_system=autotools arch=linux-ubuntu20.04-x86_64 ^m4@1.4.19%gcc@11.1.0+sigsegv build_system=autotools patches=9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%oneapi@2022.2.1~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^netcdf-c@4.9.0%oneapi@2022.2.1~dap~fsync~hdf4~jna+mpi+optimize~parallel-netcdf+pic+shared+zstd build_system=autotools arch=linux-ubuntu20.04-x86_64 ^netcdf-fortran@4.6.0%oneapi@2022.2.1~doc+pic+shared build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%oneapi@2022.2.1~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^parallel-netcdf@1.12.3%oneapi@2022.2.1~burstbuffer+cxx+fortran+pic+shared build_system=autotools arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%oneapi@2022.2.1+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^readline@8.2%oneapi@2022.2.1 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^xerces-c@3.2.3%oneapi@2022.2.1 build_system=autotools cxxstd=default netaccessor=curl transcoder=gnuiconv arch=linux-ubuntu20.04-x86_64 ^xz@5.2.7%oneapi@2022.2.1~pic build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%oneapi@2022.2.1+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 ^zstd@1.5.2%oneapi@2022.2.1~programs build_system=makefile libs=shared,static arch=linux-ubuntu20.04-x86_64 from any configured mirrors
+==> No binary for esmf-8.3.0b09-faww7wsc3ojxujlnkzdy26bdljgcjm76 found: installing from source
 1 out of 1 hunk FAILED -- saving rejects to file src/Infrastructure/Mesh/src/Legacy/ESMCI_MeshPNC.C.rej
 1 out of 1 hunk FAILED -- saving rejects to file src/Infrastructure/Mesh/src/Legacy/ESMCI_WriteWeightsPar.C.rej
+==> Using cached archive: /spack/var/spack/cache/_source-cache/git//esmf-org/esmf.git/5b7e546c4b.tar.gz
 ==> Patch /spack/var/spack/repos/builtin/packages/esmf/longtoint.patch failed.
+==> Warning: Fetching from mirror without a checksum!
+  This package is normally checked out from a version control system, but it has been archived on a spack mirror.  This means we cannot know a checksum for the tarball in advance. Be sure that your connection to this mirror is secure!
 ==> Error: ProcessError: Command exited with status 1:
     '/usr/bin/patch' '-s' '-p' '1' '-i' '/spack/var/spack/repos/builtin/packages/esmf/longtoint.patch' '-d' '.'
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-qlw5njjhj3h43ggg6gzruuj4oeacvkyn
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-pyparsing-3.0.9-quusnz24vmo25okoadxab6ei7ihrgxkh
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-tomli-2.0.1-hklx4uzyiacwaxug3xuie7hkmz5zydqt
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-typing-extensions-4.3.0-x7jqdariiwko3uchzxrljjs7dwdiheki
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-beniget-0.4.1-cb66ukqenfedad73bekv6ivpczrpcnb6
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-qlw5njjhj3h43ggg6gzruuj4oeacvkyn
+[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-bottleneck-1.3.5-4uaovcgoq2jda3qmeoyf22gmonxz2wea
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-packaging-21.3-zjsl73n32svx7vevkr7izhox2tzzanhx
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-pythran-0.10.0-xk6cji5xlmp2bxc3cbnx4yymhgqt76du
-[+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-bottleneck-1.3.5-4uaovcgoq2jda3qmeoyf22gmonxz2wea
 [+] /spack/opt/spack/[padded-to-256-chars]/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numexpr-2.8.3-vl2zstzv3bch2fecnwilt3e5uhyi7suu
 ==> Installing py-setuptools-scm-7.0.5-emvmnscyhh66sfidbr5w4mk7rs36mira
 ==> py-setuptools-scm exists in binary cache but with different hash
 ==> No binary for py-setuptools-scm-7.0.5-emvmnscyhh66sfidbr5w4mk7rs36mira found: installing from source
-==> Warning: download_tarball() was unable to download py-setuptools-scm@7.0.5%oneapi@2022.2.1+toml build_system=python_pip arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%oneapi@2022.2.1+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%oneapi@2022.2.1~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%oneapi@2022.2.1 build_system=generic arch=linux-ubuntu20.04-x86_64 ^diffutils@3.8%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^expat@2.5.0%oneapi@2022.2.1+libbsd build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gettext@0.21.1%oneapi@2022.2.1+bzip2+curses+git~libunistring+libxml2+tar+xz build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libbsd@0.11.5%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libffi@3.4.2%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%oneapi@2022.2.1 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libmd@1.0.4%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxcrypt@4.4.33%oneapi@2022.2.1~obsolete_api build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxml2@2.10.3%oneapi@2022.2.1~python build_system=autotools arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%oneapi@2022.2.1~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%oneapi@2022.2.1~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%oneapi@2022.2.1+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pigz@2.7%oneapi@2022.2.1 build_system=makefile arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^py-flit-core@3.7.1%oneapi@2022.2.1 build_system=python_pip arch=linux-ubuntu20.04-x86_64 ^py-packaging@21.3%oneapi@2022.2.1 build_system=python_pip arch=linux-ubuntu20.04-x86_64 ^py-pip@22.2.2%oneapi@2022.2.1 build_system=generic arch=linux-ubuntu20.04-x86_64 ^py-pyparsing@3.0.9%oneapi@2022.2.1 build_system=python_pip arch=linux-ubuntu20.04-x86_64 ^py-setuptools@63.0.0%oneapi@2022.2.1 build_system=generic arch=linux-ubuntu20.04-x86_64 ^py-tomli@2.0.1%oneapi@2022.2.1 build_system=python_pip arch=linux-ubuntu20.04-x86_64 ^py-typing-extensions@4.3.0%oneapi@2022.2.1 build_system=python_pip arch=linux-ubuntu20.04-x86_64 ^py-wheel@0.37.1%oneapi@2022.2.1 build_system=generic arch=linux-ubuntu20.04-x86_64 ^python@3.10.8%oneapi@2022.2.1+bz2+crypt+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tkinter+uuid+zlib build_system=generic patches=0d98e93,7d40923,f2fd060 arch=linux-ubuntu20.04-x86_64 ^readline@8.2%oneapi@2022.2.1 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^sqlite@3.40.0%oneapi@2022.2.1+column_metadata+dynamic_extensions+fts~functions+rtree build_system=autotools arch=linux-ubuntu20.04-x86_64 ^tar@1.34%oneapi@2022.2.1 build_system=autotools zip=pigz arch=linux-ubuntu20.04-x86_64 ^util-linux-uuid@2.38.1%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^xz@5.2.7%oneapi@2022.2.1~pic build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%oneapi@2022.2.1+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 ^zstd@1.5.2%oneapi@2022.2.1+programs build_system=makefile compression=none libs=shared,static arch=linux-ubuntu20.04-x86_64 from any configured mirrors
-==> Fetching https://mirror.spack.io/_source-cache/archive/03/031e13af771d6f892b941adb6ea04545bbf91ebc5ce68c78aaf3fff6e1fb4844.tar.gz
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/03/031e13af771d6f892b941adb6ea04545bbf91ebc5ce68c78aaf3fff6e1fb4844.tar.gz
 ==> No patches needed for py-setuptools-scm
 ==> py-setuptools-scm: Executing phase: 'install'
 ==> Error: ProcessError: Command exited with status 1:
@@ -451,12 +646,11 @@ See build log for details:
      21      ╰─> See above for output.
      22    
      23      note: This error originates from a subprocess, and is likely not a problem with pip.
-     24      full command: /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder_
-           _/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/python-3.10.8-47oe
-           6zkjpp2qe3myyg7ry6on2adsdyrt/bin/python3.10 /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder
-           __/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi
-           -2022.2.1/py-pip-22.2.2-mj6pcvtd23l43yty7fntnfaox3c7jgni/lib/python3.10/site-packages/pip/_vendor/pep517/in_process/_in_process.py prepare_metadata_for_build_wheel /t
-           mp/tmp6ejz62ti
+     24      full command: /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placehold
+           er__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/python-3.10.8-47oe6zkjpp2qe3myyg7ry6on2adsdyrt/bin/python3.10 /spa
+           ck/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_pl
+           aceholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-pip-22.2.2-mj6pcvtd23l43yty7fntnfaox3c7jgni/lib/python3.10/site-packages/pip/_vendo
+           r/pep517/in_process/_in_process.py prepare_metadata_for_build_wheel /tmp/tmpobiea6pq
      25      cwd: /tmp/root/spack-stage/spack-stage-py-setuptools-scm-7.0.5-emvmnscyhh66sfidbr5w4mk7rs36mira/spack-src
      26      Preparing metadata (pyproject.toml): finished with status 'error'
   >> 27    error: metadata-generation-failed
@@ -475,28 +669,26 @@ See build log for details:
 ==> No binary for py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7 found: installing from source
 ==> Warning: Skipping build of py-python-dateutil-2.8.2-pgxkgnlghn6l5per5gn3hnkhp356mipl since py-setuptools-scm-7.0.5-emvmnscyhh66sfidbr5w4mk7rs36mira failed
 ==> Warning: Skipping build of py-pandas-1.4.0-ok2hz7tsdoeixuov3m7dnwazggkyrfaj since py-python-dateutil-2.8.2-pgxkgnlghn6l5per5gn3hnkhp356mipl failed
-==> Warning: download_tarball() was unable to download py-scipy@1.8.0%oneapi@2022.2.1 build_system=python_pip arch=linux-ubuntu20.04-x86_64 ^berkeley-db@18.1.40%oneapi@2022.2.1+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64 ^bzip2@1.0.8%oneapi@2022.2.1~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64 ^ca-certificates-mozilla@2022-10-11%oneapi@2022.2.1 build_system=generic arch=linux-ubuntu20.04-x86_64 ^cmake@3.25.1%oneapi@2022.2.1~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64 ^diffutils@3.8%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^expat@2.5.0%oneapi@2022.2.1+libbsd build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gdbm@1.23%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^gettext@0.21.1%oneapi@2022.2.1+bzip2+curses+git~libunistring+libxml2+tar+xz build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libbsd@0.11.5%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libffi@3.4.2%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libiconv@1.16%oneapi@2022.2.1 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^libmd@1.0.4%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxcrypt@4.4.33%oneapi@2022.2.1~obsolete_api build_system=autotools arch=linux-ubuntu20.04-x86_64 ^libxml2@2.10.3%oneapi@2022.2.1~python build_system=autotools arch=linux-ubuntu20.04-x86_64 ^ncurses@6.3%oneapi@2022.2.1~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64 ^ninja@1.11.1%oneapi@2022.2.1 build_system=generic arch=linux-ubuntu20.04-x86_64 ^openblas@0.3.21%oneapi@2022.2.1~bignuma~consistent_fpcsr+fortran~ilp64+locking+pic+shared build_system=makefile patches=d3d9b15 symbol_suffix=none threads=none arch=linux-ubuntu20.04-x86_64 ^openssl@1.1.1s%oneapi@2022.2.1~docs~shared build_system=generic certs=mozilla arch=linux-ubuntu20.04-x86_64 ^perl@5.36.0%oneapi@2022.2.1+cpanm+shared+threads build_system=generic arch=linux-ubuntu20.04-x86_64 ^pigz@2.7%oneapi@2022.2.1 build_system=makefile arch=linux-ubuntu20.04-x86_64 ^pkgconf@1.8.0%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^py-beniget@0.4.1%oneapi@2022.2.1 build_system=python_pip arch=linux-ubuntu20.04-x86_64 ^py-cython@0.29.32%oneapi@2022.2.1 build_system=python_pip arch=linux-ubuntu20.04-x86_64 ^py-gast@0.5.3%oneapi@2022.2.1 build_system=python_pip arch=linux-ubuntu20.04-x86_64 ^py-numpy@1.22.4%oneapi@2022.2.1+blas+lapack build_system=python_pip patches=873745d arch=linux-ubuntu20.04-x86_64 ^py-pip@22.2.2%oneapi@2022.2.1 build_system=generic arch=linux-ubuntu20.04-x86_64 ^py-ply@3.11%oneapi@2022.2.1 build_system=python_pip arch=linux-ubuntu20.04-x86_64 ^py-pybind11@2.8.1%oneapi@2022.2.1~ipo build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64 ^py-pythran@0.10.0%oneapi@2022.2.1 build_system=python_pip arch=linux-ubuntu20.04-x86_64 ^py-setuptools@59.4.0%oneapi@2022.2.1 build_system=generic arch=linux-ubuntu20.04-x86_64 ^py-wheel@0.37.1%oneapi@2022.2.1 build_system=generic arch=linux-ubuntu20.04-x86_64 ^python@3.10.8%oneapi@2022.2.1+bz2+crypt+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tkinter+uuid+zlib build_system=generic patches=0d98e93,7d40923,f2fd060 arch=linux-ubuntu20.04-x86_64 ^re2c@2.2%oneapi@2022.2.1 build_system=generic arch=linux-ubuntu20.04-x86_64 ^readline@8.2%oneapi@2022.2.1 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64 ^sqlite@3.40.0%oneapi@2022.2.1+column_metadata+dynamic_extensions+fts~functions+rtree build_system=autotools arch=linux-ubuntu20.04-x86_64 ^tar@1.34%oneapi@2022.2.1 build_system=autotools zip=pigz arch=linux-ubuntu20.04-x86_64 ^util-linux-uuid@2.38.1%oneapi@2022.2.1 build_system=autotools arch=linux-ubuntu20.04-x86_64 ^xz@5.2.7%oneapi@2022.2.1~pic build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64 ^zlib@1.2.13%oneapi@2022.2.1+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64 ^zstd@1.5.2%oneapi@2022.2.1+programs build_system=makefile compression=none libs=shared,static arch=linux-ubuntu20.04-x86_64 from any configured mirrors
-==> Fetching https://mirror.spack.io/_source-cache/archive/31/31d4f2d6b724bc9a98e527b5849b8a7e589bf1ea630c33aa563eda912c9ff0bd.tar.gz
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/31/31d4f2d6b724bc9a98e527b5849b8a7e589bf1ea630c33aa563eda912c9ff0bd.tar.gz
 ==> No patches needed for py-scipy
 ==> py-scipy: Executing phase: 'install'
 ==> Error: ProcessError: Command exited with status 1:
     '/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/python-3.10.8-47oe6zkjpp2qe3myyg7ry6on2adsdyrt/bin/python3.10' '-m' 'pip' '-vvv' '--no-input' '--no-cache-dir' '--disable-pip-version-check' 'install' '--no-deps' '--ignore-installed' '--no-build-isolation' '--no-warn-script-location' '--no-index' '--prefix=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7' '.'
 
 47 errors found in build log:
-     11      Created temporary directory: /tmp/pip-install-uds9rfkw
+     11      Created temporary directory: /tmp/pip-install-iq4iqvit
      12      Processing /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src
-     13        Added file:///tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src to build tracker '/tmp/pip-build-tracker-9vrsijv9'
-     14        Created temporary directory: /tmp/pip-modern-metadata-mulhyk1c
+     13        Added file:///tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src to build tracker '/tmp/pip-build-tracker-fv2oefyn'
+     14        Created temporary directory: /tmp/pip-modern-metadata-nfvehvbi
      15        Preparing metadata (pyproject.toml): started
      16        Running command Preparing metadata (pyproject.toml)
-  >> 17      setup.py:482: UserWarning: Unrecognized setuptools command ('dist_info --egg-base /tmp/pip-modern-metadata-mulhyk1c'), proceeding with generating Cython sources and
-              expanding templates
+  >> 17      setup.py:482: UserWarning: Unrecognized setuptools command ('dist_info --egg-base /tmp/pip-modern-metadata-nfvehvbi'), proceeding with generating Cython sources and expanding templates
      18          warnings.warn("Unrecognized setuptools command ('{}'), proceeding with "
-  >> 19        /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/linalg/_generate_pyx.py:674: DeprecationWarning: The distutils p
-             ackage is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  >> 19        /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/linalg/_generate_pyx.py:674: DeprecationWarning: The distutils package is deprecated and
+              slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
      20          from distutils.dep_util import newer
-  >> 21        /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/_generate_pyx.py:1443: DeprecationWarning: The distutils
-              package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  >> 21        /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/_generate_pyx.py:1443: DeprecationWarning: The distutils package is deprecated a
+             nd slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
      22          from distutils.dep_util import newer
      23        Running scipy/linalg/_generate_pyx.py
      24        Running scipy/special/_generate_pyx.py
@@ -512,24 +704,15 @@ See build log for details:
      86        Processing scipy/stats/_boost/src/nbinom_ufunc.pyx
      87        Processing scipy/stats/_boost/src/hypergeom_ufunc.pyx
      88        Processing scipy/stats/_unuran/unuran_wrapper.pyx
-  >> 89      warning: unuran_wrapper.pyx:470:21: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its 
-             own line.
-  >> 90        warning: unuran_wrapper.pyx:470:28: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on it
-             s own line.
-  >> 91        warning: unuran_wrapper.pyx:470:36: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on it
-             s own line.
-  >> 92        warning: unuran_wrapper.pyx:515:21: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on it
-             s own line.
-  >> 93        warning: unuran_wrapper.pyx:515:28: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on it
-             s own line.
-  >> 94        warning: unuran_wrapper.pyx:515:36: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on it
-             s own line.
-  >> 95        warning: unuran_wrapper.pyx:1476:21: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on i
-             ts own line.
-  >> 96        warning: unuran_wrapper.pyx:1476:28: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on i
-             ts own line.
-  >> 97        warning: unuran_wrapper.pyx:1476:36: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on i
-             ts own line.
+  >> 89      warning: unuran_wrapper.pyx:470:21: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
+  >> 90        warning: unuran_wrapper.pyx:470:28: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
+  >> 91        warning: unuran_wrapper.pyx:470:36: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
+  >> 92        warning: unuran_wrapper.pyx:515:21: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
+  >> 93        warning: unuran_wrapper.pyx:515:28: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
+  >> 94        warning: unuran_wrapper.pyx:515:36: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
+  >> 95        warning: unuran_wrapper.pyx:1476:21: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
+  >> 96        warning: unuran_wrapper.pyx:1476:28: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
+  >> 97        warning: unuran_wrapper.pyx:1476:36: Non-trivial type declarators in shared declaration (e.g. mix of pointers and values). Each pointer declaration should be on its own line.
      98        Running from SciPy source directory.
      99        Cythonizing sources
      100       INFO: lapack_opt_info:
@@ -540,47 +723,47 @@ See build log for details:
      ...
 
      124       INFO:     libraries = ['openblas', 'openblas']
-     125       INFO:     library_dirs = ['/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pa
-             th_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/o
-             penblas-0.3.21-akdxepiwrp5g76t7wanwd2pfotzfqteb/lib']
+     125       INFO:     library_dirs = ['/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack
+             _path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openblas-0.3.21-akdxepiwrp5g76t7wanwd2pfotzfqteb/
+             lib']
      126       INFO:     language = c
      127       INFO:     define_macros = [('HAVE_CBLAS', None)]
-     128       INFO:     runtime_library_dirs = ['/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__
-             spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-20
-             22.2.1/openblas-0.3.21-akdxepiwrp5g76t7wanwd2pfotzfqteb/lib']
+     128       INFO:     runtime_library_dirs = ['/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__
+             /__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openblas-0.3.21-akdxepiwrp5g76t7wanwd2pfo
+             tzfqteb/lib']
      129       INFO:
-  >> 130     /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path
-             _placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyiv
-             u7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/distutils/system_info.py:937: UserWarning: Specified path /usr/local/include/python3.10 is invalid.
+  >> 130     /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_p
+             ath_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/
+             numpy/distutils/system_info.py:937: UserWarning: Specified path /usr/local/include/python3.10 is invalid.
      131         return self.get_paths(self.section, key)
      132       INFO: blas_opt_info:
      133       INFO: openblas_info:
      134       INFO: C compiler: /spack/lib/spack/env/oneapi/icx -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fp-model=strict -fPIC
      135     
-     136       creating /tmp/tmpn6neqmqc/tmp
+     136       creating /tmp/tmp0y5vgjmc/tmp
 
      ...
 
      149       INFO:     libraries = ['openblas', 'openblas']
-     150       INFO:     library_dirs = ['/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pa
-             th_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/o
-             penblas-0.3.21-akdxepiwrp5g76t7wanwd2pfotzfqteb/lib']
+     150       INFO:     library_dirs = ['/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack
+             _path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openblas-0.3.21-akdxepiwrp5g76t7wanwd2pfotzfqteb/
+             lib']
      151       INFO:     language = c
      152       INFO:     define_macros = [('HAVE_CBLAS', None)]
-     153       INFO:     runtime_library_dirs = ['/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__
-             spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-20
-             22.2.1/openblas-0.3.21-akdxepiwrp5g76t7wanwd2pfotzfqteb/lib']
+     153       INFO:     runtime_library_dirs = ['/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__
+             /__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openblas-0.3.21-akdxepiwrp5g76t7wanwd2pfo
+             tzfqteb/lib']
      154       INFO:
-  >> 155     /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/utils/makenpz.py:12: DeprecationWarning: The distutils pac
-             kage is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  >> 155     /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/utils/makenpz.py:12: DeprecationWarning: The distutils package is deprecated and s
+             lated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
      156         from distutils.util import newer  # type: ignore
      157       [makenpz] /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/tests/data/boost.npz not rebuilt
-  >> 158       /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/utils/makenpz.py:12: DeprecationWarning: The distutils p
-             ackage is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  >> 158       /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/utils/makenpz.py:12: DeprecationWarning: The distutils package is deprecated and
+              slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
      159         from distutils.util import newer  # type: ignore
      160       [makenpz] /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/tests/data/gsl.npz not rebuilt
-  >> 161       /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/utils/makenpz.py:12: DeprecationWarning: The distutils p
-             ackage is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  >> 161       /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/utils/makenpz.py:12: DeprecationWarning: The distutils package is deprecated and
+              slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
      162         from distutils.util import newer  # type: ignore
      163       [makenpz] /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/tests/data/local.npz not rebuilt
      164       non-existing path in 'scipy/signal/windows': 'tests'
@@ -590,44 +773,37 @@ See build log for details:
 
      ...
 
-     1209      copying /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__
-             spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66b
-             c67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/f2py/src/fortranobject.h -> build/src.linux-x86_64-3.10/build/src.linux-x86_64-3.10/build/src.linux-
-             x86_64-3.10/scipy/linalg
+     1209      copying /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__
+             /__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site
+             -packages/numpy/f2py/src/fortranobject.h -> build/src.linux-x86_64-3.10/build/src.linux-x86_64-3.10/build/src.linux-x86_64-3.10/scipy/linalg
      1210      INFO:   adding 'build/src.linux-x86_64-3.10/build/src.linux-x86_64-3.10/scipy/linalg/_fblas-f2pywrappers.f' to sources.
      1211      INFO: building extension "scipy.linalg._flapack" sources
      1212      INFO: from_template:> build/src.linux-x86_64-3.10/scipy/linalg/flapack.pyf
      1213      INFO: f2py options: []
      1214      INFO: f2py: build/src.linux-x86_64-3.10/scipy/linalg/flapack.pyf
-  >> 1215    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path
-             _placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyiv
-             u7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/f2py/symbolic.py:1508: ExprWarning: fromstring: treating "'A'||" as symbol (original=(compute_v?(2*(*range=='A
-             '||(*range=='I' && iu-il+1==n)?n:0)):0))
+  >> 1215    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_p
+             ath_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/
+             numpy/f2py/symbolic.py:1508: ExprWarning: fromstring: treating "'A'||" as symbol (original=(compute_v?(2*(*range=='A'||(*range=='I' && iu-il+1==n)?n:0)):0))
      1216        ewarn(
-  >> 1217      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pa
-             th_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyy
-             ivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/f2py/symbolic.py:1508: ExprWarning: fromstring: treating "'I' && iu" as symbol (original=(compute_v?(2*(*ran
-             ge=='A'||(*range=='I' && iu-il+1==n)?n:0)):0))
+  >> 1217      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack
+             _path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-package
+             s/numpy/f2py/symbolic.py:1508: ExprWarning: fromstring: treating "'I' && iu" as symbol (original=(compute_v?(2*(*range=='A'||(*range=='I' && iu-il+1==n)?n:0)):0))
      1218        ewarn(
-  >> 1219      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pa
-             th_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyy
-             ivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/f2py/symbolic.py:1508: ExprWarning: fromstring: treating '(jobt == 0)&&' as symbol (original=((jobt == 0)&&(
-             jobu == 3)?0:m))
+  >> 1219      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack
+             _path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-package
+             s/numpy/f2py/symbolic.py:1508: ExprWarning: fromstring: treating '(jobt == 0)&&' as symbol (original=((jobt == 0)&&(jobu == 3)?0:m))
      1220        ewarn(
-  >> 1221      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pa
-             th_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyy
-             ivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/f2py/symbolic.py:1508: ExprWarning: fromstring: treating '(jobt == 0)&&' as symbol (original=((jobt == 0)&&(
-             jobu == 3)?0:(jobu == 1?m:n)))
+  >> 1221      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack
+             _path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-package
+             s/numpy/f2py/symbolic.py:1508: ExprWarning: fromstring: treating '(jobt == 0)&&' as symbol (original=((jobt == 0)&&(jobu == 3)?0:(jobu == 1?m:n)))
      1222        ewarn(
-  >> 1223      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pa
-             th_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyy
-             ivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/f2py/symbolic.py:1508: ExprWarning: fromstring: treating '(jobt == 0)&&' as symbol (original=((jobt == 0)&&(
-             jobv == 3)?0:ldv))
+  >> 1223      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack
+             _path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-package
+             s/numpy/f2py/symbolic.py:1508: ExprWarning: fromstring: treating '(jobt == 0)&&' as symbol (original=((jobt == 0)&&(jobv == 3)?0:ldv))
      1224        ewarn(
-  >> 1225      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pa
-             th_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyy
-             ivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/f2py/symbolic.py:1508: ExprWarning: fromstring: treating '(jobt == 0)&&' as symbol (original=((jobt == 0)&&(
-             jobv == 3)?0:n))
+  >> 1225      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack
+             _path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-package
+             s/numpy/f2py/symbolic.py:1508: ExprWarning: fromstring: treating '(jobt == 0)&&' as symbol (original=((jobt == 0)&&(jobv == 3)?0:n))
      1226        ewarn(
      1227      Reading fortran codes...
      1228            Reading file 'build/src.linux-x86_64-3.10/scipy/linalg/flapack.pyf' (format:free)
@@ -643,19 +819,14 @@ See build log for details:
      3867      INFO: building extension "scipy.sparse.csgraph._tools" sources
      3868      INFO: building extension "scipy.sparse._csparsetools" sources
      3869      INFO: building extension "scipy.sparse._sparsetools" sources
-  >> 3870    /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/_generate_sparsetools.py:23: DeprecationWarning: The distut
-             ils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  >> 3870    /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/_generate_sparsetools.py:23: DeprecationWarning: The distutils package is deprecate
+             d and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
      3871        from distutils.dep_util import newer
-     3872      [generate_sparsetools] generating '/tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/sparsetools/bsr_impl.h
-             '
-     3873      [generate_sparsetools] generating '/tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/sparsetools/csr_impl.h
-             '
-     3874      [generate_sparsetools] generating '/tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/sparsetools/csc_impl.h
-             '
-     3875      [generate_sparsetools] generating '/tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/sparsetools/other_impl
-             .h'
-     3876      [generate_sparsetools] generating '/tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/sparsetools/sparsetool
-             s_impl.h'
+     3872      [generate_sparsetools] generating '/tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/sparsetools/bsr_impl.h'
+     3873      [generate_sparsetools] generating '/tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/sparsetools/csr_impl.h'
+     3874      [generate_sparsetools] generating '/tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/sparsetools/csc_impl.h'
+     3875      [generate_sparsetools] generating '/tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/sparsetools/other_impl.h'
+     3876      [generate_sparsetools] generating '/tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/sparsetools/sparsetools_impl.h'
 
      ...
 
@@ -665,13 +836,13 @@ See build log for details:
      3885      creating build/src.linux-x86_64-3.10/scipy/special
      3886      INFO: f2py options: ['--no-wrap-functions']
      3887      INFO: f2py: scipy/special/specfun.pyf
-  >> 3888    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path
-             _placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyiv
-             u7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/f2py/symbolic.py:1508: ExprWarning: fromstring: treating '(int)v' as symbol (original=(int)v+1)
+  >> 3888    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_p
+             ath_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/
+             numpy/f2py/symbolic.py:1508: ExprWarning: fromstring: treating '(int)v' as symbol (original=(int)v+1)
      3889        ewarn(
-  >> 3890      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pa
-             th_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyy
-             ivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/f2py/symbolic.py:1508: ExprWarning: fromstring: treating '(int)v' as symbol (original=abs((int)v)+2)
+  >> 3890      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack
+             _path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-package
+             s/numpy/f2py/symbolic.py:1508: ExprWarning: fromstring: treating '(int)v' as symbol (original=abs((int)v)+2)
      3891        ewarn(
      3892      Reading fortran codes...
      3893            Reading file 'scipy/special/specfun.pyf' (format:free)
@@ -723,42 +894,40 @@ See build log for details:
      4095      INFO: building extension "scipy._lib._uarray._uarray" sources
      4096      INFO: building data_files sources
      4097      INFO: build_src: building npy-pkg config files
-  >> 4098      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pa
-             th_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-setuptools-59.4.0-5wbkvum
-             3uswd6ah3xlyoy3pec6l3rfhn/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and
-              pip and other standards-based tools.
+  >> 4098      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack
+             _path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-setuptools-59.4.0-5wbkvum3uswd6ah3xlyoy3pec6l3rfhn/lib/python3.10/site-pa
+             ckages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
      4099        warnings.warn(
-     4100      creating /tmp/pip-modern-metadata-mulhyk1c/scipy.egg-info
-     4101      writing /tmp/pip-modern-metadata-mulhyk1c/scipy.egg-info/PKG-INFO
-     4102      writing dependency_links to /tmp/pip-modern-metadata-mulhyk1c/scipy.egg-info/dependency_links.txt
-     4103      writing requirements to /tmp/pip-modern-metadata-mulhyk1c/scipy.egg-info/requires.txt
-     4104      writing top-level names to /tmp/pip-modern-metadata-mulhyk1c/scipy.egg-info/top_level.txt
-     4105      writing manifest file '/tmp/pip-modern-metadata-mulhyk1c/scipy.egg-info/SOURCES.txt'
-  >> 4106    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path
-             _placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-setuptools-59.4.0-5wbkvum3u
-             swd6ah3xlyoy3pec6l3rfhn/lib/python3.10/site-packages/setuptools/command/egg_info.py:624: SetuptoolsDeprecationWarning: Custom 'build_py' does not implement 'get_dat
-             a_files_without_manifest'.
+     4100      creating /tmp/pip-modern-metadata-nfvehvbi/scipy.egg-info
+     4101      writing /tmp/pip-modern-metadata-nfvehvbi/scipy.egg-info/PKG-INFO
+     4102      writing dependency_links to /tmp/pip-modern-metadata-nfvehvbi/scipy.egg-info/dependency_links.txt
+     4103      writing requirements to /tmp/pip-modern-metadata-nfvehvbi/scipy.egg-info/requires.txt
+     4104      writing top-level names to /tmp/pip-modern-metadata-nfvehvbi/scipy.egg-info/top_level.txt
+     4105      writing manifest file '/tmp/pip-modern-metadata-nfvehvbi/scipy.egg-info/SOURCES.txt'
+  >> 4106    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_p
+             ath_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-setuptools-59.4.0-5wbkvum3uswd6ah3xlyoy3pec6l3rfhn/lib/python3.10/site-pack
+             ages/setuptools/command/egg_info.py:624: SetuptoolsDeprecationWarning: Custom 'build_py' does not implement 'get_data_files_without_manifest'.
      4107      Please extend command classes from setuptools instead of distutils.
      4108        warnings.warn(
-     4109      reading manifest file '/tmp/pip-modern-metadata-mulhyk1c/scipy.egg-info/SOURCES.txt'
+     4109      reading manifest file '/tmp/pip-modern-metadata-nfvehvbi/scipy.egg-info/SOURCES.txt'
      4110      reading manifest template 'MANIFEST.in'
      4111      warning: no previously-included files matching '*_subr_*.f' found under directory 'scipy/linalg/src/id_dist/src'
      4112      no previously-included directories found matching 'benchmarks/env'
 
      ...
 
-     4133    Created temporary directory: /tmp/pip-unpack-t1irfmay
+     4133    Created temporary directory: /tmp/pip-unpack-h2hm4scr
      4134    Building wheels for collected packages: scipy
-     4135      Created temporary directory: /tmp/pip-wheel-r8cdj7zi
-     4136      Destination directory: /tmp/pip-wheel-r8cdj7zi
+     4135      Created temporary directory: /tmp/pip-wheel-3z8g2_5l
+     4136      Destination directory: /tmp/pip-wheel-3z8g2_5l
      4137      Building wheel for scipy (pyproject.toml): started
      4138      Running command Building wheel for scipy (pyproject.toml)
-  >> 4139    /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/linalg/_generate_pyx.py:674: DeprecationWarning: The distutils pac
-             kage is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  >> 4139    /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/linalg/_generate_pyx.py:674: DeprecationWarning: The distutils package is deprecated and s
+             lated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
      4140        from distutils.dep_util import newer
      4141      scipy/linalg/_generate_pyx.py: all files up-to-date
-  >> 4142      /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/_generate_pyx.py:1443: DeprecationWarning: The distutils
-              package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  >> 4142      /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/_generate_pyx.py:1443: DeprecationWarning: The distutils package is deprecated a
+             nd slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
      4143        from distutils.dep_util import newer
      4144      scipy/special/_generate_pyx.py: all files up-to-date
      4145      Running scipy/linalg/_generate_pyx.py
@@ -769,47 +938,47 @@ See build log for details:
      ...
 
      4237      INFO:     libraries = ['openblas', 'openblas']
-     4238      INFO:     library_dirs = ['/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pa
-             th_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/o
-             penblas-0.3.21-akdxepiwrp5g76t7wanwd2pfotzfqteb/lib']
+     4238      INFO:     library_dirs = ['/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack
+             _path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openblas-0.3.21-akdxepiwrp5g76t7wanwd2pfotzfqteb/
+             lib']
      4239      INFO:     language = c
      4240      INFO:     define_macros = [('HAVE_CBLAS', None)]
-     4241      INFO:     runtime_library_dirs = ['/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__
-             spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-20
-             22.2.1/openblas-0.3.21-akdxepiwrp5g76t7wanwd2pfotzfqteb/lib']
+     4241      INFO:     runtime_library_dirs = ['/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__
+             /__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openblas-0.3.21-akdxepiwrp5g76t7wanwd2pfo
+             tzfqteb/lib']
      4242      INFO:
-  >> 4243    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path
-             _placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyiv
-             u7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/distutils/system_info.py:937: UserWarning: Specified path /usr/local/include/python3.10 is invalid.
+  >> 4243    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_p
+             ath_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/
+             numpy/distutils/system_info.py:937: UserWarning: Specified path /usr/local/include/python3.10 is invalid.
      4244        return self.get_paths(self.section, key)
      4245      INFO: blas_opt_info:
      4246      INFO: openblas_info:
      4247      INFO: C compiler: /spack/lib/spack/env/oneapi/icx -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fp-model=strict -fPIC
      4248    
-     4249      creating /tmp/tmpna4u9skx/tmp
+     4249      creating /tmp/tmpkjv0skc2/tmp
 
      ...
 
      4262      INFO:     libraries = ['openblas', 'openblas']
-     4263      INFO:     library_dirs = ['/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pa
-             th_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/o
-             penblas-0.3.21-akdxepiwrp5g76t7wanwd2pfotzfqteb/lib']
+     4263      INFO:     library_dirs = ['/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack
+             _path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openblas-0.3.21-akdxepiwrp5g76t7wanwd2pfotzfqteb/
+             lib']
      4264      INFO:     language = c
      4265      INFO:     define_macros = [('HAVE_CBLAS', None)]
-     4266      INFO:     runtime_library_dirs = ['/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__
-             spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-20
-             22.2.1/openblas-0.3.21-akdxepiwrp5g76t7wanwd2pfotzfqteb/lib']
+     4266      INFO:     runtime_library_dirs = ['/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__
+             /__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openblas-0.3.21-akdxepiwrp5g76t7wanwd2pfo
+             tzfqteb/lib']
      4267      INFO:
-  >> 4268    /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/utils/makenpz.py:12: DeprecationWarning: The distutils pac
-             kage is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  >> 4268    /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/utils/makenpz.py:12: DeprecationWarning: The distutils package is deprecated and s
+             lated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
      4269        from distutils.util import newer  # type: ignore
      4270      [makenpz] /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/tests/data/boost.npz not rebuilt
-  >> 4271      /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/utils/makenpz.py:12: DeprecationWarning: The distutils p
-             ackage is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  >> 4271      /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/utils/makenpz.py:12: DeprecationWarning: The distutils package is deprecated and
+              slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
      4272        from distutils.util import newer  # type: ignore
      4273      [makenpz] /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/tests/data/gsl.npz not rebuilt
-  >> 4274      /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/utils/makenpz.py:12: DeprecationWarning: The distutils p
-             ackage is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  >> 4274      /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/utils/makenpz.py:12: DeprecationWarning: The distutils package is deprecated and
+              slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
      4275        from distutils.util import newer  # type: ignore
      4276      [makenpz] /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/special/tests/data/local.npz not rebuilt
      4277      non-existing path in 'scipy/signal/windows': 'tests'
@@ -825,19 +994,14 @@ See build log for details:
      4456      INFO: building extension "scipy.sparse.csgraph._tools" sources
      4457      INFO: building extension "scipy.sparse._csparsetools" sources
      4458      INFO: building extension "scipy.sparse._sparsetools" sources
-  >> 4459    /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/_generate_sparsetools.py:23: DeprecationWarning: The distut
-             ils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  >> 4459    /tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/_generate_sparsetools.py:23: DeprecationWarning: The distutils package is deprecate
+             d and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
      4460        from distutils.dep_util import newer
-     4461      [generate_sparsetools] '/tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/sparsetools/bsr_impl.h' already u
-             p-to-date
-     4462      [generate_sparsetools] '/tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/sparsetools/csr_impl.h' already u
-             p-to-date
-     4463      [generate_sparsetools] '/tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/sparsetools/csc_impl.h' already u
-             p-to-date
-     4464      [generate_sparsetools] '/tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/sparsetools/other_impl.h' already
-              up-to-date
-     4465      [generate_sparsetools] '/tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/sparsetools/sparsetools_impl.h' a
-             lready up-to-date
+     4461      [generate_sparsetools] '/tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/sparsetools/bsr_impl.h' already up-to-date
+     4462      [generate_sparsetools] '/tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/sparsetools/csr_impl.h' already up-to-date
+     4463      [generate_sparsetools] '/tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/sparsetools/csc_impl.h' already up-to-date
+     4464      [generate_sparsetools] '/tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/sparsetools/other_impl.h' already up-to-date
+     4465      [generate_sparsetools] '/tmp/root/spack-stage/spack-stage-py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7/spack-src/scipy/sparse/sparsetools/sparsetools_impl.h' already up-to-date
 
      ...
 
@@ -846,108 +1010,100 @@ See build log for details:
      5297    
      5298      INFO: compile options: '-c'
      5299      extra options: '-mavx5124fmaps -mavx5124vnniw -mavx512vpopcntdq'
-     5300      WARN: CCompilerOpt.dist_test[598] : CCompilerOpt._dist_test_spawn[732] : Command (/spack/lib/spack/env/oneapi/icx -Wno-unused-result -Wsign-compare -Wunreachable-
-             code -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fp-model=strict -fPIC -c /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__
-             /__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linu
-             x-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/distutils/checks/test_flags.c -o /tmp/tmpcw
-             ws8rib/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spac
-             k_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67x
-             qvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/distutils/checks/test_flags.o -MMD -MF /tmp/tmpcwws8rib/spack/opt/spack/__spack_path_placeholder__/__spa
-             ck_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack
-             _path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/n
-             umpy/distutils/checks/test_flags.o.d -mavx5124fmaps -mavx5124vnniw -mavx512vpopcntdq) failed with exit status 1 output ->
+     5300      WARN: CCompilerOpt.dist_test[598] : CCompilerOpt._dist_test_spawn[732] : Command (/spack/lib/spack/env/oneapi/icx -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv
+              -O3 -Wall -fPIC -fp-model=strict -fPIC -c /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeho
+             lder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdn
+             fbs2nx3df4rd2/lib/python3.10/site-packages/numpy/distutils/checks/test_flags.c -o /tmp/tmpsmp2oxjr/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeh
+             older__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86
+             _64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/distutils/checks/test_flags.o -MMD -MF /tmp/tmpsmp2oxjr/spack/opt/spack/__spack_path
+             _placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pat
+             h_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/distutils/checks/test_f
+             lags.o.d -mavx5124fmaps -mavx5124vnniw -mavx512vpopcntdq) failed with exit status 1 output ->
   >> 5301    icx: error: unknown argument: '-mavx5124fmaps'
   >> 5302      icx: error: unknown argument: '-mavx5124vnniw'
      5303    
      5304      WARN: CCompilerOpt.cc_test_flags[1033] : testing failed
-     5305      INFO: CCompilerOpt.feature_test[1482] : testing feature 'AVX512_KNM' with flags (-msse -msse2 -msse3 -mssse3 -msse4.1 -mpopcnt -msse4.2 -mavx -mf16c -mfma -mavx2 
-             -mavx512f -mavx512cd -mavx512er -mavx512pf)
+     5305      INFO: CCompilerOpt.feature_test[1482] : testing feature 'AVX512_KNM' with flags (-msse -msse2 -msse3 -mssse3 -msse4.1 -mpopcnt -msse4.2 -mavx -mf16c -mfma -mavx2 -mavx512f -mavx512cd -ma
+             vx512er -mavx512pf)
      5306      INFO: C compiler: /spack/lib/spack/env/oneapi/icx -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fp-model=strict -fPIC
      5307    
      5308      INFO: compile options: '-c'
      5309      extra options: '-msse -msse2 -msse3 -mssse3 -msse4.1 -mpopcnt -msse4.2 -mavx -mf16c -mfma -mavx2 -mavx512f -mavx512cd -mavx512er -mavx512pf -Werror'
-     5310      WARN: CCompilerOpt.dist_test[598] : CCompilerOpt._dist_test_spawn[732] : Command (/spack/lib/spack/env/oneapi/icx -Wno-unused-result -Wsign-compare -Wunreachable-
-             code -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -fp-model=strict -fPIC -c /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__
-             /__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linu
-             x-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/distutils/checks/cpu_avx512_knm.c -o /tmp/t
-             mpcwws8rib/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__
-             spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66b
-             c67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/distutils/checks/cpu_avx512_knm.o -MMD -MF /tmp/tmpcwws8rib/spack/opt/spack/__spack_path_placeholder
-             __/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__
-             /__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-pa
-             ckages/numpy/distutils/checks/cpu_avx512_knm.o.d -msse -msse2 -msse3 -mssse3 -msse4.1 -mpopcnt -msse4.2 -mavx -mf16c -mfma -mavx2 -mavx512f -mavx512cd -mavx512er -m
-             avx512pf -Werror) failed with exit status 1 output ->
-  >> 5311    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path
-             _placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyiv
-             u7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/distutils/checks/cpu_avx512_knm.c:22:9: error: call to undeclared function '_mm512_4fmadd_ps'; ISO C99 and lat
-             er do not support implicit function declarations [-Wimplicit-function-declaration]
+     5310      WARN: CCompilerOpt.dist_test[598] : CCompilerOpt._dist_test_spawn[732] : Command (/spack/lib/spack/env/oneapi/icx -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv
+              -O3 -Wall -fPIC -fp-model=strict -fPIC -c /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeho
+             lder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdn
+             fbs2nx3df4rd2/lib/python3.10/site-packages/numpy/distutils/checks/cpu_avx512_knm.c -o /tmp/tmpsmp2oxjr/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_pl
+             aceholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04
+             -x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/distutils/checks/cpu_avx512_knm.o -MMD -MF /tmp/tmpsmp2oxjr/spack/opt/spack/__sp
+             ack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__s
+             pack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/distutils/check
+             s/cpu_avx512_knm.o.d -msse -msse2 -msse3 -mssse3 -msse4.1 -mpopcnt -msse4.2 -mavx -mf16c -mfma -mavx2 -mavx512f -mavx512cd -mavx512er -mavx512pf -Werror) failed with exit status 1 output -
+             >
+  >> 5311    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_p
+             ath_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/
+             numpy/distutils/checks/cpu_avx512_knm.c:22:9: error: call to undeclared function '_mm512_4fmadd_ps'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-de
+             claration]
      5312          b = _mm512_4fmadd_ps(b, b, b, b, b, NULL);
      5313              ^
-     5314      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pa
-             th_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyy
-             ivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/distutils/checks/cpu_avx512_knm.c:22:9: note: did you mean '_mm512_fmadd_ps'?
+     5314      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack
+             _path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-package
+             s/numpy/distutils/checks/cpu_avx512_knm.c:22:9: note: did you mean '_mm512_fmadd_ps'?
      5315      /opt/intel/oneapi/compiler/2022.2.1/linux/lib/clang/15.0.0/include/avx512fintrin.h:2733:1: note: '_mm512_fmadd_ps' declared here
      5316      _mm512_fmadd_ps(__m512 __A, __m512 __B, __m512 __C)
      5317      ^
-  >> 5318    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path
-             _placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyiv
-             u7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/distutils/checks/cpu_avx512_knm.c:22:7: error: assigning to '__m512' (vector of 16 'float' values) from incomp
-             atible type 'int'
+  >> 5318    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_p
+             ath_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/
+             numpy/distutils/checks/cpu_avx512_knm.c:22:7: error: assigning to '__m512' (vector of 16 'float' values) from incompatible type 'int'
      5319          b = _mm512_4fmadd_ps(b, b, b, b, b, NULL);
      5320            ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  >> 5321      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pa
-             th_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyy
-             ivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/distutils/checks/cpu_avx512_knm.c:24:9: error: call to undeclared function '_mm512_4dpwssd_epi32'; ISO C99 a
-             nd later do not support implicit function declarations [-Wimplicit-function-declaration]
+  >> 5321      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack
+             _path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-package
+             s/numpy/distutils/checks/cpu_avx512_knm.c:24:9: error: call to undeclared function '_mm512_4dpwssd_epi32'; ISO C99 and later do not support implicit function declarations [-Wimplicit-funct
+             ion-declaration]
      5322          a = _mm512_4dpwssd_epi32(a, a, a, a, a, NULL);
      5323              ^
-     5324      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pa
-             th_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyy
-             ivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/distutils/checks/cpu_avx512_knm.c:24:9: note: did you mean '_mm512_dpwssd_epi32'?
+     5324      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack
+             _path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-package
+             s/numpy/distutils/checks/cpu_avx512_knm.c:24:9: note: did you mean '_mm512_dpwssd_epi32'?
      5325      /opt/intel/oneapi/compiler/2022.2.1/linux/lib/clang/15.0.0/include/avx512vnniintrin.h:68:1: note: '_mm512_dpwssd_epi32' declared here
      5326      _mm512_dpwssd_epi32(__m512i __S, __m512i __A, __m512i __B)
      5327      ^
-  >> 5328    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path
-             _placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyiv
-             u7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/distutils/checks/cpu_avx512_knm.c:24:7: error: assigning to '__m512i' (vector of 8 'long long' values) from in
-             compatible type 'int'
+  >> 5328    /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_p
+             ath_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/
+             numpy/distutils/checks/cpu_avx512_knm.c:24:7: error: assigning to '__m512i' (vector of 8 'long long' values) from incompatible type 'int'
      5329          a = _mm512_4dpwssd_epi32(a, a, a, a, a, NULL);
      5330            ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
      5331      4 errors generated.
      5332    
      5333      WARN: CCompilerOpt.feature_test[1498] : testing failed
-     5334      INFO: CCompilerOpt.__init__[1738] : skip features (SSE3 SSE2 SSE) since its part of baseline
+     5334      INFO: CCompilerOpt.__init__[1738] : skip features (SSE2 SSE3 SSE) since its part of baseline
 
      ...
 
-     7771      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pa
-             th_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyy
-             ivu7tdnfbs2nx3df4rd2/lib/python3.10/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2: warning: "Using deprecated NumPy API, disable it with "   
-                    "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-W#warnings]
+     7771      /spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack
+             _path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-numpy-1.22.4-o66bc67xqvyyivu7tdnfbs2nx3df4rd2/lib/python3.10/site-package
+             s/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2: warning: "Using deprecated NumPy API, disable it with "          "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-W#warnings]
      7772      #warning "Using deprecated NumPy API, disable it with " \
      7773       ^
      7774      1 warning generated.
-     7775      INFO: /opt/intel/oneapi/compiler/2022.2.1/linux/bin/intel64/ifort -shared -shared -nofor_main build/temp.linux-x86_64-3.10/scipy/integrate/_quadpackmodule.o -L/sp
-             ack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_pl
-             aceholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openblas-0.3.21-akdxepiwrp5g76t7w
-             anwd2pfotzfqteb/lib -L/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_plac
-             eholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/python-3
-             .10.8-47oe6zkjpp2qe3myyg7ry6on2adsdyrt/lib -Lbuild/temp.linux-x86_64-3.10 -Wl,-rpath=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_
-             path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_pa
-             th_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openblas-0.3.21-akdxepiwrp5g76t7wanwd2pfotzfqteb/lib -lquadpack -lmach -lopenblas -lopenblas -o build/lib.lin
-             ux-x86_64-3.10/scipy/integrate/_quadpack.cpython-310-x86_64-linux-gnu.so
+     7775      INFO: /opt/intel/oneapi/compiler/2022.2.1/linux/bin/intel64/ifort -shared -shared -nofor_main build/temp.linux-x86_64-3.10/scipy/integrate/_quadpackmodule.o -L/spack/opt/spack/__spack_pa
+             th_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_p
+             ath_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openblas-0.3.21-akdxepiwrp5g76t7wanwd2pfotzfqteb/lib -L/spack/opt/spack/__spack_path_placeholder__/__spac
+             k_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spa
+             ck_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/python-3.10.8-47oe6zkjpp2qe3myyg7ry6on2adsdyrt/lib -Lbuild/temp.linux-x86_64-3.10 -Wl,-rpath=/spack/opt/spack/__spack_path_place
+             holder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_plac
+             eholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openblas-0.3.21-akdxepiwrp5g76t7wanwd2pfotzfqteb/lib -lquadpack -lmach -lopenblas -lopenblas -o build/lib.linux-x
+             86_64-3.10/scipy/integrate/_quadpack.cpython-310-x86_64-linux-gnu.so
      7776      ifort: command line warning #10434: option '-nofor_main' use with underscore is deprecated; use '-nofor-main' instead
-  >> 7777    ld: /opt/intel/oneapi/compiler/2022.2.1/linux/bin/intel64/../../bin/intel64/../../lib/icx-lto.so: error loading plugin: libimf.so: cannot open shared object file: N
-             o such file or directory
-     7778      error: Command "/opt/intel/oneapi/compiler/2022.2.1/linux/bin/intel64/ifort -shared -shared -nofor_main build/temp.linux-x86_64-3.10/scipy/integrate/_quadpackmodu
-             le.o -L/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spa
-             ck_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openblas-0.3.21-akdxepi
-             wrp5g76t7wanwd2pfotzfqteb/lib -L/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack
-             _path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.
-             1/python-3.10.8-47oe6zkjpp2qe3myyg7ry6on2adsdyrt/lib -Lbuild/temp.linux-x86_64-3.10 -Wl,-rpath=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder_
-             _/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/
-             __spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openblas-0.3.21-akdxepiwrp5g76t7wanwd2pfotzfqteb/lib -lquadpack -lmach -lopenblas -lopenblas -o bui
-             ld/lib.linux-x86_64-3.10/scipy/integrate/_quadpack.cpython-310-x86_64-linux-gnu.so" failed with exit status 1
+  >> 7777    ld: /opt/intel/oneapi/compiler/2022.2.1/linux/bin/intel64/../../bin/intel64/../../lib/icx-lto.so: error loading plugin: libimf.so: cannot open shared object file: No such file or directory
+     7778      error: Command "/opt/intel/oneapi/compiler/2022.2.1/linux/bin/intel64/ifort -shared -shared -nofor_main build/temp.linux-x86_64-3.10/scipy/integrate/_quadpackmodule.o -L/spack/opt/spack/
+             __spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__
+             /__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openblas-0.3.21-akdxepiwrp5g76t7wanwd2pfotzfqteb/lib -L/spack/opt/spack/__spack_path_placeholde
+             r__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placehold
+             er__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/python-3.10.8-47oe6zkjpp2qe3myyg7ry6on2adsdyrt/lib -Lbuild/temp.linux-x86_64-3.10 -Wl,-rpath=/spack/opt/spack/__spack_
+             path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack
+             _path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/openblas-0.3.21-akdxepiwrp5g76t7wanwd2pfotzfqteb/lib -lquadpack -lmach -lopenblas -lopenblas -o build/l
+             ib.linux-x86_64-3.10/scipy/integrate/_quadpack.cpython-310-x86_64-linux-gnu.so" failed with exit status 1
      7779      INFO:
      7780      ########### EXT COMPILER OPTIMIZATION ###########
      7781      INFO: Platform      :
@@ -959,15 +1115,22 @@ See build log for details:
 
 ==> Error: w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv: ProcessError: Command exited with status 2:
     'make' '-j16'
+==> Error: eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu: ProcessError: Command exited with status 2:
+    'make' '-j16'
 ==> Error: gftl-shared-1.5.0-4e4djbp63u37i6ycrzebsstku2axvusi: ProcessError: Command exited with status 1:
     '/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yiikeqyyllhspp4tmuwi77uqk/bin/cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/gftl-shared-1.5.0-4e4djbp63u37i6ycrzebsstku2axvusi' '-DCMAKE_BUILD_TYPE:STRING=Release' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/gftl-shared-1.5.0-4e4djbp63u37i6ycrzebsstku2axvusi/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/gftl-shared-1.5.0-4e4djbp63u37i6ycrzebsstku2axvusi/lib64' '-DCMAKE_PREFIX_PATH:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/gftl-1.8.1-5vhnlg3g2vgwnzkr4g5c6ja7jf2no7c7;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/gcc-11.1.0/m4-1.4.19-iammksszl7gtwyyb2hr27g5uyiq2mxrd;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yiikeqyyllhspp4tmuwi77uqk' '/tmp/root/spack-stage/spack-stage-gftl-shared-1.5.0-4e4djbp63u37i6ycrzebsstku2axvusi/spack-src'
-==> Error: esmf-8.3.0b09-3v7iw47gpep7d5ayrikexsxl73uz3hkx: ProcessError: Command exited with status 1:
+==> Error: fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x: ProcessError: Command exited with status 1:
+    '/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yiikeqyyllhspp4tmuwi77uqk/bin/cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x/lib64;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-c-4.9.0-z4xbqolzxinxf5jvuzkn7dlaawjshxbc/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/hdf5-1.12.2-bf22wf3d4t3pus6n7kqvgly4ad53mfbg/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zlib-1.2.13-kpabegzebgtlrbli4lykanrnfss2jan7/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zstd-1.5.2-5l5jnbhfyr4ejb4blmzxcakvel2sz6ph/lib;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-fortran-4.6.0-er5bcgksemffq32n6wrk55ygo4r3mfva/lib' '-DCMAKE_PREFIX_PATH:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-fortran-4.6.0-er5bcgksemffq32n6wrk55ygo4r3mfva;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/netcdf-c-4.9.0-z4xbqolzxinxf5jvuzkn7dlaawjshxbc;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zstd-1.5.2-5l5jnbhfyr4ejb4blmzxcakvel2sz6ph;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/hdf5-1.12.2-bf22wf3d4t3pus6n7kqvgly4ad53mfbg;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/cmake-3.25.1-syafag2yiikeqyyllhspp4tmuwi77uqk;/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/zlib-1.2.13-kpabegzebgtlrbli4lykanrnfss2jan7' '-D64BIT:BOOL=ON' '-DGFS_PHYS:BOOL=ON' '-DOPENMP:BOOL=ON' '-DENABLE_QUAD_PRECISION:BOOL=ON' '' '' '' '-DCMAKE_C_COMPILER:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa/mpi/2021.7.1/bin/mpiicc' '-DCMAKE_CXX_COMPILER:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa/mpi/2021.7.1/bin/mpiicpc' '-DCMAKE_Fortran_COMPILER:STRING=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/intel-oneapi-mpi-2021.7.1-gkc57dzk5iwqpmtnjtwwrtlvczezxbsa/mpi/2021.7.1/bin/mpiifort' '/tmp/root/spack-stage/spack-stage-fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x/spack-src'
+==> Error: esmf-8.3.0b09-faww7wsc3ojxujlnkzdy26bdljgcjm76: ProcessError: Command exited with status 1:
     '/usr/bin/patch' '-s' '-p' '1' '-i' '/spack/var/spack/repos/builtin/packages/esmf/longtoint.patch' '-d' '.'
 ==> Error: py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7: ProcessError: Command exited with status 1:
     '/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/python-3.10.8-47oe6zkjpp2qe3myyg7ry6on2adsdyrt/bin/python3.10' '-m' 'pip' '-vvv' '--no-input' '--no-cache-dir' '--disable-pip-version-check' 'install' '--no-deps' '--ignore-installed' '--no-build-isolation' '--no-warn-script-location' '--no-index' '--prefix=/spack/opt/spack/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholder__/__spack_path_placeholde/linux-ubuntu20.04-x86_64/oneapi-2022.2.1/py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7' '.'
-==> Error: esmf-8.3.0b09-3v7iw47gpep7d5ayrikexsxl73uz3hkx: Package was not installed
+==> Error: eckit-1.19.0-visueyakrqyoz3yi32upl3uikqj7opeu: Package was not installed
+==> Error: esmf-8.3.0b09-faww7wsc3ojxujlnkzdy26bdljgcjm76: Package was not installed
+==> Error: fms-2019.01.03-b6pzdt3ck3eqeubrs5joas5wek4pa23x: Package was not installed
 ==> Error: gftl-shared-1.5.0-4e4djbp63u37i6ycrzebsstku2axvusi: Package was not installed
 ==> Error: hdf-4.2.15-424tm3fnhs3kz3jpjqdyvuvmeelt5qmy: Package was not installed
+==> Error: odc-1.4.5-4agkzxhjmscwjjfolukqjk2u7mnbgawb: Package was not installed
 ==> Error: py-pandas-1.4.0-ok2hz7tsdoeixuov3m7dnwazggkyrfaj: Package was not installed
 ==> Error: py-scipy-1.8.0-udubi3uajhzumns5sns46khz6mghf3a7: Package was not installed
 ==> Error: w3nco-2.4.1-jz6su6xsnr5ogdbzh5jhxerz3n5slqbv: Package was not installed
