@@ -8,7 +8,7 @@ spack:
   packages:
     all:
       target: [x86_64]
-      require: '%oneapi@2022.2.1'
+      require: '%oneapi@2023.0.0'
     mpi:
       require: intel-oneapi-mpi
     autoconf:
@@ -20,12 +20,12 @@ spack:
 
   compilers:
   - compiler:
-      spec: oneapi@2022.2.1
+      spec: oneapi@2023.0.0
       paths:
-        cc: /opt/intel/oneapi/compiler/2022.2.1/linux/bin/icx
-        cxx: /opt/intel/oneapi/compiler/2022.2.1/linux/bin/icpx
-        f77: /opt/intel/oneapi/compiler/2022.2.1/linux/bin/ifx
-        fc: /opt/intel/oneapi/compiler/2022.2.1/linux/bin/ifx
+        cc: /opt/intel/oneapi/compiler/2023.0.0/linux/bin/icx
+        cxx: /opt/intel/oneapi/compiler/2023.0.0/linux/bin/icpx
+        f77: /opt/intel/oneapi/compiler/2023.0.0/linux/bin/ifx
+        fc: /opt/intel/oneapi/compiler/2023.0.0/linux/bin/ifx
       flags: {}
       operating_system: ubuntu20.04
       target: x86_64
@@ -33,12 +33,12 @@ spack:
       environment: {}
       extra_rpaths: []
   - compiler:
-      spec: dpcpp@2022.2.1
+      spec: dpcpp@2023.0.0
       paths:
-        cc: /opt/intel/oneapi/compiler/2022.2.1/linux/bin/icx
-        cxx: /opt/intel/oneapi/compiler/2022.2.1/linux/bin/dpcpp
-        f77: /opt/intel/oneapi/compiler/2022.2.1/linux/bin/ifx
-        fc: /opt/intel/oneapi/compiler/2022.2.1/linux/bin/ifx
+        cc: /opt/intel/oneapi/compiler/2023.0.0/linux/bin/icx
+        cxx: /opt/intel/oneapi/compiler/2023.0.0/linux/bin/dpcpp
+        f77: /opt/intel/oneapi/compiler/2023.0.0/linux/bin/ifx
+        fc: /opt/intel/oneapi/compiler/2023.0.0/linux/bin/ifx
       flags: {}
       operating_system: ubuntu20.04
       target: x86_64
