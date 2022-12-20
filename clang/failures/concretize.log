@@ -1,7 +1,7 @@
 ==> Starting concretization pool with 5 processes
-==> Environment concretized in 15.22 seconds.
+==> Environment concretized in 15.18 seconds.
 ==> Concretized bufr@11.7.0
- -   6ofk5px  bufr@11.7.0%clang@15.0.6~ipo build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  6ofk5px  bufr@11.7.0%clang@15.0.6~ipo build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
 [+]  v7rz7lm      ^cmake@3.25.1%clang@15.0.6~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64
 [+]  3v6uyyy          ^ncurses@6.3%clang@15.0.6~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64
 [+]  xksz3xo              ^pkgconf@1.8.0%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
@@ -17,7 +17,7 @@
 [+]  2ekbc22              ^zlib@1.2.13%clang@15.0.6+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64
 
 ==> Concretized esmf@8.3.0b09+pio
- -   4alrwdy  esmf@8.3.0b09%clang@15.0.6~debug~external-lapack+mpi+netcdf~parallelio+pio+pnetcdf+xerces build_system=makefile arch=linux-ubuntu20.04-x86_64
+ -   yqqxmjv  esmf@8.3.0b09%clang@15.0.6~debug~external-lapack+mpi+netcdf~parallelio+pio+pnetcdf+shared+xerces build_system=makefile arch=linux-ubuntu20.04-x86_64
 [+]  2yymdxh      ^libxml2@2.10.3%clang@15.0.6~python build_system=autotools arch=linux-ubuntu20.04-x86_64
 [+]  hxkyau7          ^libiconv@1.16%clang@15.0.6 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64
 [+]  xksz3xo          ^pkgconf@1.8.0%clang@15.0.6 build_system=autotools arch=linux-ubuntu20.04-x86_64
