@@ -8,7 +8,7 @@ spack:
   packages:
     all:
       target: [x86_64]
-      require: '%oneapi@2022.2.1'
+      require: '%oneapi@2023.0.0'
     mpi:
       require: intel-oneapi-mpi
     autoconf:
