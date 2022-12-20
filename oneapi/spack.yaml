@@ -66,7 +66,6 @@ spack:
   - crtm@2.3.0
   - ecbuild@3.6.5
   - eccodes@2.25.0
-  - ecflow@5.8.3
   - eigen@3.4.0
   - flex@2.6.4
   - fms@2022.01
@@ -94,6 +93,7 @@ spack:
   - zlib@1.2.12                               # deprecated version
 
   # ERRORS
+  # - ecflow@5.8.3                            # ecflow
   # - eckit@1.19.0                            # eckit@1.19.0
   # - esmf@8.3.0b09 +pio                      # esmf
   # - fms@2019.01.03                          # fms
@@ -104,6 +104,7 @@ spack:
   # - py-scipy@1.8.0                          # py-scipy
   # - w3nco@2.4.1                             # w3nco
   # --
+  # ecflow: boost/mpl/aux_/integral_wrapper.hpp:73:31: error: integer value -1 is outside the valid range of values [0, 3] for this enumeration type [-Wenum-constexpr-conversion]
   # eckit@1.19.0: eckit/sql/sqly.c:817:3: error: source file is not valid UTF-8
   # eckit@1.20.2: eckit/sql/sqly.c:817:3: error: use of undeclared identifier 'pЇ' [looks like encoding error? utf-8 error?]
   # esmf: patch failed: 1 out of 1 hunk FAILED -- saving rejects to file src/Infrastructure/Mesh/src/Legacy/ESMCI_MeshPNC.C.rej, ESMCI_WriteWeightsPar.C.rej
