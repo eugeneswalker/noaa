@@ -1,7 +1,7 @@
 ==> Starting concretization pool with 16 processes
-==> Environment concretized in 27.78 seconds.
+==> Environment concretized in 28.04 seconds.
 ==> Concretized bacio@2.4.1
-[+]  esp7vsd  bacio@2.4.1%nvhpc@22.11~ipo+pic build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  insck3s  bacio@2.4.1%nvhpc@22.11~ipo+pic build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
 [+]  vghw527      ^cmake@3.25.1%gcc@11.1.0~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64
 [+]  vpcvkau          ^ncurses@6.3%nvhpc@22.11~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64
 [+]  sucikwl              ^pkgconf@1.8.0%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64
@@ -65,7 +65,7 @@
 [+]  3sa2eri      ^openjpeg@2.3.1%nvhpc@22.11~codec~ipo build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
 
 ==> Concretized eckit@1.19.0
-[+]  nwmdf3v  eckit@1.19.0%nvhpc@22.11+admin+aio~curl~ipo~jemalloc+mpi+sql~ssl+tools+unicode+xxhash build_system=cmake build_type=RelWithDebInfo compression=none linalg=none arch=linux-ubuntu20.04-x86_64
+[+]  qjtgqsx  eckit@1.19.0%nvhpc@22.11+admin+aio~curl~ipo~jemalloc+mpi+sql~ssl+tools+unicode+xxhash build_system=cmake build_type=RelWithDebInfo compression=none linalg=none arch=linux-ubuntu20.04-x86_64
 [+]  3rqczrf      ^bison@3.8.2%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64
 [+]  vaeyduy          ^diffutils@3.7%nvhpc@22.11 build_system=autotools patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
 [+]  q7hfn57              ^libiconv@1.16%nvhpc@22.11 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64
@@ -193,7 +193,7 @@
 [+]  3etrspe          ^libsigsegv@2.13%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64
 
 ==> Concretized g2@3.4.5
-[+]  4vcbkw5  g2@3.4.5%nvhpc@22.11~ipo build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  nnssfno  g2@3.4.5%nvhpc@22.11~ipo build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
 [+]  vghw527      ^cmake@3.25.1%gcc@11.1.0~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64
 [+]  vpcvkau          ^ncurses@6.3%nvhpc@22.11~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64
 [+]  sucikwl              ^pkgconf@1.8.0%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64
@@ -209,7 +209,7 @@
 [+]  3zk4pzq      ^jasper@2.0.32%gcc@11.1.0+jpeg~opengl+shared build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64
 [+]  tv4mtvs          ^libjpeg-turbo@2.1.4%nvhpc@22.11~ipo~jpeg8+shared+static build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
 [+]  g57p4w5              ^nasm@2.15.05%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64
-[+]  vddwyub      ^libpng@1.6.37%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  xurqyx6      ^libpng@1.6.37%nvhpc@22.11 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64
 [+]  3eurdp2          ^zlib@1.2.13%nvhpc@22.11+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64
 
 ==> Concretized g2tmpl@1.10.0
@@ -332,7 +332,7 @@
 [+]  g57p4w5          ^nasm@2.15.05%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64
 
 ==> Concretized libpng@1.6.37
-[+]  vddwyub  libpng@1.6.37%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64
+[+]  xurqyx6  libpng@1.6.37%nvhpc@22.11 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64
 [+]  3eurdp2      ^zlib@1.2.13%nvhpc@22.11+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64
 
 ==> Concretized libyaml@0.2.5
@@ -542,7 +542,7 @@
 [+]  3eurdp2              ^zlib@1.2.13%nvhpc@22.11+optimize+pic+shared build_system=makefile arch=linux-ubuntu20.04-x86_64
 
 ==> Concretized odc@1.4.5
-[+]  a7tnaji  odc@1.4.5%nvhpc@22.11~fortran~ipo build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  5cutxui  odc@1.4.5%nvhpc@22.11~fortran~ipo build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
 [+]  vghw527      ^cmake@3.25.1%gcc@11.1.0~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64
 [+]  vpcvkau          ^ncurses@6.3%nvhpc@22.11~symlinks+termlib abi=none build_system=autotools arch=linux-ubuntu20.04-x86_64
 [+]  sucikwl              ^pkgconf@1.8.0%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64
@@ -555,7 +555,7 @@
 [+]  okoe73l              ^bzip2@1.0.8%nvhpc@22.11~debug~pic+shared build_system=generic arch=linux-ubuntu20.04-x86_64
 [+]  mzr7wy5              ^gdbm@1.23%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64
 [+]  hdcq3sf                  ^readline@8.2%gcc@11.1.0 build_system=autotools patches=bbf97f1 arch=linux-ubuntu20.04-x86_64
-[+]  6eprwjp      ^eckit@1.20.2%nvhpc@22.11+admin+aio~curl~ipo~jemalloc+mpi+sql~ssl+tools+unicode+xxhash build_system=cmake build_type=RelWithDebInfo compression=none linalg=none arch=linux-ubuntu20.04-x86_64
+[+]  2p53x7j      ^eckit@1.20.2%nvhpc@22.11+admin+aio~curl~ipo~jemalloc+mpi+sql~ssl+tools+unicode+xxhash build_system=cmake build_type=RelWithDebInfo compression=none linalg=none arch=linux-ubuntu20.04-x86_64
 [+]  3rqczrf          ^bison@3.8.2%nvhpc@22.11 build_system=autotools arch=linux-ubuntu20.04-x86_64
 [+]  vaeyduy              ^diffutils@3.7%nvhpc@22.11 build_system=autotools patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
 [+]  q7hfn57                  ^libiconv@1.16%nvhpc@22.11 build_system=autotools libs=shared,static arch=linux-ubuntu20.04-x86_64
