@@ -1,5 +1,5 @@
 ==> Starting concretization pool with 4 processes
-==> Environment concretized in 14.25 seconds.
+==> Environment concretized in 14.15 seconds.
 ==> Concretized bufr@11.7.0
 [+]  v2jeaep  bufr@11.7.0%gcc@11.1.0~ipo build_system=cmake build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
 [+]  sngfrlz      ^cmake@3.25.1%gcc@11.1.0~doc+ncurses+ownlibs~qt build_system=generic build_type=Release arch=linux-ubuntu20.04-x86_64
