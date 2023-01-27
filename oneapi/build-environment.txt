@@ -1,0 +1,15 @@
+ecpe4s/ubuntu20.04-runner-x86_64-oneapi:2023-01-01
+
+Checkout at
+--
+commit 75f1077b4beaffffaaac8b18ef98585f76a983d8 (origin/develop, origin/HEAD, ew/develop)
+Author: Erik Heeren <erik.heeren@epfl.ch>
+Date:   Thu Jan 26 17:21:38 2023 +0100
+
+Manually added on:
+--
+commit 20bc379cab22a330382b659bf9d8673cc9f4bf6c (HEAD -> develop)
+Author: eugeneswalker <eugenesunsetwalker@gmail.com>
+Date:   Mon Jan 23 06:52:36 2023 -0800
+
+    libffi %oneapi@2023: -Wno-error=implicit-function-declaration
